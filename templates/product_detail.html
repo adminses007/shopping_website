@@ -1,0 +1,580 @@
+{% extends "base.html" %}
+
+{% block title %}{{ product.name }} - Product Details{% endblock %}
+
+{% block content %}
+<!-- 波浪动画背景 -->
+<canvas id="wave-canvas" class="wave-background"></canvas>
+
+<!-- Hidden data container for JavaScript -->
+<script type="application/json" id="product-data">
+{
+    "stock": {{ product.stock }},
+    "variants": {% if product.variants %}{{ (product.variants|from_json)|tojson|safe }}{% else %}[]{% endif %}
+}
+</script>
+
+<nav aria-label="breadcrumb" class="mb-4">
+    <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="{{ url_for('index') }}"><i class="fas fa-home"></i> Home</a></li>
+        <li class="breadcrumb-item active" aria-current="page">{{ product.name }}</li>
+    </ol>
+</nav>
+
+<div class="row g-4 mb-5">
+    <div class="col-md-6">
+        <div class="card">
+            <div class="card-body text-center p-4">
+                {% if product.image %}
+                    {# Try to parse as JSON array, if fails treat as single image string #}
+                    {% set product_images = product.image|from_json %}
+                    {% if product_images|length > 1 %}
+                        {# New format: multiple images - use carousel #}
+                        <div id="productImageCarousel" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                {% for img in product_images %}
+                                <div class="carousel-item {% if loop.first %}active{% endif %}">
+                                    <img src="{{ url_for('static', filename='uploads/' + img) }}" 
+                                         class="img-fluid rounded d-block w-100" alt="{{ product.name }}" style="max-height: 500px; object-fit: contain;">
+                                </div>
+                                {% endfor %}
+                            </div>
+                            {% if product_images|length > 1 %}
+                            <button class="carousel-control-prev" type="button" data-bs-target="#productImageCarousel" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#productImageCarousel" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                            {% endif %}
+                        </div>
+                        {# Thumbnail navigation #}
+                        {% if product_images|length > 1 %}
+                        <div class="mt-3 d-flex justify-content-center gap-2 flex-wrap">
+                            {% for img in product_images %}
+                            <img src="{{ url_for('static', filename='uploads/' + img) }}" 
+                                 class="img-thumbnail carousel-thumbnail {% if loop.first %}carousel-thumbnail-active{% endif %}" 
+                                 style="width: 80px; height: 80px; object-fit: cover; cursor: pointer;" 
+                                 data-carousel-index="{{ loop.index0 }}" 
+                                 alt="Thumbnail {{ loop.index }}">
+                            {% endfor %}
+                        </div>
+                        {% endif %}
+                    {% elif product_images|length == 1 %}
+                        {# Single image in array format #}
+                        <img src="{{ url_for('static', filename='uploads/' + product_images[0]) }}" 
+                             class="img-fluid rounded" alt="{{ product.name }}" style="max-height: 500px; width: 100%; object-fit: contain;">
+                    {% else %}
+                        {# Old format: single image string (from_json returned empty array, so use original value) #}
+                        <img src="{{ url_for('static', filename='uploads/' + product.image) }}" 
+                             class="img-fluid rounded" alt="{{ product.name }}" style="max-height: 500px; width: 100%; object-fit: contain;">
+                    {% endif %}
+                {% else %}
+                    {# No images #}
+                    <img src="{{ url_for('static', filename='images/no-image.svg') }}" 
+                         class="img-fluid rounded" alt="{{ product.name }}" style="max-height: 500px; width: 100%; object-fit: contain;">
+                {% endif %}
+            </div>
+        </div>
+    </div>
+    
+    <div class="col-md-6">
+        <div class="card h-100">
+            <div class="card-body d-flex flex-column">
+                <h1 class="card-title mb-3 fw-bold">{{ product.name }}</h1>
+                
+                <div class="mb-4">
+                    <h2 class="product-price mb-0">{{ product.price|format_currency }} Ks</h2>
+                </div>
+                
+                <div class="mb-4">
+                    <span class="badge {% if product.stock > 10 %}bg-success{% elif product.stock > 0 %}bg-warning{% else %}bg-danger{% endif %} fs-6 px-3 py-2">
+                        <i class="fas fa-box"></i>
+                        {% if product.stock > 0 %}
+                            Stock: {{ product.stock }} items
+                        {% else %}
+                            Out of Stock
+                        {% endif %}
+                    </span>
+                </div>
+                
+                {% if product.description %}
+                <div class="mb-4">
+                    <h5 class="fw-bold mb-3"><i class="fas fa-info-circle"></i> Product Description</h5>
+                    <p class="text-muted" style="line-height: 1.8;">{{ product.description }}</p>
+                </div>
+                {% endif %}
+                
+                {% if product.stock > 0 %}
+                {% if product.variants %}
+                <div class="mb-4">
+                    <label for="variant" class="form-label fw-bold">Select Variant *</label>
+                    <select class="form-select form-select-lg" id="variant" name="variant" required onchange="updateVariantStock()">
+                        <option value="">-- Please select a variant --</option>
+                        {% for variant in product.variants|from_json %}
+                        {% if variant.name is defined %}
+                            <option value="{{ variant.name }}" data-stock="{{ variant.stock }}">{{ variant.name }} (Stock: {{ variant.stock }})</option>
+                        {% else %}
+                            {# Old format: just string #}
+                            <option value="{{ variant }}">{{ variant }}</option>
+                        {% endif %}
+                        {% endfor %}
+                    </select>
+                    <div class="form-text">
+                        <i class="fas fa-info-circle"></i> Please select a variant before adding to cart
+                    </div>
+                    <div id="variant-stock-info" class="mt-2" style="display: none;">
+                        <span class="badge bg-info" id="variant-stock-badge"></span>
+                    </div>
+                </div>
+                {% endif %}
+                
+                <div class="mb-4">
+                    <label for="quantity" class="form-label fw-bold">Quantity</label>
+                    <div class="d-flex align-items-center gap-3 flex-wrap">
+                        <div class="quantity-controls">
+                            <button class="quantity-btn" onclick="decreaseQuantity()">
+                                <i class="fas fa-minus"></i>
+                            </button>
+                            <input type="number" class="quantity-input" id="quantity" value="1" min="1" max="{{ product.stock }}">
+                            <button class="quantity-btn" onclick="increaseQuantity()">
+                                <i class="fas fa-plus"></i>
+                            </button>
+                        </div>
+                        <small class="text-muted"><i class="fas fa-info-circle"></i> <span id="stock-info">Maximum {{ product.stock }} items available</span></small>
+                    </div>
+                </div>
+                
+                <div class="d-grid gap-2 mb-4">
+                    <button class="btn btn-primary btn-lg add-to-cart-btn" data-product-id="{{ product.id }}">
+                        <i class="fas fa-cart-plus"></i> Add to Cart
+                    </button>
+                    <button class="btn btn-success btn-lg quick-buy-btn" data-product-id="{{ product.id }}">
+                        <i class="fas fa-bolt"></i> Buy Now
+                    </button>
+                </div>
+                {% else %}
+                <div class="alert alert-warning mb-4">
+                    <i class="fas fa-exclamation-triangle"></i> This product is temporarily out of stock, please check back later
+                </div>
+                {% endif %}
+                
+                <div class="mt-auto">
+                    <h6 class="fw-bold mb-3"><i class="fas fa-list"></i> Product Information</h6>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><i class="fas fa-tag text-primary"></i> <strong>Product ID:</strong> {{ product.id }}</li>
+                        <li class="mb-2"><i class="fas fa-calendar text-primary"></i> <strong>Listed Date:</strong> {{ product.created_at.strftime('%Y-%m-%d') }}</li>
+                        <li class="mb-2"><i class="fas fa-box text-primary"></i> <strong>Stock Status:</strong> 
+                            {% if product.stock > 10 %}
+                                <span class="text-success fw-bold">Sufficient</span>
+                            {% elif product.stock > 0 %}
+                                <span class="text-warning fw-bold">Low</span>
+                            {% else %}
+                                <span class="text-danger fw-bold">Out of Stock</span>
+                            {% endif %}
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Related Products -->
+<div class="mt-5">
+    <div class="page-header mb-4">
+        <h4 class="mb-0"><i class="fas fa-th-large"></i> Related Products</h4>
+    </div>
+    {% if related_products %}
+        <div class="product-grid">
+            {% for related_product in related_products %}
+            <div class="product-card">
+                <div class="position-relative">
+                    <img src="{{ url_for('static', filename='uploads/' + (related_product.image|get_first_image)) if related_product.image|get_first_image else url_for('static', filename='images/no-image.svg') }}" 
+                         class="card-img-top product-image" alt="{{ related_product.name }}">
+                </div>
+                <div class="card-body">
+                    <h6 class="card-title">{{ related_product.name }}</h6>
+                    <p class="card-text">
+                        {{ related_product.description[:50] }}{% if related_product.description|length > 50 %}...{% endif %}
+                    </p>
+                    <div class="mt-auto">
+                        <div class="d-flex justify-content-between align-items-center mb-3">
+                            <span class="product-price">{{ related_product.price|format_currency }} Ks</span>
+                            <span class="product-stock">
+                                <i class="fas fa-box"></i> {{ related_product.stock }}
+                            </span>
+                        </div>
+                        <div>
+                            <a href="{{ url_for('product_detail', product_id=related_product.id) }}" class="btn btn-outline-primary btn-sm w-100">
+                                <i class="fas fa-eye"></i> View Details
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    {% else %}
+        <div class="alert alert-info text-center">
+            <i class="fas fa-info-circle"></i> No related products available
+        </div>
+    {% endif %}
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script src="{{ url_for('static', filename='js/wave-animation.js') }}"></script>
+<script>
+// Store product stock and variant stocks
+var productStock = 0;
+var variantStocks = {};
+
+// Read data from hidden data container
+(function() {
+    var productDataEl = document.getElementById('product-data');
+    if (productDataEl) {
+        try {
+            var productData = JSON.parse(productDataEl.textContent);
+            productStock = parseInt(productData.stock) || 0;
+            var existingVariants = productData.variants;
+            
+            if (existingVariants && Array.isArray(existingVariants)) {
+                existingVariants.forEach(function(variant) {
+                    if (variant) {
+                        // Support both new format (object with name and stock) and old format (string)
+                        if (typeof variant === 'object' && variant.name) {
+                            variantStocks[variant.name] = variant.stock || 0;
+                        } else if (typeof variant === 'string') {
+                            // Old format: just a string variant name
+                            variantStocks[variant] = productStock; // Use product stock for old format
+                        }
+                    }
+                });
+            }
+        } catch (e) {
+            console.error('Error loading product data:', e);
+            console.error('Product data element:', productDataEl.textContent);
+            // Fallback: try to get stock from data attribute if available
+            var stockAttr = productDataEl.getAttribute('data-stock');
+            if (stockAttr) {
+                productStock = parseInt(stockAttr) || 0;
+            }
+        }
+    }
+})();
+
+function updateVariantStock() {
+    const variantSelect = document.getElementById('variant');
+    const quantityInput = document.getElementById('quantity');
+    const stockInfo = document.getElementById('stock-info');
+    const variantStockInfo = document.getElementById('variant-stock-info');
+    const variantStockBadge = document.getElementById('variant-stock-badge');
+    
+    // Check if required elements exist
+    if (!quantityInput) {
+        console.warn('Quantity input not found');
+        return;
+    }
+    
+    if (!stockInfo) {
+        console.warn('Stock info element not found');
+        return;
+    }
+    
+    if (!variantSelect || !variantSelect.value) {
+        // No variant selected, use product stock
+        quantityInput.setAttribute('max', productStock);
+        stockInfo.textContent = 'Maximum ' + productStock + ' items available';
+        if (variantStockInfo) {
+            variantStockInfo.style.display = 'none';
+        }
+        return;
+    }
+    
+    const selectedVariant = variantSelect.value;
+    const variantStock = variantStocks[selectedVariant] !== undefined ? variantStocks[selectedVariant] : 0;
+    
+    // Update quantity input max
+    quantityInput.setAttribute('max', variantStock);
+    
+    // Update stock info
+    if (variantStock > 0) {
+        stockInfo.textContent = 'Maximum ' + variantStock + ' items available';
+        if (variantStockBadge) {
+            variantStockBadge.textContent = 'Stock: ' + variantStock + ' items';
+            variantStockBadge.className = 'badge bg-success';
+        }
+        if (variantStockInfo) {
+            variantStockInfo.style.display = 'block';
+        }
+    } else {
+        stockInfo.textContent = 'Out of stock';
+        if (variantStockBadge) {
+            variantStockBadge.textContent = 'Out of stock';
+            variantStockBadge.className = 'badge bg-danger';
+        }
+        if (variantStockInfo) {
+            variantStockInfo.style.display = 'block';
+        }
+    }
+    
+    // Adjust quantity if it exceeds variant stock
+    const currentQuantity = parseInt(quantityInput.value);
+    if (currentQuantity > variantStock) {
+        quantityInput.value = variantStock > 0 ? variantStock : 1;
+    }
+}
+
+function increaseQuantity() {
+    const quantityInput = document.getElementById('quantity');
+    const max = parseInt(quantityInput.getAttribute('max'));
+    const current = parseInt(quantityInput.value);
+    
+    if (current < max) {
+        quantityInput.value = current + 1;
+    }
+}
+
+function decreaseQuantity() {
+    const quantityInput = document.getElementById('quantity');
+    const current = parseInt(quantityInput.value);
+    
+    if (current > 1) {
+        quantityInput.value = current - 1;
+    }
+}
+
+// Quantity input validation
+document.getElementById('quantity').addEventListener('change', function() {
+    const max = parseInt(this.getAttribute('max'));
+    const value = parseInt(this.value);
+    
+    if (value > max) {
+        this.value = max;
+        showMessage('Quantity cannot exceed stock', 'error');
+    } else if (value < 1) {
+        this.value = 1;
+    }
+});
+
+// Add to cart with variant
+function addToCartWithVariant(productId) {
+    console.log('addToCartWithVariant called with productId:', productId);
+    const quantityInput = document.getElementById('quantity');
+    if (!quantityInput) {
+        console.error('Quantity input not found');
+        if (typeof showMessage === 'function') {
+            showMessage('Error: Quantity input not found', 'error');
+        } else {
+            alert('Error: Quantity input not found');
+        }
+        return;
+    }
+    const quantity = parseInt(quantityInput.value) || 1;
+    const variantSelect = document.getElementById('variant');
+    const variant = variantSelect ? variantSelect.value : '';
+    
+    // Check if variant is required
+    if (variantSelect && variantSelect.required && !variant) {
+        if (typeof showMessage === 'function') {
+            showMessage('Please select a variant', 'error');
+        } else {
+            alert('Please select a variant');
+        }
+        return;
+    }
+    
+    // Check if quantity is valid
+    const max = parseInt(quantityInput.getAttribute('max')) || 0;
+    if (quantity > max) {
+        if (typeof showMessage === 'function') {
+            showMessage('Quantity cannot exceed stock', 'error');
+        } else {
+            alert('Quantity cannot exceed stock');
+        }
+        return;
+    }
+    
+    // Call addToCart function from main.js
+    if (typeof addToCart === 'function') {
+        console.log('Calling addToCart with:', {productId, quantity, variant});
+        addToCart(productId, quantity, null, variant);
+    } else {
+        console.error('addToCart function not found');
+        const errorMsg = 'Error: addToCart function not loaded. Please refresh the page.';
+        if (typeof showMessage === 'function') {
+            showMessage(errorMsg, 'error');
+        } else {
+            alert(errorMsg);
+        }
+    }
+}
+
+// Quick buy with variant
+function quickBuyWithVariant(productId) {
+    console.log('quickBuyWithVariant called with productId:', productId);
+    const quantityInput = document.getElementById('quantity');
+    if (!quantityInput) {
+        console.error('Quantity input not found');
+        if (typeof showMessage === 'function') {
+            showMessage('Error: Quantity input not found', 'error');
+        } else {
+            alert('Error: Quantity input not found');
+        }
+        return;
+    }
+    const quantity = parseInt(quantityInput.value) || 1;
+    const variantSelect = document.getElementById('variant');
+    const variant = variantSelect ? variantSelect.value : '';
+    
+    // Check if variant is required
+    if (variantSelect && variantSelect.required && !variant) {
+        if (typeof showMessage === 'function') {
+            showMessage('Please select a variant', 'error');
+        } else {
+            alert('Please select a variant');
+        }
+        return;
+    }
+    
+    // Check if quantity is valid
+    const max = parseInt(quantityInput.getAttribute('max')) || 0;
+    if (quantity > max) {
+        if (typeof showMessage === 'function') {
+            showMessage('Quantity cannot exceed stock', 'error');
+        } else {
+            alert('Quantity cannot exceed stock');
+        }
+        return;
+    }
+    
+    // Call quickBuy function from main.js
+    if (typeof quickBuy === 'function') {
+        console.log('Calling quickBuy with:', {productId, quantity, variant});
+        quickBuy(productId, quantity, variant);
+    } else {
+        console.error('quickBuy function not found');
+        const errorMsg = 'Error: quickBuy function not loaded. Please refresh the page.';
+        if (typeof showMessage === 'function') {
+            showMessage(errorMsg, 'error');
+        } else {
+            alert(errorMsg);
+        }
+    }
+}
+
+// Initialize variant stock on page load
+function initializeProductDetail() {
+    updateVariantStock();
+    
+    // Bind carousel thumbnail clicks
+    const thumbnails = document.querySelectorAll('.carousel-thumbnail');
+    thumbnails.forEach(function(thumbnail) {
+        thumbnail.addEventListener('click', function() {
+            const index = parseInt(this.getAttribute('data-carousel-index'));
+            const carousel = document.querySelector('#productImageCarousel');
+            if (carousel) {
+                // Use Bootstrap carousel API
+                const bsCarousel = bootstrap.Carousel.getInstance(carousel) || new bootstrap.Carousel(carousel);
+                bsCarousel.to(index);
+            }
+        });
+    });
+    
+    // Bind add to cart and quick buy buttons directly
+    const addToCartBtn = document.querySelector('.add-to-cart-btn');
+    if (addToCartBtn) {
+        // Use onclick as primary handler (works even if other scripts interfere)
+        addToCartBtn.onclick = function(e) {
+            e.preventDefault();
+            e.stopPropagation();
+            e.stopImmediatePropagation();
+            const productId = parseInt(this.getAttribute('data-product-id'));
+            console.log('Add to cart button clicked (onclick), productId:', productId);
+            if (productId) {
+                addToCartWithVariant(productId);
+            }
+            return false;
+        };
+        
+        // Also add event listener as backup
+        addToCartBtn.addEventListener('click', function(e) {
+            e.preventDefault();
+            e.stopPropagation();
+            e.stopImmediatePropagation();
+            const productId = parseInt(this.getAttribute('data-product-id'));
+            console.log('Add to cart button clicked (addEventListener), productId:', productId);
+            if (productId) {
+                addToCartWithVariant(productId);
+            }
+            return false;
+        }, true); // Use capture phase
+    }
+    
+    const quickBuyBtn = document.querySelector('.quick-buy-btn');
+    if (quickBuyBtn) {
+        // Use onclick as primary handler (works even if other scripts interfere)
+        quickBuyBtn.onclick = function(e) {
+            e.preventDefault();
+            e.stopPropagation();
+            e.stopImmediatePropagation();
+            const productId = parseInt(this.getAttribute('data-product-id'));
+            console.log('Quick buy button clicked (onclick), productId:', productId);
+            if (productId) {
+                quickBuyWithVariant(productId);
+            }
+            return false;
+        };
+        
+        // Also add event listener as backup
+        quickBuyBtn.addEventListener('click', function(e) {
+            e.preventDefault();
+            e.stopPropagation();
+            e.stopImmediatePropagation();
+            const productId = parseInt(this.getAttribute('data-product-id'));
+            console.log('Quick buy button clicked (addEventListener), productId:', productId);
+            if (productId) {
+                quickBuyWithVariant(productId);
+            }
+            return false;
+        }, true); // Use capture phase
+    }
+}
+
+// Wait for both DOM and main.js to be ready
+function waitForMainJS(callback, maxAttempts) {
+    maxAttempts = maxAttempts || 50; // Try for up to 5 seconds (50 * 100ms)
+    var attempts = 0;
+    
+    function check() {
+        attempts++;
+        if (typeof addToCart === 'function' && typeof quickBuy === 'function') {
+            console.log('main.js functions loaded, initializing product detail');
+            callback();
+        } else if (attempts < maxAttempts) {
+            setTimeout(check, 100);
+        } else {
+            console.error('main.js functions not loaded after maximum attempts');
+            // Still try to initialize, but show error if functions are missing
+            callback();
+        }
+    }
+    
+    check();
+}
+
+// Initialize when page is ready
+if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', function() {
+        waitForMainJS(initializeProductDetail);
+    });
+} else {
+    // DOM already loaded
+    waitForMainJS(initializeProductDetail);
+}
+
+</script>
+{% endblock %}

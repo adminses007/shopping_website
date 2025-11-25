@@ -1,0 +1,2258 @@
+[2025-11-19 13:00:55 +0630] [357213] [INFO] Starting gunicorn 21.2.0
+[2025-11-19 13:00:55 +0630] [357213] [INFO] Listening at: http://127.0.0.1:8000 (357213)
+[2025-11-19 13:00:55 +0630] [357213] [INFO] Using worker: sync
+[2025-11-19 13:00:55 +0630] [357214] [INFO] Booting worker with pid: 357214
+[2025-11-19 13:00:55 +0630] [357215] [INFO] Booting worker with pid: 357215
+[2025-11-19 13:00:55 +0630] [357216] [INFO] Booting worker with pid: 357216
+[2025-11-19 13:00:55 +0630] [357217] [INFO] Booting worker with pid: 357217
+[2025-11-19 13:00:55 +0630] [357218] [INFO] Booting worker with pid: 357218
+[2025-11-19 13:00:55 +0630] [357219] [INFO] Booting worker with pid: 357219
+[2025-11-19 13:00:55 +0630] [357220] [INFO] Booting worker with pid: 357220
+[2025-11-19 13:00:55 +0630] [357221] [INFO] Booting worker with pid: 357221
+[2025-11-19 13:00:55 +0630] [357222] [INFO] Booting worker with pid: 357222
+[2025-11-19 13:00:55 +0630] [357223] [INFO] Booting worker with pid: 357223
+[2025-11-19 13:00:55 +0630] [357224] [INFO] Booting worker with pid: 357224
+[2025-11-19 13:00:55 +0630] [357225] [INFO] Booting worker with pid: 357225
+[2025-11-19 13:00:55 +0630] [357226] [INFO] Booting worker with pid: 357226
+[2025-11-19 13:00:56 +0630] [357227] [INFO] Booting worker with pid: 357227
+[2025-11-19 13:00:56 +0630] [357228] [INFO] Booting worker with pid: 357228
+[2025-11-19 13:00:56 +0630] [357229] [INFO] Booting worker with pid: 357229
+[2025-11-19 13:00:56 +0630] [357230] [INFO] Booting worker with pid: 357230
+[2025-11-19 13:00:56 +0630] [357231] [INFO] Booting worker with pid: 357231
+[2025-11-19 13:00:56 +0630] [357232] [INFO] Booting worker with pid: 357232
+[2025-11-19 13:00:56 +0630] [357233] [INFO] Booting worker with pid: 357233
+[2025-11-19 13:00:56 +0630] [357234] [INFO] Booting worker with pid: 357234
+[2025-11-19 13:00:56 +0630] [357235] [INFO] Booting worker with pid: 357235
+[2025-11-19 13:00:56 +0630] [357236] [INFO] Booting worker with pid: 357236
+[2025-11-19 13:00:56 +0630] [357237] [INFO] Booting worker with pid: 357237
+[2025-11-19 13:00:56 +0630] [357238] [INFO] Booting worker with pid: 357238
+[2025-11-19 13:04:10 +0630] [357213] [INFO] Handling signal: int
+[2025-11-19 13:04:10 +0630] [357215] [INFO] Worker exiting (pid: 357215)
+[2025-11-19 13:04:10 +0630] [357221] [INFO] Worker exiting (pid: 357221)
+[2025-11-19 13:04:10 +0630] [357218] [INFO] Worker exiting (pid: 357218)
+[2025-11-19 13:04:10 +0630] [357228] [INFO] Worker exiting (pid: 357228)
+[2025-11-19 13:04:10 +0630] [357217] [INFO] Worker exiting (pid: 357217)
+[2025-11-19 13:04:10 +0630] [357214] [INFO] Worker exiting (pid: 357214)
+[2025-11-19 13:04:10 +0630] [357219] [INFO] Worker exiting (pid: 357219)
+[2025-11-19 13:04:10 +0630] [357220] [INFO] Worker exiting (pid: 357220)
+[2025-11-19 13:04:10 +0630] [357230] [INFO] Worker exiting (pid: 357230)
+[2025-11-19 13:04:10 +0630] [357216] [INFO] Worker exiting (pid: 357216)
+[2025-11-19 13:04:10 +0630] [357234] [INFO] Worker exiting (pid: 357234)
+[2025-11-19 13:04:10 +0630] [357229] [INFO] Worker exiting (pid: 357229)
+[2025-11-19 13:04:10 +0630] [357227] [INFO] Worker exiting (pid: 357227)
+[2025-11-19 13:04:10 +0630] [357233] [INFO] Worker exiting (pid: 357233)
+[2025-11-19 13:04:10 +0630] [357236] [INFO] Worker exiting (pid: 357236)
+[2025-11-19 13:04:10 +0630] [357232] [INFO] Worker exiting (pid: 357232)
+[2025-11-19 13:04:10 +0630] [357238] [INFO] Worker exiting (pid: 357238)
+[2025-11-19 13:04:10 +0630] [357226] [INFO] Worker exiting (pid: 357226)
+[2025-11-19 13:04:10 +0630] [357231] [INFO] Worker exiting (pid: 357231)
+[2025-11-19 13:04:10 +0630] [357222] [INFO] Worker exiting (pid: 357222)
+[2025-11-19 13:04:10 +0630] [357235] [INFO] Worker exiting (pid: 357235)
+[2025-11-19 13:04:10 +0630] [357237] [INFO] Worker exiting (pid: 357237)
+[2025-11-19 13:04:10 +0630] [357225] [INFO] Worker exiting (pid: 357225)
+[2025-11-19 13:04:10 +0630] [357224] [INFO] Worker exiting (pid: 357224)
+[2025-11-19 13:04:10 +0630] [357223] [INFO] Worker exiting (pid: 357223)
+[2025-11-19 13:04:11 +0630] [357213] [ERROR] Worker (pid:357224) was sent SIGINT!
+[2025-11-19 13:04:11 +0630] [357213] [ERROR] Worker (pid:357225) was sent SIGINT!
+[2025-11-19 13:04:11 +0630] [357213] [INFO] Shutting down: Master
+[2025-11-19 13:06:31 +0630] [359336] [INFO] Starting gunicorn 21.2.0
+[2025-11-19 13:06:31 +0630] [359336] [INFO] Listening at: http://127.0.0.1:8000 (359336)
+[2025-11-19 13:06:31 +0630] [359336] [INFO] Using worker: sync
+[2025-11-19 13:06:31 +0630] [359358] [INFO] Booting worker with pid: 359358
+[2025-11-19 13:06:31 +0630] [359359] [INFO] Booting worker with pid: 359359
+[2025-11-19 13:06:31 +0630] [359360] [INFO] Booting worker with pid: 359360
+[2025-11-19 13:06:31 +0630] [359361] [INFO] Booting worker with pid: 359361
+[2025-11-19 13:06:31 +0630] [359362] [INFO] Booting worker with pid: 359362
+[2025-11-19 13:06:31 +0630] [359363] [INFO] Booting worker with pid: 359363
+[2025-11-19 13:06:31 +0630] [359364] [INFO] Booting worker with pid: 359364
+[2025-11-19 13:06:31 +0630] [359365] [INFO] Booting worker with pid: 359365
+[2025-11-19 13:06:31 +0630] [359366] [INFO] Booting worker with pid: 359366
+[2025-11-19 13:06:31 +0630] [359367] [INFO] Booting worker with pid: 359367
+[2025-11-19 13:06:31 +0630] [359368] [INFO] Booting worker with pid: 359368
+[2025-11-19 13:06:31 +0630] [359369] [INFO] Booting worker with pid: 359369
+[2025-11-19 13:06:31 +0630] [359370] [INFO] Booting worker with pid: 359370
+[2025-11-19 13:06:31 +0630] [359371] [INFO] Booting worker with pid: 359371
+[2025-11-19 13:06:31 +0630] [359372] [INFO] Booting worker with pid: 359372
+[2025-11-19 13:06:31 +0630] [359373] [INFO] Booting worker with pid: 359373
+[2025-11-19 13:06:31 +0630] [359374] [INFO] Booting worker with pid: 359374
+[2025-11-19 13:06:31 +0630] [359375] [INFO] Booting worker with pid: 359375
+[2025-11-19 13:06:31 +0630] [359376] [INFO] Booting worker with pid: 359376
+[2025-11-19 13:06:31 +0630] [359377] [INFO] Booting worker with pid: 359377
+[2025-11-19 13:06:31 +0630] [359378] [INFO] Booting worker with pid: 359378
+[2025-11-19 13:06:31 +0630] [359379] [INFO] Booting worker with pid: 359379
+[2025-11-19 13:06:31 +0630] [359380] [INFO] Booting worker with pid: 359380
+[2025-11-19 13:06:32 +0630] [359381] [INFO] Booting worker with pid: 359381
+[2025-11-19 13:06:32 +0630] [359382] [INFO] Booting worker with pid: 359382
+[2025-11-19 13:10:33 +0630] [359359] [INFO] Worker exiting (pid: 359359)
+[2025-11-19 13:10:33 +0630] [359358] [INFO] Worker exiting (pid: 359358)
+[2025-11-19 13:10:33 +0630] [359364] [INFO] Worker exiting (pid: 359364)
+[2025-11-19 13:10:33 +0630] [359361] [INFO] Worker exiting (pid: 359361)
+[2025-11-19 13:10:33 +0630] [359363] [INFO] Worker exiting (pid: 359363)
+[2025-11-19 13:10:33 +0630] [359362] [INFO] Worker exiting (pid: 359362)
+[2025-11-19 13:10:33 +0630] [359360] [INFO] Worker exiting (pid: 359360)
+[2025-11-19 13:10:33 +0630] [359367] [INFO] Worker exiting (pid: 359367)
+[2025-11-19 13:10:33 +0630] [359378] [INFO] Worker exiting (pid: 359378)
+[2025-11-19 13:10:33 +0630] [359336] [INFO] Handling signal: term
+[2025-11-19 13:10:33 +0630] [359375] [INFO] Worker exiting (pid: 359375)
+[2025-11-19 13:10:33 +0630] [359379] [INFO] Worker exiting (pid: 359379)
+[2025-11-19 13:10:33 +0630] [359368] [INFO] Worker exiting (pid: 359368)
+[2025-11-19 13:10:33 +0630] [359369] [INFO] Worker exiting (pid: 359369)
+[2025-11-19 13:10:33 +0630] [359366] [INFO] Worker exiting (pid: 359366)
+[2025-11-19 13:10:33 +0630] [359371] [INFO] Worker exiting (pid: 359371)
+[2025-11-19 13:10:33 +0630] [359374] [INFO] Worker exiting (pid: 359374)
+[2025-11-19 13:10:33 +0630] [359365] [INFO] Worker exiting (pid: 359365)
+[2025-11-19 13:10:33 +0630] [359370] [INFO] Worker exiting (pid: 359370)
+[2025-11-19 13:10:33 +0630] [359373] [INFO] Worker exiting (pid: 359373)
+[2025-11-19 13:10:33 +0630] [359372] [INFO] Worker exiting (pid: 359372)
+[2025-11-19 13:10:33 +0630] [359336] [ERROR] Worker (pid:359360) was sent SIGTERM!
+[2025-11-19 13:10:33 +0630] [359376] [INFO] Worker exiting (pid: 359376)
+[2025-11-19 13:10:33 +0630] [359382] [INFO] Worker exiting (pid: 359382)
+[2025-11-19 13:10:33 +0630] [359336] [ERROR] Worker (pid:359364) was sent SIGTERM!
+[2025-11-19 13:10:33 +0630] [359336] [ERROR] Worker (pid:359367) was sent SIGTERM!
+[2025-11-19 13:10:33 +0630] [359377] [INFO] Worker exiting (pid: 359377)
+[2025-11-19 13:10:33 +0630] [359336] [ERROR] Worker (pid:359361) was sent SIGTERM!
+[2025-11-19 13:10:33 +0630] [359381] [INFO] Worker exiting (pid: 359381)
+[2025-11-19 13:10:33 +0630] [359380] [INFO] Worker exiting (pid: 359380)
+[2025-11-19 13:10:33 +0630] [359336] [ERROR] Worker (pid:359378) was sent SIGTERM!
+[2025-11-19 13:10:33 +0630] [359336] [ERROR] Worker (pid:359358) was sent SIGTERM!
+[2025-11-19 13:10:33 +0630] [359336] [ERROR] Worker (pid:359362) was sent SIGTERM!
+[2025-11-19 13:10:33 +0630] [359336] [ERROR] Worker (pid:359359) was sent SIGTERM!
+[2025-11-19 13:10:33 +0630] [359336] [ERROR] Worker (pid:359363) was sent SIGTERM!
+[2025-11-19 13:10:34 +0630] [359336] [INFO] Shutting down: Master
+[2025-11-19 13:10:34 +0630] [359741] [INFO] Starting gunicorn 21.2.0
+[2025-11-19 13:10:34 +0630] [359741] [INFO] Listening at: http://127.0.0.1:8000 (359741)
+[2025-11-19 13:10:34 +0630] [359741] [INFO] Using worker: sync
+[2025-11-19 13:10:34 +0630] [359765] [INFO] Booting worker with pid: 359765
+[2025-11-19 13:10:34 +0630] [359766] [INFO] Booting worker with pid: 359766
+[2025-11-19 13:10:34 +0630] [359767] [INFO] Booting worker with pid: 359767
+[2025-11-19 13:10:35 +0630] [359768] [INFO] Booting worker with pid: 359768
+[2025-11-19 13:10:35 +0630] [359769] [INFO] Booting worker with pid: 359769
+[2025-11-19 13:10:35 +0630] [359770] [INFO] Booting worker with pid: 359770
+[2025-11-19 13:10:35 +0630] [359771] [INFO] Booting worker with pid: 359771
+[2025-11-19 13:10:35 +0630] [359772] [INFO] Booting worker with pid: 359772
+[2025-11-19 13:10:35 +0630] [359773] [INFO] Booting worker with pid: 359773
+[2025-11-19 13:10:35 +0630] [359774] [INFO] Booting worker with pid: 359774
+[2025-11-19 13:10:35 +0630] [359775] [INFO] Booting worker with pid: 359775
+[2025-11-19 13:10:35 +0630] [359776] [INFO] Booting worker with pid: 359776
+[2025-11-19 13:10:35 +0630] [359777] [INFO] Booting worker with pid: 359777
+[2025-11-19 13:10:35 +0630] [359778] [INFO] Booting worker with pid: 359778
+[2025-11-19 13:10:35 +0630] [359779] [INFO] Booting worker with pid: 359779
+[2025-11-19 13:10:35 +0630] [359780] [INFO] Booting worker with pid: 359780
+[2025-11-19 13:10:35 +0630] [359781] [INFO] Booting worker with pid: 359781
+[2025-11-19 13:10:35 +0630] [359782] [INFO] Booting worker with pid: 359782
+[2025-11-19 13:10:35 +0630] [359783] [INFO] Booting worker with pid: 359783
+[2025-11-19 13:10:35 +0630] [359784] [INFO] Booting worker with pid: 359784
+[2025-11-19 13:10:35 +0630] [359785] [INFO] Booting worker with pid: 359785
+[2025-11-19 13:10:35 +0630] [359786] [INFO] Booting worker with pid: 359786
+[2025-11-19 13:10:35 +0630] [359787] [INFO] Booting worker with pid: 359787
+[2025-11-19 13:10:35 +0630] [359788] [INFO] Booting worker with pid: 359788
+[2025-11-19 13:10:35 +0630] [359789] [INFO] Booting worker with pid: 359789
+[2025-11-19 13:36:22 +0630] [359765] [INFO] Worker exiting (pid: 359765)
+[2025-11-19 13:36:22 +0630] [359776] [INFO] Worker exiting (pid: 359776)
+[2025-11-19 13:36:22 +0630] [359773] [INFO] Worker exiting (pid: 359773)
+[2025-11-19 13:36:22 +0630] [359766] [INFO] Worker exiting (pid: 359766)
+[2025-11-19 13:36:22 +0630] [359770] [INFO] Worker exiting (pid: 359770)
+[2025-11-19 13:36:22 +0630] [359768] [INFO] Worker exiting (pid: 359768)
+[2025-11-19 13:36:22 +0630] [359769] [INFO] Worker exiting (pid: 359769)
+[2025-11-19 13:36:22 +0630] [359767] [INFO] Worker exiting (pid: 359767)
+[2025-11-19 13:36:22 +0630] [359771] [INFO] Worker exiting (pid: 359771)
+[2025-11-19 13:36:22 +0630] [359772] [INFO] Worker exiting (pid: 359772)
+[2025-11-19 13:36:22 +0630] [359741] [INFO] Handling signal: term
+[2025-11-19 13:36:22 +0630] [359779] [INFO] Worker exiting (pid: 359779)
+[2025-11-19 13:36:22 +0630] [359787] [INFO] Worker exiting (pid: 359787)
+[2025-11-19 13:36:22 +0630] [359778] [INFO] Worker exiting (pid: 359778)
+[2025-11-19 13:36:22 +0630] [359774] [INFO] Worker exiting (pid: 359774)
+[2025-11-19 13:36:22 +0630] [359789] [INFO] Worker exiting (pid: 359789)
+[2025-11-19 13:36:22 +0630] [359788] [INFO] Worker exiting (pid: 359788)
+[2025-11-19 13:36:22 +0630] [359741] [ERROR] Worker (pid:359766) was sent SIGTERM!
+[2025-11-19 13:36:22 +0630] [359775] [INFO] Worker exiting (pid: 359775)
+[2025-11-19 13:36:22 +0630] [359781] [INFO] Worker exiting (pid: 359781)
+[2025-11-19 13:36:22 +0630] [359785] [INFO] Worker exiting (pid: 359785)
+[2025-11-19 13:36:22 +0630] [359786] [INFO] Worker exiting (pid: 359786)
+[2025-11-19 13:36:22 +0630] [359741] [ERROR] Worker (pid:359768) was sent SIGTERM!
+[2025-11-19 13:36:22 +0630] [359777] [INFO] Worker exiting (pid: 359777)
+[2025-11-19 13:36:22 +0630] [359741] [ERROR] Worker (pid:359769) was sent SIGTERM!
+[2025-11-19 13:36:22 +0630] [359741] [ERROR] Worker (pid:359770) was sent SIGTERM!
+[2025-11-19 13:36:22 +0630] [359741] [ERROR] Worker (pid:359773) was sent SIGTERM!
+[2025-11-19 13:36:22 +0630] [359741] [ERROR] Worker (pid:359776) was sent SIGTERM!
+[2025-11-19 13:36:22 +0630] [359741] [ERROR] Worker (pid:359779) was sent SIGTERM!
+[2025-11-19 13:36:22 +0630] [359741] [ERROR] Worker (pid:359767) was sent SIGTERM!
+[2025-11-19 13:36:22 +0630] [359741] [ERROR] Worker (pid:359765) was sent SIGTERM!
+[2025-11-19 13:36:22 +0630] [359780] [INFO] Worker exiting (pid: 359780)
+[2025-11-19 13:36:22 +0630] [359782] [INFO] Worker exiting (pid: 359782)
+[2025-11-19 13:36:22 +0630] [359783] [INFO] Worker exiting (pid: 359783)
+[2025-11-19 13:36:22 +0630] [359784] [INFO] Worker exiting (pid: 359784)
+[2025-11-19 13:36:23 +0630] [359741] [INFO] Shutting down: Master
+[2025-11-19 13:36:23 +0630] [361590] [INFO] Starting gunicorn 21.2.0
+[2025-11-19 13:36:23 +0630] [361590] [INFO] Listening at: http://127.0.0.1:8000 (361590)
+[2025-11-19 13:36:23 +0630] [361590] [INFO] Using worker: sync
+[2025-11-19 13:36:23 +0630] [361615] [INFO] Booting worker with pid: 361615
+[2025-11-19 13:36:23 +0630] [361616] [INFO] Booting worker with pid: 361616
+[2025-11-19 13:36:23 +0630] [361617] [INFO] Booting worker with pid: 361617
+[2025-11-19 13:36:23 +0630] [361618] [INFO] Booting worker with pid: 361618
+[2025-11-19 13:36:23 +0630] [361619] [INFO] Booting worker with pid: 361619
+[2025-11-19 13:36:23 +0630] [361620] [INFO] Booting worker with pid: 361620
+[2025-11-19 13:36:23 +0630] [361621] [INFO] Booting worker with pid: 361621
+[2025-11-19 13:36:23 +0630] [361622] [INFO] Booting worker with pid: 361622
+[2025-11-19 13:36:23 +0630] [361623] [INFO] Booting worker with pid: 361623
+[2025-11-19 13:36:24 +0630] [361624] [INFO] Booting worker with pid: 361624
+[2025-11-19 13:36:24 +0630] [361625] [INFO] Booting worker with pid: 361625
+[2025-11-19 13:36:24 +0630] [361626] [INFO] Booting worker with pid: 361626
+[2025-11-19 13:36:24 +0630] [361627] [INFO] Booting worker with pid: 361627
+[2025-11-19 13:36:24 +0630] [361628] [INFO] Booting worker with pid: 361628
+[2025-11-19 13:36:24 +0630] [361629] [INFO] Booting worker with pid: 361629
+[2025-11-19 13:36:24 +0630] [361630] [INFO] Booting worker with pid: 361630
+[2025-11-19 13:36:24 +0630] [361631] [INFO] Booting worker with pid: 361631
+[2025-11-19 13:36:24 +0630] [361632] [INFO] Booting worker with pid: 361632
+[2025-11-19 13:36:24 +0630] [361633] [INFO] Booting worker with pid: 361633
+[2025-11-19 13:36:24 +0630] [361634] [INFO] Booting worker with pid: 361634
+[2025-11-19 13:36:24 +0630] [361635] [INFO] Booting worker with pid: 361635
+[2025-11-19 13:36:24 +0630] [361636] [INFO] Booting worker with pid: 361636
+[2025-11-19 13:36:24 +0630] [361637] [INFO] Booting worker with pid: 361637
+[2025-11-19 13:36:24 +0630] [361638] [INFO] Booting worker with pid: 361638
+[2025-11-19 13:36:25 +0630] [361639] [INFO] Booting worker with pid: 361639
+[2025-11-19 14:00:50 +0630] [361618] [INFO] Worker exiting (pid: 361618)
+[2025-11-19 14:00:50 +0630] [361630] [INFO] Worker exiting (pid: 361630)
+[2025-11-19 14:00:50 +0630] [361628] [INFO] Worker exiting (pid: 361628)
+[2025-11-19 14:00:50 +0630] [361620] [INFO] Worker exiting (pid: 361620)
+[2025-11-19 14:00:50 +0630] [361627] [INFO] Worker exiting (pid: 361627)
+[2025-11-19 14:00:50 +0630] [361637] [INFO] Worker exiting (pid: 361637)
+[2025-11-19 14:00:50 +0630] [361616] [INFO] Worker exiting (pid: 361616)
+[2025-11-19 14:00:50 +0630] [361633] [INFO] Worker exiting (pid: 361633)
+[2025-11-19 14:00:50 +0630] [361639] [INFO] Worker exiting (pid: 361639)
+[2025-11-19 14:00:50 +0630] [361638] [INFO] Worker exiting (pid: 361638)
+[2025-11-19 14:00:50 +0630] [361615] [INFO] Worker exiting (pid: 361615)
+[2025-11-19 14:00:50 +0630] [361617] [INFO] Worker exiting (pid: 361617)
+[2025-11-19 14:00:50 +0630] [361625] [INFO] Worker exiting (pid: 361625)
+[2025-11-19 14:00:50 +0630] [361624] [INFO] Worker exiting (pid: 361624)
+[2025-11-19 14:00:50 +0630] [361622] [INFO] Worker exiting (pid: 361622)
+[2025-11-19 14:00:50 +0630] [361629] [INFO] Worker exiting (pid: 361629)
+[2025-11-19 14:00:50 +0630] [361623] [INFO] Worker exiting (pid: 361623)
+[2025-11-19 14:00:50 +0630] [361636] [INFO] Worker exiting (pid: 361636)
+[2025-11-19 14:00:50 +0630] [361626] [INFO] Worker exiting (pid: 361626)
+[2025-11-19 14:00:50 +0630] [361621] [INFO] Worker exiting (pid: 361621)
+[2025-11-19 14:00:50 +0630] [361634] [INFO] Worker exiting (pid: 361634)
+[2025-11-19 14:00:50 +0630] [361631] [INFO] Worker exiting (pid: 361631)
+[2025-11-19 14:00:50 +0630] [361635] [INFO] Worker exiting (pid: 361635)
+[2025-11-19 14:00:50 +0630] [361590] [INFO] Handling signal: term
+[2025-11-19 14:00:50 +0630] [361632] [INFO] Worker exiting (pid: 361632)
+[2025-11-19 14:00:50 +0630] [361619] [INFO] Worker exiting (pid: 361619)
+[2025-11-19 14:00:51 +0630] [361590] [ERROR] Worker (pid:361615) was sent SIGTERM!
+[2025-11-19 14:00:51 +0630] [361590] [ERROR] Worker (pid:361617) was sent SIGTERM!
+[2025-11-19 14:00:51 +0630] [361590] [ERROR] Worker (pid:361618) was sent SIGTERM!
+[2025-11-19 14:00:51 +0630] [361590] [ERROR] Worker (pid:361620) was sent SIGTERM!
+[2025-11-19 14:00:51 +0630] [361590] [ERROR] Worker (pid:361621) was sent SIGTERM!
+[2025-11-19 14:00:51 +0630] [361590] [ERROR] Worker (pid:361624) was sent SIGTERM!
+[2025-11-19 14:00:51 +0630] [361590] [ERROR] Worker (pid:361625) was sent SIGTERM!
+[2025-11-19 14:00:51 +0630] [361590] [ERROR] Worker (pid:361627) was sent SIGTERM!
+[2025-11-19 14:00:51 +0630] [361590] [ERROR] Worker (pid:361628) was sent SIGTERM!
+[2025-11-19 14:00:51 +0630] [361590] [ERROR] Worker (pid:361629) was sent SIGTERM!
+[2025-11-19 14:00:51 +0630] [361590] [ERROR] Worker (pid:361630) was sent SIGTERM!
+[2025-11-19 14:00:51 +0630] [361590] [ERROR] Worker (pid:361635) was sent SIGTERM!
+[2025-11-19 14:00:51 +0630] [361590] [ERROR] Worker (pid:361636) was sent SIGTERM!
+[2025-11-19 14:00:51 +0630] [361590] [ERROR] Worker (pid:361637) was sent SIGTERM!
+[2025-11-19 14:00:51 +0630] [361590] [ERROR] Worker (pid:361638) was sent SIGTERM!
+[2025-11-19 14:00:51 +0630] [361590] [ERROR] Worker (pid:361639) was sent SIGTERM!
+[2025-11-19 14:00:51 +0630] [361590] [ERROR] Worker (pid:361633) was sent SIGTERM!
+[2025-11-19 14:00:51 +0630] [361590] [ERROR] Worker (pid:361616) was sent SIGTERM!
+[2025-11-19 14:00:51 +0630] [361590] [ERROR] Worker (pid:361626) was sent SIGTERM!
+[2025-11-19 14:00:51 +0630] [361590] [ERROR] Worker (pid:361634) was sent SIGTERM!
+[2025-11-19 14:00:51 +0630] [361590] [ERROR] Worker (pid:361631) was sent SIGTERM!
+[2025-11-19 14:00:51 +0630] [361590] [ERROR] Worker (pid:361622) was sent SIGTERM!
+[2025-11-19 14:00:51 +0630] [361590] [ERROR] Worker (pid:361623) was sent SIGTERM!
+[2025-11-19 14:00:51 +0630] [361590] [INFO] Shutting down: Master
+[2025-11-19 14:01:13 +0630] [916] [INFO] Starting gunicorn 21.2.0
+[2025-11-19 14:01:13 +0630] [916] [INFO] Listening at: http://127.0.0.1:8000 (916)
+[2025-11-19 14:01:13 +0630] [916] [INFO] Using worker: sync
+[2025-11-19 14:01:13 +0630] [993] [INFO] Booting worker with pid: 993
+[2025-11-19 14:01:13 +0630] [995] [INFO] Booting worker with pid: 995
+[2025-11-19 14:01:13 +0630] [996] [INFO] Booting worker with pid: 996
+[2025-11-19 14:01:13 +0630] [1000] [INFO] Booting worker with pid: 1000
+[2025-11-19 14:01:13 +0630] [1001] [INFO] Booting worker with pid: 1001
+[2025-11-19 14:01:13 +0630] [1006] [INFO] Booting worker with pid: 1006
+[2025-11-19 14:01:13 +0630] [1007] [INFO] Booting worker with pid: 1007
+[2025-11-19 14:01:13 +0630] [1012] [INFO] Booting worker with pid: 1012
+[2025-11-19 14:01:13 +0630] [1013] [INFO] Booting worker with pid: 1013
+[2025-11-19 14:01:14 +0630] [1017] [INFO] Booting worker with pid: 1017
+[2025-11-19 14:01:14 +0630] [1018] [INFO] Booting worker with pid: 1018
+[2025-11-19 14:01:14 +0630] [1022] [INFO] Booting worker with pid: 1022
+[2025-11-19 14:01:14 +0630] [1045] [INFO] Booting worker with pid: 1045
+[2025-11-19 14:01:14 +0630] [1197] [INFO] Booting worker with pid: 1197
+[2025-11-19 14:01:14 +0630] [1221] [INFO] Booting worker with pid: 1221
+[2025-11-19 14:01:14 +0630] [1225] [INFO] Booting worker with pid: 1225
+[2025-11-19 14:01:14 +0630] [1236] [INFO] Booting worker with pid: 1236
+[2025-11-19 14:01:14 +0630] [1245] [INFO] Booting worker with pid: 1245
+[2025-11-19 14:01:14 +0630] [1260] [INFO] Booting worker with pid: 1260
+[2025-11-19 14:01:14 +0630] [1267] [INFO] Booting worker with pid: 1267
+[2025-11-19 14:01:14 +0630] [1268] [INFO] Booting worker with pid: 1268
+[2025-11-19 14:01:14 +0630] [1269] [INFO] Booting worker with pid: 1269
+[2025-11-19 14:01:14 +0630] [1288] [INFO] Booting worker with pid: 1288
+[2025-11-19 14:01:14 +0630] [1289] [INFO] Booting worker with pid: 1289
+[2025-11-19 14:01:14 +0630] [1301] [INFO] Booting worker with pid: 1301
+[2025-11-20 05:52:59 +0630] [995] [INFO] Worker exiting (pid: 995)
+[2025-11-20 05:52:59 +0630] [1006] [INFO] Worker exiting (pid: 1006)
+[2025-11-20 05:52:59 +0630] [1018] [INFO] Worker exiting (pid: 1018)
+[2025-11-20 05:52:59 +0630] [916] [INFO] Handling signal: term
+[2025-11-20 05:52:59 +0630] [1045] [INFO] Worker exiting (pid: 1045)
+[2025-11-20 05:52:59 +0630] [1007] [INFO] Worker exiting (pid: 1007)
+[2025-11-20 05:52:59 +0630] [1225] [INFO] Worker exiting (pid: 1225)
+[2025-11-20 05:52:59 +0630] [1017] [INFO] Worker exiting (pid: 1017)
+[2025-11-20 05:52:59 +0630] [1260] [INFO] Worker exiting (pid: 1260)
+[2025-11-20 05:52:59 +0630] [993] [INFO] Worker exiting (pid: 993)
+[2025-11-20 05:52:59 +0630] [1001] [INFO] Worker exiting (pid: 1001)
+[2025-11-20 05:52:59 +0630] [1000] [INFO] Worker exiting (pid: 1000)
+[2025-11-20 05:52:59 +0630] [996] [INFO] Worker exiting (pid: 996)
+[2025-11-20 05:52:59 +0630] [1012] [INFO] Worker exiting (pid: 1012)
+[2025-11-20 05:52:59 +0630] [1013] [INFO] Worker exiting (pid: 1013)
+[2025-11-20 05:52:59 +0630] [1221] [INFO] Worker exiting (pid: 1221)
+[2025-11-20 05:52:59 +0630] [1197] [INFO] Worker exiting (pid: 1197)
+[2025-11-20 05:52:59 +0630] [1245] [INFO] Worker exiting (pid: 1245)
+[2025-11-20 05:52:59 +0630] [1269] [INFO] Worker exiting (pid: 1269)
+[2025-11-20 05:52:59 +0630] [1289] [INFO] Worker exiting (pid: 1289)
+[2025-11-20 05:52:59 +0630] [1288] [INFO] Worker exiting (pid: 1288)
+[2025-11-20 05:52:59 +0630] [1236] [INFO] Worker exiting (pid: 1236)
+[2025-11-20 05:52:59 +0630] [1301] [INFO] Worker exiting (pid: 1301)
+[2025-11-20 05:52:59 +0630] [1267] [INFO] Worker exiting (pid: 1267)
+[2025-11-20 05:52:59 +0630] [1268] [INFO] Worker exiting (pid: 1268)
+[2025-11-20 05:52:59 +0630] [916] [ERROR] Worker (pid:1006) was sent SIGTERM!
+[2025-11-20 05:52:59 +0630] [1022] [INFO] Worker exiting (pid: 1022)
+[2025-11-20 05:52:59 +0630] [916] [ERROR] Worker (pid:1018) was sent SIGTERM!
+[2025-11-20 05:53:00 +0630] [916] [INFO] Shutting down: Master
+[2025-11-20 06:53:31 +0630] [916] [INFO] Starting gunicorn 21.2.0
+[2025-11-20 06:53:31 +0630] [916] [INFO] Listening at: http://127.0.0.1:8000 (916)
+[2025-11-20 06:53:31 +0630] [916] [INFO] Using worker: sync
+[2025-11-20 06:53:31 +0630] [1004] [INFO] Booting worker with pid: 1004
+[2025-11-20 06:53:31 +0630] [1009] [INFO] Booting worker with pid: 1009
+[2025-11-20 06:53:31 +0630] [1010] [INFO] Booting worker with pid: 1010
+[2025-11-20 06:53:31 +0630] [1011] [INFO] Booting worker with pid: 1011
+[2025-11-20 06:53:31 +0630] [1012] [INFO] Booting worker with pid: 1012
+[2025-11-20 06:53:31 +0630] [1014] [INFO] Booting worker with pid: 1014
+[2025-11-20 06:53:31 +0630] [1016] [INFO] Booting worker with pid: 1016
+[2025-11-20 06:53:32 +0630] [1017] [INFO] Booting worker with pid: 1017
+[2025-11-20 06:53:32 +0630] [1022] [INFO] Booting worker with pid: 1022
+[2025-11-20 06:53:32 +0630] [1023] [INFO] Booting worker with pid: 1023
+[2025-11-20 06:53:32 +0630] [1024] [INFO] Booting worker with pid: 1024
+[2025-11-20 06:53:32 +0630] [1025] [INFO] Booting worker with pid: 1025
+[2025-11-20 06:53:32 +0630] [1030] [INFO] Booting worker with pid: 1030
+[2025-11-20 06:53:32 +0630] [1031] [INFO] Booting worker with pid: 1031
+[2025-11-20 06:53:32 +0630] [1033] [INFO] Booting worker with pid: 1033
+[2025-11-20 06:53:32 +0630] [1037] [INFO] Booting worker with pid: 1037
+[2025-11-20 06:53:32 +0630] [1050] [INFO] Booting worker with pid: 1050
+[2025-11-20 06:53:32 +0630] [1069] [INFO] Booting worker with pid: 1069
+[2025-11-20 06:53:32 +0630] [1113] [INFO] Booting worker with pid: 1113
+[2025-11-20 06:53:32 +0630] [1141] [INFO] Booting worker with pid: 1141
+[2025-11-20 06:53:32 +0630] [1195] [INFO] Booting worker with pid: 1195
+[2025-11-20 06:53:32 +0630] [1207] [INFO] Booting worker with pid: 1207
+[2025-11-20 06:53:32 +0630] [1212] [INFO] Booting worker with pid: 1212
+[2025-11-20 06:53:32 +0630] [1248] [INFO] Booting worker with pid: 1248
+[2025-11-20 06:53:32 +0630] [1261] [INFO] Booting worker with pid: 1261
+[2025-11-21 01:14:53 +0800] [9352] [INFO] Starting gunicorn 21.2.0
+[2025-11-21 01:14:53 +0800] [9352] [INFO] Listening at: http://127.0.0.1:8000 (9352)
+[2025-11-21 01:14:53 +0800] [9352] [INFO] Using worker: sync
+[2025-11-21 01:14:53 +0800] [9372] [INFO] Booting worker with pid: 9372
+[2025-11-21 01:14:53 +0800] [9376] [INFO] Booting worker with pid: 9376
+[2025-11-21 01:14:53 +0800] [9377] [INFO] Booting worker with pid: 9377
+[2025-11-21 01:24:37 +0800] [9352] [INFO] Handling signal: term
+[2025-11-21 01:24:37 +0800] [9372] [INFO] Worker exiting (pid: 9372)
+[2025-11-21 01:24:37 +0800] [9376] [INFO] Worker exiting (pid: 9376)
+[2025-11-21 01:24:37 +0800] [9377] [INFO] Worker exiting (pid: 9377)
+[2025-11-21 01:24:37 +0800] [9352] [ERROR] Worker (pid:9377) was sent SIGTERM!
+[2025-11-21 01:24:37 +0800] [9352] [ERROR] Worker (pid:9372) was sent SIGTERM!
+[2025-11-21 01:24:37 +0800] [9352] [ERROR] Worker (pid:9376) was sent SIGTERM!
+[2025-11-21 01:24:37 +0800] [9352] [INFO] Shutting down: Master
+[2025-11-21 01:24:38 +0800] [12052] [INFO] Starting gunicorn 21.2.0
+[2025-11-21 01:24:38 +0800] [12052] [INFO] Listening at: http://127.0.0.1:8000 (12052)
+[2025-11-21 01:24:38 +0800] [12052] [INFO] Using worker: sync
+[2025-11-21 01:24:38 +0800] [12071] [INFO] Booting worker with pid: 12071
+[2025-11-21 01:24:38 +0800] [12072] [INFO] Booting worker with pid: 12072
+[2025-11-21 01:24:38 +0800] [12073] [INFO] Booting worker with pid: 12073
+[2025-11-21 01:36:16,798] ERROR in app: Exception on /admin/delete_product [POST]
+Traceback (most recent call last):
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 1967, in _exec_single_context
+    self.dialect.do_execute(
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/sqlalchemy/engine/default.py", line 951, in do_execute
+    cursor.execute(statement, parameters)
+sqlite3.IntegrityError: NOT NULL constraint failed: orders.product_id
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/flask/app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/flask/app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/flask/app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/flask/app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/flask_login/utils.py", line 290, in decorated_view
+    return current_app.ensure_sync(func)(*args, **kwargs)
+  File "/home/adminses/My_Projects/shopping_website/app.py", line 688, in delete_product
+    db.session.commit()
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/sqlalchemy/orm/scoping.py", line 597, in commit
+    return self._proxied.commit()
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/sqlalchemy/orm/session.py", line 2030, in commit
+    trans.commit(_to_root=True)
+  File "<string>", line 2, in commit
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/sqlalchemy/orm/state_changes.py", line 137, in _go
+    ret_value = fn(self, *arg, **kw)
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/sqlalchemy/orm/session.py", line 1311, in commit
+    self._prepare_impl()
+  File "<string>", line 2, in _prepare_impl
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/sqlalchemy/orm/state_changes.py", line 137, in _go
+    ret_value = fn(self, *arg, **kw)
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/sqlalchemy/orm/session.py", line 1286, in _prepare_impl
+    self.session.flush()
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/sqlalchemy/orm/session.py", line 4331, in flush
+    self._flush(objects)
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/sqlalchemy/orm/session.py", line 4466, in _flush
+    with util.safe_reraise():
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/sqlalchemy/util/langhelpers.py", line 224, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/sqlalchemy/orm/session.py", line 4427, in _flush
+    flush_context.execute()
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/sqlalchemy/orm/unitofwork.py", line 466, in execute
+    rec.execute(self)
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/sqlalchemy/orm/unitofwork.py", line 642, in execute
+    util.preloaded.orm_persistence.save_obj(
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/sqlalchemy/orm/persistence.py", line 85, in save_obj
+    _emit_update_statements(
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/sqlalchemy/orm/persistence.py", line 912, in _emit_update_statements
+    c = connection.execute(
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 1419, in execute
+    return meth(
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/sqlalchemy/sql/elements.py", line 526, in _execute_on_connection
+    return connection._execute_clauseelement(
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 1641, in _execute_clauseelement
+    ret = self._execute_context(
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 1846, in _execute_context
+    return self._exec_single_context(
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 1986, in _exec_single_context
+    self._handle_dbapi_exception(
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 2355, in _handle_dbapi_exception
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 1967, in _exec_single_context
+    self.dialect.do_execute(
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/sqlalchemy/engine/default.py", line 951, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.IntegrityError: (sqlite3.IntegrityError) NOT NULL constraint failed: orders.product_id
+[SQL: UPDATE orders SET product_id=? WHERE orders.id = ?]
+[parameters: (None, 17)]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+[2025-11-21 01:36:26,600] ERROR in app: Exception on /admin/delete_product [POST]
+Traceback (most recent call last):
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 1967, in _exec_single_context
+    self.dialect.do_execute(
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/sqlalchemy/engine/default.py", line 951, in do_execute
+    cursor.execute(statement, parameters)
+sqlite3.IntegrityError: NOT NULL constraint failed: orders.product_id
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/flask/app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/flask/app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/flask/app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/flask/app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/flask_login/utils.py", line 290, in decorated_view
+    return current_app.ensure_sync(func)(*args, **kwargs)
+  File "/home/adminses/My_Projects/shopping_website/app.py", line 688, in delete_product
+    db.session.commit()
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/sqlalchemy/orm/scoping.py", line 597, in commit
+    return self._proxied.commit()
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/sqlalchemy/orm/session.py", line 2030, in commit
+    trans.commit(_to_root=True)
+  File "<string>", line 2, in commit
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/sqlalchemy/orm/state_changes.py", line 137, in _go
+    ret_value = fn(self, *arg, **kw)
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/sqlalchemy/orm/session.py", line 1311, in commit
+    self._prepare_impl()
+  File "<string>", line 2, in _prepare_impl
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/sqlalchemy/orm/state_changes.py", line 137, in _go
+    ret_value = fn(self, *arg, **kw)
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/sqlalchemy/orm/session.py", line 1286, in _prepare_impl
+    self.session.flush()
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/sqlalchemy/orm/session.py", line 4331, in flush
+    self._flush(objects)
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/sqlalchemy/orm/session.py", line 4466, in _flush
+    with util.safe_reraise():
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/sqlalchemy/util/langhelpers.py", line 224, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/sqlalchemy/orm/session.py", line 4427, in _flush
+    flush_context.execute()
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/sqlalchemy/orm/unitofwork.py", line 466, in execute
+    rec.execute(self)
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/sqlalchemy/orm/unitofwork.py", line 642, in execute
+    util.preloaded.orm_persistence.save_obj(
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/sqlalchemy/orm/persistence.py", line 85, in save_obj
+    _emit_update_statements(
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/sqlalchemy/orm/persistence.py", line 912, in _emit_update_statements
+    c = connection.execute(
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 1419, in execute
+    return meth(
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/sqlalchemy/sql/elements.py", line 526, in _execute_on_connection
+    return connection._execute_clauseelement(
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 1641, in _execute_clauseelement
+    ret = self._execute_context(
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 1846, in _execute_context
+    return self._exec_single_context(
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 1986, in _exec_single_context
+    self._handle_dbapi_exception(
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 2355, in _handle_dbapi_exception
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 1967, in _exec_single_context
+    self.dialect.do_execute(
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/sqlalchemy/engine/default.py", line 951, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.IntegrityError: (sqlite3.IntegrityError) NOT NULL constraint failed: orders.product_id
+[SQL: UPDATE orders SET product_id=? WHERE orders.id = ?]
+[parameters: (None, 17)]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+[2025-11-21 02:16:54,918] ERROR in app: Exception on /admin/delete_product [POST]
+Traceback (most recent call last):
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 1967, in _exec_single_context
+    self.dialect.do_execute(
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/sqlalchemy/engine/default.py", line 951, in do_execute
+    cursor.execute(statement, parameters)
+sqlite3.IntegrityError: NOT NULL constraint failed: orders.product_id
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/flask/app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/flask/app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/flask/app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/flask/app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/flask_login/utils.py", line 290, in decorated_view
+    return current_app.ensure_sync(func)(*args, **kwargs)
+  File "/home/adminses/My_Projects/shopping_website/app.py", line 688, in delete_product
+    db.session.commit()
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/sqlalchemy/orm/scoping.py", line 597, in commit
+    return self._proxied.commit()
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/sqlalchemy/orm/session.py", line 2030, in commit
+    trans.commit(_to_root=True)
+  File "<string>", line 2, in commit
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/sqlalchemy/orm/state_changes.py", line 137, in _go
+    ret_value = fn(self, *arg, **kw)
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/sqlalchemy/orm/session.py", line 1311, in commit
+    self._prepare_impl()
+  File "<string>", line 2, in _prepare_impl
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/sqlalchemy/orm/state_changes.py", line 137, in _go
+    ret_value = fn(self, *arg, **kw)
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/sqlalchemy/orm/session.py", line 1286, in _prepare_impl
+    self.session.flush()
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/sqlalchemy/orm/session.py", line 4331, in flush
+    self._flush(objects)
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/sqlalchemy/orm/session.py", line 4466, in _flush
+    with util.safe_reraise():
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/sqlalchemy/util/langhelpers.py", line 224, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/sqlalchemy/orm/session.py", line 4427, in _flush
+    flush_context.execute()
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/sqlalchemy/orm/unitofwork.py", line 466, in execute
+    rec.execute(self)
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/sqlalchemy/orm/unitofwork.py", line 642, in execute
+    util.preloaded.orm_persistence.save_obj(
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/sqlalchemy/orm/persistence.py", line 85, in save_obj
+    _emit_update_statements(
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/sqlalchemy/orm/persistence.py", line 912, in _emit_update_statements
+    c = connection.execute(
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 1419, in execute
+    return meth(
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/sqlalchemy/sql/elements.py", line 526, in _execute_on_connection
+    return connection._execute_clauseelement(
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 1641, in _execute_clauseelement
+    ret = self._execute_context(
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 1846, in _execute_context
+    return self._exec_single_context(
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 1986, in _exec_single_context
+    self._handle_dbapi_exception(
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 2355, in _handle_dbapi_exception
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 1967, in _exec_single_context
+    self.dialect.do_execute(
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/sqlalchemy/engine/default.py", line 951, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.IntegrityError: (sqlite3.IntegrityError) NOT NULL constraint failed: orders.product_id
+[SQL: UPDATE orders SET product_id=? WHERE orders.id = ?]
+[parameters: (None, 17)]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+[2025-11-21 02:35:47,679] ERROR in app: Exception on /admin/delete_product [POST]
+Traceback (most recent call last):
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 1967, in _exec_single_context
+    self.dialect.do_execute(
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/sqlalchemy/engine/default.py", line 951, in do_execute
+    cursor.execute(statement, parameters)
+sqlite3.IntegrityError: NOT NULL constraint failed: orders.product_id
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/flask/app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/flask/app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/flask/app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/flask/app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/flask_login/utils.py", line 290, in decorated_view
+    return current_app.ensure_sync(func)(*args, **kwargs)
+  File "/home/adminses/My_Projects/shopping_website/app.py", line 688, in delete_product
+    db.session.commit()
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/sqlalchemy/orm/scoping.py", line 597, in commit
+    return self._proxied.commit()
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/sqlalchemy/orm/session.py", line 2030, in commit
+    trans.commit(_to_root=True)
+  File "<string>", line 2, in commit
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/sqlalchemy/orm/state_changes.py", line 137, in _go
+    ret_value = fn(self, *arg, **kw)
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/sqlalchemy/orm/session.py", line 1311, in commit
+    self._prepare_impl()
+  File "<string>", line 2, in _prepare_impl
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/sqlalchemy/orm/state_changes.py", line 137, in _go
+    ret_value = fn(self, *arg, **kw)
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/sqlalchemy/orm/session.py", line 1286, in _prepare_impl
+    self.session.flush()
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/sqlalchemy/orm/session.py", line 4331, in flush
+    self._flush(objects)
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/sqlalchemy/orm/session.py", line 4466, in _flush
+    with util.safe_reraise():
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/sqlalchemy/util/langhelpers.py", line 224, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/sqlalchemy/orm/session.py", line 4427, in _flush
+    flush_context.execute()
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/sqlalchemy/orm/unitofwork.py", line 466, in execute
+    rec.execute(self)
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/sqlalchemy/orm/unitofwork.py", line 642, in execute
+    util.preloaded.orm_persistence.save_obj(
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/sqlalchemy/orm/persistence.py", line 85, in save_obj
+    _emit_update_statements(
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/sqlalchemy/orm/persistence.py", line 912, in _emit_update_statements
+    c = connection.execute(
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 1419, in execute
+    return meth(
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/sqlalchemy/sql/elements.py", line 526, in _execute_on_connection
+    return connection._execute_clauseelement(
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 1641, in _execute_clauseelement
+    ret = self._execute_context(
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 1846, in _execute_context
+    return self._exec_single_context(
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 1986, in _exec_single_context
+    self._handle_dbapi_exception(
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 2355, in _handle_dbapi_exception
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 1967, in _exec_single_context
+    self.dialect.do_execute(
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/sqlalchemy/engine/default.py", line 951, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.IntegrityError: (sqlite3.IntegrityError) NOT NULL constraint failed: orders.product_id
+[SQL: UPDATE orders SET product_id=? WHERE orders.id = ?]
+[parameters: (None, 17)]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+[2025-11-21 02:38:19,983] ERROR in app: Exception on /admin/delete_product [POST]
+Traceback (most recent call last):
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 1967, in _exec_single_context
+    self.dialect.do_execute(
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/sqlalchemy/engine/default.py", line 951, in do_execute
+    cursor.execute(statement, parameters)
+sqlite3.IntegrityError: NOT NULL constraint failed: orders.product_id
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/flask/app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/flask/app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/flask/app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/flask/app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/flask_login/utils.py", line 290, in decorated_view
+    return current_app.ensure_sync(func)(*args, **kwargs)
+  File "/home/adminses/My_Projects/shopping_website/app.py", line 688, in delete_product
+    if product.image:
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/sqlalchemy/orm/scoping.py", line 597, in commit
+    return self._proxied.commit()
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/sqlalchemy/orm/session.py", line 2030, in commit
+    trans.commit(_to_root=True)
+  File "<string>", line 2, in commit
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/sqlalchemy/orm/state_changes.py", line 137, in _go
+    ret_value = fn(self, *arg, **kw)
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/sqlalchemy/orm/session.py", line 1311, in commit
+    self._prepare_impl()
+  File "<string>", line 2, in _prepare_impl
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/sqlalchemy/orm/state_changes.py", line 137, in _go
+    ret_value = fn(self, *arg, **kw)
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/sqlalchemy/orm/session.py", line 1286, in _prepare_impl
+    self.session.flush()
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/sqlalchemy/orm/session.py", line 4331, in flush
+    self._flush(objects)
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/sqlalchemy/orm/session.py", line 4466, in _flush
+    with util.safe_reraise():
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/sqlalchemy/util/langhelpers.py", line 224, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/sqlalchemy/orm/session.py", line 4427, in _flush
+    flush_context.execute()
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/sqlalchemy/orm/unitofwork.py", line 466, in execute
+    rec.execute(self)
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/sqlalchemy/orm/unitofwork.py", line 642, in execute
+    util.preloaded.orm_persistence.save_obj(
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/sqlalchemy/orm/persistence.py", line 85, in save_obj
+    _emit_update_statements(
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/sqlalchemy/orm/persistence.py", line 912, in _emit_update_statements
+    c = connection.execute(
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 1419, in execute
+    return meth(
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/sqlalchemy/sql/elements.py", line 526, in _execute_on_connection
+    return connection._execute_clauseelement(
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 1641, in _execute_clauseelement
+    ret = self._execute_context(
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 1846, in _execute_context
+    return self._exec_single_context(
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 1986, in _exec_single_context
+    self._handle_dbapi_exception(
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 2355, in _handle_dbapi_exception
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 1967, in _exec_single_context
+    self.dialect.do_execute(
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/sqlalchemy/engine/default.py", line 951, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.IntegrityError: (sqlite3.IntegrityError) NOT NULL constraint failed: orders.product_id
+[SQL: UPDATE orders SET product_id=? WHERE orders.id = ?]
+[parameters: (None, 17)]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+[2025-11-21 02:38:26,210] ERROR in app: Exception on /admin/delete_product [POST]
+Traceback (most recent call last):
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 1967, in _exec_single_context
+    self.dialect.do_execute(
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/sqlalchemy/engine/default.py", line 951, in do_execute
+    cursor.execute(statement, parameters)
+sqlite3.IntegrityError: NOT NULL constraint failed: orders.product_id
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/flask/app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/flask/app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/flask/app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/flask/app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/flask_login/utils.py", line 290, in decorated_view
+    return current_app.ensure_sync(func)(*args, **kwargs)
+  File "/home/adminses/My_Projects/shopping_website/app.py", line 688, in delete_product
+    if product.image:
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/sqlalchemy/orm/scoping.py", line 597, in commit
+    return self._proxied.commit()
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/sqlalchemy/orm/session.py", line 2030, in commit
+    trans.commit(_to_root=True)
+  File "<string>", line 2, in commit
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/sqlalchemy/orm/state_changes.py", line 137, in _go
+    ret_value = fn(self, *arg, **kw)
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/sqlalchemy/orm/session.py", line 1311, in commit
+    self._prepare_impl()
+  File "<string>", line 2, in _prepare_impl
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/sqlalchemy/orm/state_changes.py", line 137, in _go
+    ret_value = fn(self, *arg, **kw)
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/sqlalchemy/orm/session.py", line 1286, in _prepare_impl
+    self.session.flush()
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/sqlalchemy/orm/session.py", line 4331, in flush
+    self._flush(objects)
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/sqlalchemy/orm/session.py", line 4466, in _flush
+    with util.safe_reraise():
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/sqlalchemy/util/langhelpers.py", line 224, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/sqlalchemy/orm/session.py", line 4427, in _flush
+    flush_context.execute()
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/sqlalchemy/orm/unitofwork.py", line 466, in execute
+    rec.execute(self)
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/sqlalchemy/orm/unitofwork.py", line 642, in execute
+    util.preloaded.orm_persistence.save_obj(
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/sqlalchemy/orm/persistence.py", line 85, in save_obj
+    _emit_update_statements(
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/sqlalchemy/orm/persistence.py", line 912, in _emit_update_statements
+    c = connection.execute(
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 1419, in execute
+    return meth(
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/sqlalchemy/sql/elements.py", line 526, in _execute_on_connection
+    return connection._execute_clauseelement(
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 1641, in _execute_clauseelement
+    ret = self._execute_context(
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 1846, in _execute_context
+    return self._exec_single_context(
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 1986, in _exec_single_context
+    self._handle_dbapi_exception(
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 2355, in _handle_dbapi_exception
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 1967, in _exec_single_context
+    self.dialect.do_execute(
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/sqlalchemy/engine/default.py", line 951, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.IntegrityError: (sqlite3.IntegrityError) NOT NULL constraint failed: orders.product_id
+[SQL: UPDATE orders SET product_id=? WHERE orders.id = ?]
+[parameters: (None, 17)]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+[2025-11-21 02:38:33,161] ERROR in app: Exception on /admin/delete_product [POST]
+Traceback (most recent call last):
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 1967, in _exec_single_context
+    self.dialect.do_execute(
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/sqlalchemy/engine/default.py", line 951, in do_execute
+    cursor.execute(statement, parameters)
+sqlite3.IntegrityError: NOT NULL constraint failed: orders.product_id
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/flask/app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/flask/app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/flask/app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/flask/app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/flask_login/utils.py", line 290, in decorated_view
+    return current_app.ensure_sync(func)(*args, **kwargs)
+  File "/home/adminses/My_Projects/shopping_website/app.py", line 688, in delete_product
+    if product.image:
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/sqlalchemy/orm/scoping.py", line 597, in commit
+    return self._proxied.commit()
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/sqlalchemy/orm/session.py", line 2030, in commit
+    trans.commit(_to_root=True)
+  File "<string>", line 2, in commit
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/sqlalchemy/orm/state_changes.py", line 137, in _go
+    ret_value = fn(self, *arg, **kw)
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/sqlalchemy/orm/session.py", line 1311, in commit
+    self._prepare_impl()
+  File "<string>", line 2, in _prepare_impl
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/sqlalchemy/orm/state_changes.py", line 137, in _go
+    ret_value = fn(self, *arg, **kw)
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/sqlalchemy/orm/session.py", line 1286, in _prepare_impl
+    self.session.flush()
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/sqlalchemy/orm/session.py", line 4331, in flush
+    self._flush(objects)
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/sqlalchemy/orm/session.py", line 4466, in _flush
+    with util.safe_reraise():
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/sqlalchemy/util/langhelpers.py", line 224, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/sqlalchemy/orm/session.py", line 4427, in _flush
+    flush_context.execute()
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/sqlalchemy/orm/unitofwork.py", line 466, in execute
+    rec.execute(self)
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/sqlalchemy/orm/unitofwork.py", line 642, in execute
+    util.preloaded.orm_persistence.save_obj(
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/sqlalchemy/orm/persistence.py", line 85, in save_obj
+    _emit_update_statements(
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/sqlalchemy/orm/persistence.py", line 912, in _emit_update_statements
+    c = connection.execute(
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 1419, in execute
+    return meth(
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/sqlalchemy/sql/elements.py", line 526, in _execute_on_connection
+    return connection._execute_clauseelement(
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 1641, in _execute_clauseelement
+    ret = self._execute_context(
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 1846, in _execute_context
+    return self._exec_single_context(
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 1986, in _exec_single_context
+    self._handle_dbapi_exception(
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 2355, in _handle_dbapi_exception
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 1967, in _exec_single_context
+    self.dialect.do_execute(
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/sqlalchemy/engine/default.py", line 951, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.IntegrityError: (sqlite3.IntegrityError) NOT NULL constraint failed: orders.product_id
+[SQL: UPDATE orders SET product_id=? WHERE orders.id = ?]
+[parameters: (None, 17)]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+[2025-11-21 02:39:16,297] ERROR in app: Exception on /admin/delete_product [POST]
+Traceback (most recent call last):
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 1967, in _exec_single_context
+    self.dialect.do_execute(
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/sqlalchemy/engine/default.py", line 951, in do_execute
+    cursor.execute(statement, parameters)
+sqlite3.IntegrityError: NOT NULL constraint failed: orders.product_id
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/flask/app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/flask/app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/flask/app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/flask/app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/flask_login/utils.py", line 290, in decorated_view
+    return current_app.ensure_sync(func)(*args, **kwargs)
+  File "/home/adminses/My_Projects/shopping_website/app.py", line 688, in delete_product
+    if product.image:
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/sqlalchemy/orm/scoping.py", line 597, in commit
+    return self._proxied.commit()
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/sqlalchemy/orm/session.py", line 2030, in commit
+    trans.commit(_to_root=True)
+  File "<string>", line 2, in commit
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/sqlalchemy/orm/state_changes.py", line 137, in _go
+    ret_value = fn(self, *arg, **kw)
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/sqlalchemy/orm/session.py", line 1311, in commit
+    self._prepare_impl()
+  File "<string>", line 2, in _prepare_impl
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/sqlalchemy/orm/state_changes.py", line 137, in _go
+    ret_value = fn(self, *arg, **kw)
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/sqlalchemy/orm/session.py", line 1286, in _prepare_impl
+    self.session.flush()
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/sqlalchemy/orm/session.py", line 4331, in flush
+    self._flush(objects)
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/sqlalchemy/orm/session.py", line 4466, in _flush
+    with util.safe_reraise():
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/sqlalchemy/util/langhelpers.py", line 224, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/sqlalchemy/orm/session.py", line 4427, in _flush
+    flush_context.execute()
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/sqlalchemy/orm/unitofwork.py", line 466, in execute
+    rec.execute(self)
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/sqlalchemy/orm/unitofwork.py", line 642, in execute
+    util.preloaded.orm_persistence.save_obj(
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/sqlalchemy/orm/persistence.py", line 85, in save_obj
+    _emit_update_statements(
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/sqlalchemy/orm/persistence.py", line 912, in _emit_update_statements
+    c = connection.execute(
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 1419, in execute
+    return meth(
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/sqlalchemy/sql/elements.py", line 526, in _execute_on_connection
+    return connection._execute_clauseelement(
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 1641, in _execute_clauseelement
+    ret = self._execute_context(
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 1846, in _execute_context
+    return self._exec_single_context(
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 1986, in _exec_single_context
+    self._handle_dbapi_exception(
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 2355, in _handle_dbapi_exception
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 1967, in _exec_single_context
+    self.dialect.do_execute(
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/sqlalchemy/engine/default.py", line 951, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.IntegrityError: (sqlite3.IntegrityError) NOT NULL constraint failed: orders.product_id
+[SQL: UPDATE orders SET product_id=? WHERE orders.id = ?]
+[parameters: (None, 17)]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+[2025-11-21 02:40:44,157] ERROR in app: Exception on /admin/delete_product [POST]
+Traceback (most recent call last):
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 1967, in _exec_single_context
+    self.dialect.do_execute(
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/sqlalchemy/engine/default.py", line 951, in do_execute
+    cursor.execute(statement, parameters)
+sqlite3.IntegrityError: NOT NULL constraint failed: orders.product_id
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/flask/app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/flask/app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/flask/app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/flask/app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/flask_login/utils.py", line 290, in decorated_view
+    return current_app.ensure_sync(func)(*args, **kwargs)
+  File "/home/adminses/My_Projects/shopping_website/app.py", line 688, in delete_product
+    for order in orders:
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/sqlalchemy/orm/scoping.py", line 597, in commit
+    return self._proxied.commit()
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/sqlalchemy/orm/session.py", line 2030, in commit
+    trans.commit(_to_root=True)
+  File "<string>", line 2, in commit
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/sqlalchemy/orm/state_changes.py", line 137, in _go
+    ret_value = fn(self, *arg, **kw)
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/sqlalchemy/orm/session.py", line 1311, in commit
+    self._prepare_impl()
+  File "<string>", line 2, in _prepare_impl
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/sqlalchemy/orm/state_changes.py", line 137, in _go
+    ret_value = fn(self, *arg, **kw)
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/sqlalchemy/orm/session.py", line 1286, in _prepare_impl
+    self.session.flush()
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/sqlalchemy/orm/session.py", line 4331, in flush
+    self._flush(objects)
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/sqlalchemy/orm/session.py", line 4466, in _flush
+    with util.safe_reraise():
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/sqlalchemy/util/langhelpers.py", line 224, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/sqlalchemy/orm/session.py", line 4427, in _flush
+    flush_context.execute()
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/sqlalchemy/orm/unitofwork.py", line 466, in execute
+    rec.execute(self)
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/sqlalchemy/orm/unitofwork.py", line 642, in execute
+    util.preloaded.orm_persistence.save_obj(
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/sqlalchemy/orm/persistence.py", line 85, in save_obj
+    _emit_update_statements(
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/sqlalchemy/orm/persistence.py", line 912, in _emit_update_statements
+    c = connection.execute(
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 1419, in execute
+    return meth(
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/sqlalchemy/sql/elements.py", line 526, in _execute_on_connection
+    return connection._execute_clauseelement(
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 1641, in _execute_clauseelement
+    ret = self._execute_context(
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 1846, in _execute_context
+    return self._exec_single_context(
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 1986, in _exec_single_context
+    self._handle_dbapi_exception(
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 2355, in _handle_dbapi_exception
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 1967, in _exec_single_context
+    self.dialect.do_execute(
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/sqlalchemy/engine/default.py", line 951, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.IntegrityError: (sqlite3.IntegrityError) NOT NULL constraint failed: orders.product_id
+[SQL: UPDATE orders SET product_id=? WHERE orders.id = ?]
+[parameters: (None, 17)]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+[2025-11-21 02:41:22 +0800] [12052] [INFO] Handling signal: term
+[2025-11-21 02:41:22 +0800] [12071] [INFO] Worker exiting (pid: 12071)
+[2025-11-21 02:41:22 +0800] [12072] [INFO] Worker exiting (pid: 12072)
+[2025-11-21 02:41:22 +0800] [12073] [INFO] Worker exiting (pid: 12073)
+[2025-11-21 02:41:22 +0800] [12052] [ERROR] Worker (pid:12072) was sent SIGTERM!
+[2025-11-21 02:41:22 +0800] [12052] [ERROR] Worker (pid:12073) was sent SIGTERM!
+[2025-11-21 02:41:22 +0800] [12052] [ERROR] Worker (pid:12071) was sent SIGTERM!
+[2025-11-21 02:41:22 +0800] [12052] [INFO] Shutting down: Master
+[2025-11-21 02:41:23 +0800] [26158] [INFO] Starting gunicorn 21.2.0
+[2025-11-21 02:41:23 +0800] [26158] [INFO] Listening at: http://127.0.0.1:8000 (26158)
+[2025-11-21 02:41:23 +0800] [26158] [INFO] Using worker: sync
+[2025-11-21 02:41:23 +0800] [26177] [INFO] Booting worker with pid: 26177
+[2025-11-21 02:41:23 +0800] [26178] [INFO] Booting worker with pid: 26178
+[2025-11-21 02:41:23 +0800] [26179] [INFO] Booting worker with pid: 26179
+[2025-11-21 02:45:22 +0800] [26158] [INFO] Handling signal: term
+[2025-11-21 02:45:22 +0800] [26177] [INFO] Worker exiting (pid: 26177)
+[2025-11-21 02:45:22 +0800] [26178] [INFO] Worker exiting (pid: 26178)
+[2025-11-21 02:45:22 +0800] [26179] [INFO] Worker exiting (pid: 26179)
+[2025-11-21 02:45:22 +0800] [26158] [ERROR] Worker (pid:26177) was sent SIGTERM!
+[2025-11-21 02:45:22 +0800] [26158] [ERROR] Worker (pid:26179) was sent SIGTERM!
+[2025-11-21 02:45:22 +0800] [26158] [ERROR] Worker (pid:26178) was sent SIGTERM!
+[2025-11-21 02:45:22 +0800] [26158] [INFO] Shutting down: Master
+[2025-11-21 02:45:23 +0800] [26862] [INFO] Starting gunicorn 21.2.0
+[2025-11-21 02:45:23 +0800] [26862] [INFO] Listening at: http://127.0.0.1:8000 (26862)
+[2025-11-21 02:45:23 +0800] [26862] [INFO] Using worker: sync
+[2025-11-21 02:45:23 +0800] [26885] [INFO] Booting worker with pid: 26885
+[2025-11-21 02:45:23 +0800] [26886] [INFO] Booting worker with pid: 26886
+[2025-11-21 02:45:23 +0800] [26887] [INFO] Booting worker with pid: 26887
+[2025-11-21 03:22:31 +0800] [26862] [INFO] Handling signal: term
+[2025-11-21 03:22:31 +0800] [26885] [INFO] Worker exiting (pid: 26885)
+[2025-11-21 03:22:31 +0800] [26886] [INFO] Worker exiting (pid: 26886)
+[2025-11-21 03:22:31 +0800] [26887] [INFO] Worker exiting (pid: 26887)
+[2025-11-21 03:22:31 +0800] [26862] [ERROR] Worker (pid:26885) was sent SIGTERM!
+[2025-11-21 03:22:31 +0800] [26862] [ERROR] Worker (pid:26887) was sent SIGTERM!
+[2025-11-21 03:22:31 +0800] [26862] [ERROR] Worker (pid:26886) was sent SIGTERM!
+[2025-11-21 03:22:31 +0800] [26862] [INFO] Shutting down: Master
+[2025-11-21 03:22:31 +0800] [33164] [INFO] Starting gunicorn 21.2.0
+[2025-11-21 03:22:31 +0800] [33164] [INFO] Listening at: http://127.0.0.1:8000 (33164)
+[2025-11-21 03:22:31 +0800] [33164] [INFO] Using worker: sync
+[2025-11-21 03:22:31 +0800] [33185] [INFO] Booting worker with pid: 33185
+[2025-11-21 03:22:31 +0800] [33186] [INFO] Booting worker with pid: 33186
+[2025-11-21 03:22:32 +0800] [33187] [INFO] Booting worker with pid: 33187
+[2025-11-21 03:32:01 +0800] [33164] [INFO] Handling signal: term
+[2025-11-21 03:32:01 +0800] [33185] [INFO] Worker exiting (pid: 33185)
+[2025-11-21 03:32:01 +0800] [33186] [INFO] Worker exiting (pid: 33186)
+[2025-11-21 03:32:01 +0800] [33187] [INFO] Worker exiting (pid: 33187)
+[2025-11-21 03:32:01 +0800] [33164] [ERROR] Worker (pid:33185) was sent SIGTERM!
+[2025-11-21 03:32:01 +0800] [33164] [ERROR] Worker (pid:33186) was sent SIGTERM!
+[2025-11-21 03:32:01 +0800] [33164] [ERROR] Worker (pid:33187) was sent SIGTERM!
+[2025-11-21 03:32:01 +0800] [33164] [INFO] Shutting down: Master
+[2025-11-21 03:32:02 +0800] [34971] [INFO] Starting gunicorn 21.2.0
+[2025-11-21 03:32:02 +0800] [34971] [INFO] Listening at: http://127.0.0.1:8000 (34971)
+[2025-11-21 03:32:02 +0800] [34971] [INFO] Using worker: sync
+[2025-11-21 03:32:02 +0800] [34977] [INFO] Booting worker with pid: 34977
+[2025-11-21 03:32:02 +0800] [34978] [INFO] Booting worker with pid: 34978
+[2025-11-21 03:32:02 +0800] [34979] [INFO] Booting worker with pid: 34979
+[2025-11-21 03:41:37 +0800] [34971] [INFO] Handling signal: term
+[2025-11-21 03:41:37 +0800] [34977] [INFO] Worker exiting (pid: 34977)
+[2025-11-21 03:41:37 +0800] [34979] [INFO] Worker exiting (pid: 34979)
+[2025-11-21 03:41:37 +0800] [34978] [INFO] Worker exiting (pid: 34978)
+[2025-11-21 03:41:37 +0800] [34971] [ERROR] Worker (pid:34977) was sent SIGTERM!
+[2025-11-21 03:41:37 +0800] [34971] [ERROR] Worker (pid:34978) was sent SIGTERM!
+[2025-11-21 03:41:37 +0800] [34971] [ERROR] Worker (pid:34979) was sent SIGTERM!
+[2025-11-21 03:41:37 +0800] [34971] [INFO] Shutting down: Master
+[2025-11-21 03:41:38 +0800] [36666] [INFO] Starting gunicorn 21.2.0
+[2025-11-21 03:41:38 +0800] [36666] [INFO] Listening at: http://127.0.0.1:8000 (36666)
+[2025-11-21 03:41:38 +0800] [36666] [INFO] Using worker: sync
+[2025-11-21 03:41:38 +0800] [36672] [INFO] Booting worker with pid: 36672
+[2025-11-21 03:41:38 +0800] [36673] [INFO] Booting worker with pid: 36673
+[2025-11-21 03:41:38 +0800] [36674] [INFO] Booting worker with pid: 36674
+[2025-11-21 03:46:10 +0800] [36666] [INFO] Handling signal: term
+[2025-11-21 03:46:10 +0800] [36672] [INFO] Worker exiting (pid: 36672)
+[2025-11-21 03:46:10 +0800] [36673] [INFO] Worker exiting (pid: 36673)
+[2025-11-21 03:46:10 +0800] [36674] [INFO] Worker exiting (pid: 36674)
+[2025-11-21 03:46:10 +0800] [36666] [ERROR] Worker (pid:36672) was sent SIGTERM!
+[2025-11-21 03:46:10 +0800] [36666] [ERROR] Worker (pid:36673) was sent SIGTERM!
+[2025-11-21 03:46:11 +0800] [36666] [ERROR] Worker (pid:36674) was sent SIGTERM!
+[2025-11-21 03:46:11 +0800] [36666] [INFO] Shutting down: Master
+[2025-11-21 03:46:11 +0800] [37589] [INFO] Starting gunicorn 21.2.0
+[2025-11-21 03:46:11 +0800] [37589] [INFO] Listening at: http://127.0.0.1:8000 (37589)
+[2025-11-21 03:46:11 +0800] [37589] [INFO] Using worker: sync
+[2025-11-21 03:46:11 +0800] [37594] [INFO] Booting worker with pid: 37594
+[2025-11-21 03:46:11 +0800] [37595] [INFO] Booting worker with pid: 37595
+[2025-11-21 03:46:11 +0800] [37596] [INFO] Booting worker with pid: 37596
+[2025-11-21 03:51:28 +0800] [37589] [INFO] Handling signal: term
+[2025-11-21 03:51:28 +0800] [37594] [INFO] Worker exiting (pid: 37594)
+[2025-11-21 03:51:28 +0800] [37595] [INFO] Worker exiting (pid: 37595)
+[2025-11-21 03:51:28 +0800] [37596] [INFO] Worker exiting (pid: 37596)
+[2025-11-21 03:51:28 +0800] [37589] [ERROR] Worker (pid:37594) was sent SIGTERM!
+[2025-11-21 03:51:28 +0800] [37589] [ERROR] Worker (pid:37596) was sent SIGTERM!
+[2025-11-21 03:51:28 +0800] [37589] [ERROR] Worker (pid:37595) was sent SIGTERM!
+[2025-11-21 03:51:28 +0800] [37589] [INFO] Shutting down: Master
+[2025-11-21 03:51:29 +0800] [38692] [INFO] Starting gunicorn 21.2.0
+[2025-11-21 03:51:29 +0800] [38692] [INFO] Listening at: http://127.0.0.1:8000 (38692)
+[2025-11-21 03:51:29 +0800] [38692] [INFO] Using worker: sync
+[2025-11-21 03:51:29 +0800] [38698] [INFO] Booting worker with pid: 38698
+[2025-11-21 03:51:29 +0800] [38699] [INFO] Booting worker with pid: 38699
+[2025-11-21 03:51:29 +0800] [38701] [INFO] Booting worker with pid: 38701
+[2025-11-21 03:54:43 +0800] [38692] [INFO] Handling signal: term
+[2025-11-21 03:54:43 +0800] [38698] [INFO] Worker exiting (pid: 38698)
+[2025-11-21 03:54:43 +0800] [38699] [INFO] Worker exiting (pid: 38699)
+[2025-11-21 03:54:43 +0800] [38701] [INFO] Worker exiting (pid: 38701)
+[2025-11-21 03:54:43 +0800] [38692] [ERROR] Worker (pid:38701) was sent SIGTERM!
+[2025-11-21 03:54:43 +0800] [38692] [ERROR] Worker (pid:38698) was sent SIGTERM!
+[2025-11-21 03:54:43 +0800] [38692] [ERROR] Worker (pid:38699) was sent SIGTERM!
+[2025-11-21 03:54:43 +0800] [38692] [INFO] Shutting down: Master
+[2025-11-21 03:54:44 +0800] [39316] [INFO] Starting gunicorn 21.2.0
+[2025-11-21 03:54:44 +0800] [39316] [INFO] Listening at: http://127.0.0.1:8000 (39316)
+[2025-11-21 03:54:44 +0800] [39316] [INFO] Using worker: sync
+[2025-11-21 03:54:44 +0800] [39318] [INFO] Booting worker with pid: 39318
+[2025-11-21 03:54:44 +0800] [39319] [INFO] Booting worker with pid: 39319
+[2025-11-21 03:54:44 +0800] [39320] [INFO] Booting worker with pid: 39320
+[2025-11-21 03:59:00 +0800] [39316] [INFO] Handling signal: term
+[2025-11-21 03:59:00 +0800] [39318] [INFO] Worker exiting (pid: 39318)
+[2025-11-21 03:59:00 +0800] [39319] [INFO] Worker exiting (pid: 39319)
+[2025-11-21 03:59:00 +0800] [39320] [INFO] Worker exiting (pid: 39320)
+[2025-11-21 03:59:00 +0800] [39316] [ERROR] Worker (pid:39318) was sent SIGTERM!
+[2025-11-21 03:59:00 +0800] [39316] [ERROR] Worker (pid:39319) was sent SIGTERM!
+[2025-11-21 03:59:00 +0800] [39316] [ERROR] Worker (pid:39320) was sent SIGTERM!
+[2025-11-21 03:59:00 +0800] [39316] [INFO] Shutting down: Master
+[2025-11-21 03:59:01 +0800] [40176] [INFO] Starting gunicorn 21.2.0
+[2025-11-21 03:59:01 +0800] [40176] [INFO] Listening at: http://127.0.0.1:8000 (40176)
+[2025-11-21 03:59:01 +0800] [40176] [INFO] Using worker: sync
+[2025-11-21 03:59:01 +0800] [40181] [INFO] Booting worker with pid: 40181
+[2025-11-21 03:59:01 +0800] [40182] [INFO] Booting worker with pid: 40182
+[2025-11-21 03:59:01 +0800] [40183] [INFO] Booting worker with pid: 40183
+[2025-11-21 03:59:08 +0800] [40176] [INFO] Handling signal: term
+[2025-11-21 03:59:08 +0800] [40181] [INFO] Worker exiting (pid: 40181)
+[2025-11-21 03:59:08 +0800] [40182] [INFO] Worker exiting (pid: 40182)
+[2025-11-21 03:59:08 +0800] [40183] [INFO] Worker exiting (pid: 40183)
+[2025-11-21 03:59:08 +0800] [40176] [ERROR] Worker (pid:40182) was sent SIGTERM!
+[2025-11-21 03:59:08 +0800] [40176] [ERROR] Worker (pid:40183) was sent SIGTERM!
+[2025-11-21 03:59:09 +0800] [40176] [INFO] Shutting down: Master
+[2025-11-21 03:59:09 +0800] [40242] [INFO] Starting gunicorn 21.2.0
+[2025-11-21 03:59:09 +0800] [40242] [INFO] Listening at: http://127.0.0.1:8000 (40242)
+[2025-11-21 03:59:09 +0800] [40242] [INFO] Using worker: sync
+[2025-11-21 03:59:09 +0800] [40246] [INFO] Booting worker with pid: 40246
+[2025-11-21 03:59:09 +0800] [40247] [INFO] Booting worker with pid: 40247
+[2025-11-21 03:59:09 +0800] [40248] [INFO] Booting worker with pid: 40248
+[2025-11-21 03:59:18,682] ERROR in app: Exception on /my_orders [GET]
+Traceback (most recent call last):
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/flask/app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/flask/app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/flask/app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/flask/app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/flask_login/utils.py", line 290, in decorated_view
+    return current_app.ensure_sync(func)(*args, **kwargs)
+  File "/home/adminses/My_Projects/shopping_website/app.py", line 591, in my_orders
+    return render_template('my_orders.html', order_groups=order_groups, total_orders=len(all_orders))
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/flask/templating.py", line 150, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/jinja2/environment.py", line 1087, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/jinja2/environment.py", line 1016, in get_template
+    return self._load_template(name, globals)
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/jinja2/environment.py", line 975, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/jinja2/loaders.py", line 138, in load
+    code = environment.compile(source, name, filename)
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/jinja2/environment.py", line 771, in compile
+    self.handle_exception(source=source_hint)
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/jinja2/environment.py", line 942, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "/home/adminses/My_Projects/shopping_website/templates/my_orders.html", line 244, in template
+    {% endblock %}
+jinja2.exceptions.TemplateSyntaxError: Unexpected end of template. Jinja was looking for the following tags: 'endblock'. The innermost block that needs to be closed is 'block'.
+[2025-11-21 03:59:24,927] ERROR in app: Exception on /my_orders [GET]
+Traceback (most recent call last):
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/flask/app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/flask/app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/flask/app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/flask/app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/flask_login/utils.py", line 290, in decorated_view
+    return current_app.ensure_sync(func)(*args, **kwargs)
+  File "/home/adminses/My_Projects/shopping_website/app.py", line 591, in my_orders
+    return render_template('my_orders.html', order_groups=order_groups, total_orders=len(all_orders))
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/flask/templating.py", line 150, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/jinja2/environment.py", line 1087, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/jinja2/environment.py", line 1016, in get_template
+    return self._load_template(name, globals)
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/jinja2/environment.py", line 975, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/jinja2/loaders.py", line 138, in load
+    code = environment.compile(source, name, filename)
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/jinja2/environment.py", line 771, in compile
+    self.handle_exception(source=source_hint)
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/jinja2/environment.py", line 942, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "/home/adminses/My_Projects/shopping_website/templates/my_orders.html", line 244, in template
+    {% endblock %}
+jinja2.exceptions.TemplateSyntaxError: Unexpected end of template. Jinja was looking for the following tags: 'endblock'. The innermost block that needs to be closed is 'block'.
+[2025-11-21 03:59:30,322] ERROR in app: Exception on /my_orders [GET]
+Traceback (most recent call last):
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/flask/app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/flask/app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/flask/app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/flask/app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/flask_login/utils.py", line 290, in decorated_view
+    return current_app.ensure_sync(func)(*args, **kwargs)
+  File "/home/adminses/My_Projects/shopping_website/app.py", line 591, in my_orders
+    return render_template('my_orders.html', order_groups=order_groups, total_orders=len(all_orders))
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/flask/templating.py", line 150, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/jinja2/environment.py", line 1087, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/jinja2/environment.py", line 1016, in get_template
+    return self._load_template(name, globals)
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/jinja2/environment.py", line 975, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/jinja2/loaders.py", line 138, in load
+    code = environment.compile(source, name, filename)
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/jinja2/environment.py", line 771, in compile
+    self.handle_exception(source=source_hint)
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/jinja2/environment.py", line 942, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "/home/adminses/My_Projects/shopping_website/templates/my_orders.html", line 244, in template
+    {% endblock %}
+jinja2.exceptions.TemplateSyntaxError: Unexpected end of template. Jinja was looking for the following tags: 'endblock'. The innermost block that needs to be closed is 'block'.
+[2025-11-21 03:59:36 +0800] [40242] [INFO] Handling signal: term
+[2025-11-21 03:59:36 +0800] [40247] [INFO] Worker exiting (pid: 40247)
+[2025-11-21 03:59:36 +0800] [40248] [INFO] Worker exiting (pid: 40248)
+[2025-11-21 03:59:36 +0800] [40246] [INFO] Worker exiting (pid: 40246)
+[2025-11-21 03:59:36 +0800] [40242] [ERROR] Worker (pid:40247) was sent SIGTERM!
+[2025-11-21 03:59:36 +0800] [40242] [ERROR] Worker (pid:40248) was sent SIGTERM!
+[2025-11-21 03:59:36 +0800] [40242] [INFO] Shutting down: Master
+[2025-11-21 03:59:37 +0800] [40348] [INFO] Starting gunicorn 21.2.0
+[2025-11-21 03:59:37 +0800] [40348] [INFO] Listening at: http://127.0.0.1:8000 (40348)
+[2025-11-21 03:59:37 +0800] [40348] [INFO] Using worker: sync
+[2025-11-21 03:59:37 +0800] [40350] [INFO] Booting worker with pid: 40350
+[2025-11-21 03:59:37 +0800] [40351] [INFO] Booting worker with pid: 40351
+[2025-11-21 03:59:37 +0800] [40352] [INFO] Booting worker with pid: 40352
+[2025-11-21 03:59:39,631] ERROR in app: Exception on /my_orders [GET]
+Traceback (most recent call last):
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/flask/app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/flask/app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/flask/app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/flask/app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/flask_login/utils.py", line 290, in decorated_view
+    return current_app.ensure_sync(func)(*args, **kwargs)
+  File "/home/adminses/My_Projects/shopping_website/app.py", line 591, in my_orders
+    return render_template('my_orders.html', order_groups=order_groups, total_orders=len(all_orders))
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/flask/templating.py", line 150, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/jinja2/environment.py", line 1087, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/jinja2/environment.py", line 1016, in get_template
+    return self._load_template(name, globals)
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/jinja2/environment.py", line 975, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/jinja2/loaders.py", line 138, in load
+    code = environment.compile(source, name, filename)
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/jinja2/environment.py", line 771, in compile
+    self.handle_exception(source=source_hint)
+  File "/home/adminses/My_Projects/shopping_website/venv/lib/python3.10/site-packages/jinja2/environment.py", line 942, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "/home/adminses/My_Projects/shopping_website/templates/my_orders.html", line 244, in template
+    {% endblock %}
+jinja2.exceptions.TemplateSyntaxError: Unexpected end of template. Jinja was looking for the following tags: 'endblock'. The innermost block that needs to be closed is 'block'.
+[2025-11-21 04:01:12 +0800] [40348] [INFO] Handling signal: term
+[2025-11-21 04:01:12 +0800] [40350] [INFO] Worker exiting (pid: 40350)
+[2025-11-21 04:01:12 +0800] [40351] [INFO] Worker exiting (pid: 40351)
+[2025-11-21 04:01:12 +0800] [40352] [INFO] Worker exiting (pid: 40352)
+[2025-11-21 04:01:12 +0800] [40348] [ERROR] Worker (pid:40352) was sent SIGTERM!
+[2025-11-21 04:01:12 +0800] [40348] [ERROR] Worker (pid:40350) was sent SIGTERM!
+[2025-11-21 04:01:12 +0800] [40348] [ERROR] Worker (pid:40351) was sent SIGTERM!
+[2025-11-21 04:01:12 +0800] [40348] [INFO] Shutting down: Master
+[2025-11-21 04:01:13 +0800] [40809] [INFO] Starting gunicorn 21.2.0
+[2025-11-21 04:01:13 +0800] [40809] [INFO] Listening at: http://127.0.0.1:8000 (40809)
+[2025-11-21 04:01:13 +0800] [40809] [INFO] Using worker: sync
+[2025-11-21 04:01:13 +0800] [40811] [INFO] Booting worker with pid: 40811
+[2025-11-21 04:01:13 +0800] [40812] [INFO] Booting worker with pid: 40812
+[2025-11-21 04:01:13 +0800] [40813] [INFO] Booting worker with pid: 40813
+[2025-11-21 04:02:42 +0800] [40809] [INFO] Handling signal: term
+[2025-11-21 04:02:42 +0800] [40811] [INFO] Worker exiting (pid: 40811)
+[2025-11-21 04:02:42 +0800] [40812] [INFO] Worker exiting (pid: 40812)
+[2025-11-21 04:02:42 +0800] [40813] [INFO] Worker exiting (pid: 40813)
+[2025-11-21 04:02:42 +0800] [40809] [ERROR] Worker (pid:40811) was sent SIGTERM!
+[2025-11-21 04:02:42 +0800] [40809] [ERROR] Worker (pid:40813) was sent SIGTERM!
+[2025-11-21 04:02:42 +0800] [40809] [ERROR] Worker (pid:40812) was sent SIGTERM!
+[2025-11-21 04:02:42 +0800] [40809] [INFO] Shutting down: Master
+[2025-11-21 04:02:42 +0800] [41494] [INFO] Starting gunicorn 21.2.0
+[2025-11-21 04:02:42 +0800] [41494] [INFO] Listening at: http://127.0.0.1:8000 (41494)
+[2025-11-21 04:02:42 +0800] [41494] [INFO] Using worker: sync
+[2025-11-21 04:02:42 +0800] [41497] [INFO] Booting worker with pid: 41497
+[2025-11-21 04:02:43 +0800] [41498] [INFO] Booting worker with pid: 41498
+[2025-11-21 04:02:43 +0800] [41499] [INFO] Booting worker with pid: 41499
+[2025-11-21 04:03:38 +0800] [41494] [INFO] Handling signal: term
+[2025-11-21 04:03:38 +0800] [41497] [INFO] Worker exiting (pid: 41497)
+[2025-11-21 04:03:38 +0800] [41498] [INFO] Worker exiting (pid: 41498)
+[2025-11-21 04:03:38 +0800] [41499] [INFO] Worker exiting (pid: 41499)
+[2025-11-21 04:03:38 +0800] [41494] [ERROR] Worker (pid:41497) was sent SIGTERM!
+[2025-11-21 04:03:38 +0800] [41494] [ERROR] Worker (pid:41499) was sent SIGTERM!
+[2025-11-21 04:03:38 +0800] [41494] [ERROR] Worker (pid:41498) was sent SIGTERM!
+[2025-11-21 04:03:39 +0800] [41494] [INFO] Shutting down: Master
+[2025-11-21 04:03:40 +0800] [42083] [INFO] Starting gunicorn 21.2.0
+[2025-11-21 04:03:40 +0800] [42083] [INFO] Listening at: http://127.0.0.1:8000 (42083)
+[2025-11-21 04:03:40 +0800] [42083] [INFO] Using worker: sync
+[2025-11-21 04:03:40 +0800] [42091] [INFO] Booting worker with pid: 42091
+[2025-11-21 04:03:40 +0800] [42092] [INFO] Booting worker with pid: 42092
+[2025-11-21 04:03:40 +0800] [42093] [INFO] Booting worker with pid: 42093
+[2025-11-21 04:04:48 +0800] [42083] [INFO] Handling signal: term
+[2025-11-21 04:04:48 +0800] [42091] [INFO] Worker exiting (pid: 42091)
+[2025-11-21 04:04:48 +0800] [42092] [INFO] Worker exiting (pid: 42092)
+[2025-11-21 04:04:48 +0800] [42093] [INFO] Worker exiting (pid: 42093)
+[2025-11-21 04:04:48 +0800] [42083] [ERROR] Worker (pid:42091) was sent SIGTERM!
+[2025-11-21 04:04:48 +0800] [42083] [ERROR] Worker (pid:42093) was sent SIGTERM!
+[2025-11-21 04:04:48 +0800] [42083] [ERROR] Worker (pid:42092) was sent SIGTERM!
+[2025-11-21 04:04:48 +0800] [42083] [INFO] Shutting down: Master
+[2025-11-21 04:04:49 +0800] [42557] [INFO] Starting gunicorn 21.2.0
+[2025-11-21 04:04:49 +0800] [42557] [INFO] Listening at: http://127.0.0.1:8000 (42557)
+[2025-11-21 04:04:49 +0800] [42557] [INFO] Using worker: sync
+[2025-11-21 04:04:49 +0800] [42560] [INFO] Booting worker with pid: 42560
+[2025-11-21 04:04:49 +0800] [42562] [INFO] Booting worker with pid: 42562
+[2025-11-21 04:04:49 +0800] [42563] [INFO] Booting worker with pid: 42563
+[2025-11-21 04:15:03 +0800] [42557] [INFO] Handling signal: term
+[2025-11-21 04:15:03 +0800] [42560] [INFO] Worker exiting (pid: 42560)
+[2025-11-21 04:15:03 +0800] [42562] [INFO] Worker exiting (pid: 42562)
+[2025-11-21 04:15:03 +0800] [42563] [INFO] Worker exiting (pid: 42563)
+[2025-11-21 04:15:03 +0800] [42557] [ERROR] Worker (pid:42560) was sent SIGTERM!
+[2025-11-21 04:15:03 +0800] [42557] [ERROR] Worker (pid:42563) was sent SIGTERM!
+[2025-11-21 04:15:03 +0800] [42557] [ERROR] Worker (pid:42562) was sent SIGTERM!
+[2025-11-21 04:15:03 +0800] [42557] [INFO] Shutting down: Master
+[2025-11-21 04:15:04 +0800] [44559] [INFO] Starting gunicorn 21.2.0
+[2025-11-21 04:15:04 +0800] [44559] [INFO] Listening at: http://127.0.0.1:8000 (44559)
+[2025-11-21 04:15:04 +0800] [44559] [INFO] Using worker: sync
+[2025-11-21 04:15:04 +0800] [44564] [INFO] Booting worker with pid: 44564
+[2025-11-21 04:15:04 +0800] [44565] [INFO] Booting worker with pid: 44565
+[2025-11-21 04:15:04 +0800] [44566] [INFO] Booting worker with pid: 44566
+[2025-11-21 04:18:58 +0800] [44559] [INFO] Handling signal: term
+[2025-11-21 04:18:58 +0800] [44564] [INFO] Worker exiting (pid: 44564)
+[2025-11-21 04:18:58 +0800] [44565] [INFO] Worker exiting (pid: 44565)
+[2025-11-21 04:18:58 +0800] [44566] [INFO] Worker exiting (pid: 44566)
+[2025-11-21 04:18:58 +0800] [44559] [ERROR] Worker (pid:44565) was sent SIGTERM!
+[2025-11-21 04:18:58 +0800] [44559] [ERROR] Worker (pid:44566) was sent SIGTERM!
+[2025-11-21 04:18:58 +0800] [44559] [ERROR] Worker (pid:44564) was sent SIGTERM!
+[2025-11-21 04:18:58 +0800] [44559] [INFO] Shutting down: Master
+[2025-11-21 04:18:59 +0800] [45385] [INFO] Starting gunicorn 21.2.0
+[2025-11-21 04:18:59 +0800] [45385] [INFO] Listening at: http://127.0.0.1:8000 (45385)
+[2025-11-21 04:18:59 +0800] [45385] [INFO] Using worker: sync
+[2025-11-21 04:18:59 +0800] [45387] [INFO] Booting worker with pid: 45387
+[2025-11-21 04:18:59 +0800] [45388] [INFO] Booting worker with pid: 45388
+[2025-11-21 04:18:59 +0800] [45389] [INFO] Booting worker with pid: 45389
+[2025-11-21 04:44:23 +0800] [45385] [INFO] Handling signal: term
+[2025-11-21 04:44:23 +0800] [45387] [INFO] Worker exiting (pid: 45387)
+[2025-11-21 04:44:23 +0800] [45388] [INFO] Worker exiting (pid: 45388)
+[2025-11-21 04:44:23 +0800] [45389] [INFO] Worker exiting (pid: 45389)
+[2025-11-21 04:44:23 +0800] [45385] [ERROR] Worker (pid:45387) was sent SIGTERM!
+[2025-11-21 04:44:23 +0800] [45385] [ERROR] Worker (pid:45388) was sent SIGTERM!
+[2025-11-21 04:44:23 +0800] [45385] [ERROR] Worker (pid:45389) was sent SIGTERM!
+[2025-11-21 04:44:23 +0800] [45385] [INFO] Shutting down: Master
+[2025-11-21 04:44:24 +0800] [50030] [INFO] Starting gunicorn 21.2.0
+[2025-11-21 04:44:24 +0800] [50030] [INFO] Listening at: http://127.0.0.1:8000 (50030)
+[2025-11-21 04:44:24 +0800] [50030] [INFO] Using worker: sync
+[2025-11-21 04:44:24 +0800] [50037] [INFO] Booting worker with pid: 50037
+[2025-11-21 04:44:24 +0800] [50038] [INFO] Booting worker with pid: 50038
+[2025-11-21 04:44:24 +0800] [50039] [INFO] Booting worker with pid: 50039
+[2025-11-21 04:45:20 +0800] [50030] [INFO] Handling signal: term
+[2025-11-21 04:45:20 +0800] [50037] [INFO] Worker exiting (pid: 50037)
+[2025-11-21 04:45:20 +0800] [50038] [INFO] Worker exiting (pid: 50038)
+[2025-11-21 04:45:20 +0800] [50039] [INFO] Worker exiting (pid: 50039)
+[2025-11-21 04:45:20 +0800] [50030] [ERROR] Worker (pid:50037) was sent SIGTERM!
+[2025-11-21 04:45:20 +0800] [50030] [ERROR] Worker (pid:50038) was sent SIGTERM!
+[2025-11-21 04:45:20 +0800] [50030] [ERROR] Worker (pid:50039) was sent SIGTERM!
+[2025-11-21 04:45:21 +0800] [50030] [INFO] Shutting down: Master
+[2025-11-21 04:45:21 +0800] [50246] [INFO] Starting gunicorn 21.2.0
+[2025-11-21 04:45:21 +0800] [50246] [INFO] Listening at: http://127.0.0.1:8000 (50246)
+[2025-11-21 04:45:21 +0800] [50246] [INFO] Using worker: sync
+[2025-11-21 04:45:21 +0800] [50252] [INFO] Booting worker with pid: 50252
+[2025-11-21 04:45:21 +0800] [50253] [INFO] Booting worker with pid: 50253
+[2025-11-21 04:45:21 +0800] [50254] [INFO] Booting worker with pid: 50254
+[2025-11-21 04:47:59 +0800] [50246] [INFO] Handling signal: term
+[2025-11-21 04:47:59 +0800] [50252] [INFO] Worker exiting (pid: 50252)
+[2025-11-21 04:47:59 +0800] [50254] [INFO] Worker exiting (pid: 50254)
+[2025-11-21 04:47:59 +0800] [50253] [INFO] Worker exiting (pid: 50253)
+[2025-11-21 04:47:59 +0800] [50246] [ERROR] Worker (pid:50252) was sent SIGTERM!
+[2025-11-21 04:47:59 +0800] [50246] [ERROR] Worker (pid:50254) was sent SIGTERM!
+[2025-11-21 04:47:59 +0800] [50246] [ERROR] Worker (pid:50253) was sent SIGTERM!
+[2025-11-21 04:47:59 +0800] [50246] [INFO] Shutting down: Master
+[2025-11-21 04:48:00 +0800] [50771] [INFO] Starting gunicorn 21.2.0
+[2025-11-21 04:48:00 +0800] [50771] [INFO] Listening at: http://127.0.0.1:8000 (50771)
+[2025-11-21 04:48:00 +0800] [50771] [INFO] Using worker: sync
+[2025-11-21 04:48:00 +0800] [50779] [INFO] Booting worker with pid: 50779
+[2025-11-21 04:48:00 +0800] [50780] [INFO] Booting worker with pid: 50780
+[2025-11-21 04:48:00 +0800] [50781] [INFO] Booting worker with pid: 50781
+[2025-11-21 04:59:44 +0800] [50771] [INFO] Handling signal: term
+[2025-11-21 04:59:44 +0800] [50779] [INFO] Worker exiting (pid: 50779)
+[2025-11-21 04:59:45 +0800] [50780] [INFO] Worker exiting (pid: 50780)
+[2025-11-21 04:59:45 +0800] [50781] [INFO] Worker exiting (pid: 50781)
+[2025-11-21 04:59:45 +0800] [50771] [ERROR] Worker (pid:50779) was sent SIGTERM!
+[2025-11-21 04:59:45 +0800] [50771] [ERROR] Worker (pid:50780) was sent SIGTERM!
+[2025-11-21 04:59:45 +0800] [50771] [ERROR] Worker (pid:50781) was sent SIGTERM!
+[2025-11-21 04:59:45 +0800] [50771] [INFO] Shutting down: Master
+[2025-11-21 04:59:46 +0800] [52794] [INFO] Starting gunicorn 21.2.0
+[2025-11-21 04:59:46 +0800] [52794] [INFO] Listening at: http://127.0.0.1:8000 (52794)
+[2025-11-21 04:59:46 +0800] [52794] [INFO] Using worker: sync
+[2025-11-21 04:59:46 +0800] [52808] [INFO] Booting worker with pid: 52808
+[2025-11-21 04:59:46 +0800] [52809] [INFO] Booting worker with pid: 52809
+[2025-11-21 04:59:46 +0800] [52810] [INFO] Booting worker with pid: 52810
+[2025-11-21 05:00:19 +0800] [52794] [INFO] Handling signal: term
+[2025-11-21 05:00:19 +0800] [52808] [INFO] Worker exiting (pid: 52808)
+[2025-11-21 05:00:19 +0800] [52810] [INFO] Worker exiting (pid: 52810)
+[2025-11-21 05:00:19 +0800] [52809] [INFO] Worker exiting (pid: 52809)
+[2025-11-21 05:00:19 +0800] [52794] [ERROR] Worker (pid:52810) was sent SIGTERM!
+[2025-11-21 05:00:19 +0800] [52794] [ERROR] Worker (pid:52808) was sent SIGTERM!
+[2025-11-21 05:00:19 +0800] [52794] [ERROR] Worker (pid:52809) was sent SIGTERM!
+[2025-11-21 05:00:19 +0800] [52794] [INFO] Shutting down: Master
+[2025-11-21 05:00:19 +0800] [52933] [INFO] Starting gunicorn 21.2.0
+[2025-11-21 05:00:19 +0800] [52933] [INFO] Listening at: http://127.0.0.1:8000 (52933)
+[2025-11-21 05:00:19 +0800] [52933] [INFO] Using worker: sync
+[2025-11-21 05:00:19 +0800] [52935] [INFO] Booting worker with pid: 52935
+[2025-11-21 05:00:19 +0800] [52936] [INFO] Booting worker with pid: 52936
+[2025-11-21 05:00:19 +0800] [52937] [INFO] Booting worker with pid: 52937
+[2025-11-21 05:02:23 +0800] [52933] [INFO] Handling signal: term
+[2025-11-21 05:02:23 +0800] [52935] [INFO] Worker exiting (pid: 52935)
+[2025-11-21 05:02:23 +0800] [52936] [INFO] Worker exiting (pid: 52936)
+[2025-11-21 05:02:23 +0800] [52937] [INFO] Worker exiting (pid: 52937)
+[2025-11-21 05:02:23 +0800] [52933] [ERROR] Worker (pid:52936) was sent SIGTERM!
+[2025-11-21 05:02:23 +0800] [52933] [ERROR] Worker (pid:52935) was sent SIGTERM!
+[2025-11-21 05:02:23 +0800] [52933] [ERROR] Worker (pid:52937) was sent SIGTERM!
+[2025-11-21 05:02:23 +0800] [52933] [INFO] Shutting down: Master
+[2025-11-21 05:02:24 +0800] [53268] [INFO] Starting gunicorn 21.2.0
+[2025-11-21 05:02:24 +0800] [53268] [INFO] Listening at: http://127.0.0.1:8000 (53268)
+[2025-11-21 05:02:24 +0800] [53268] [INFO] Using worker: sync
+[2025-11-21 05:02:24 +0800] [53276] [INFO] Booting worker with pid: 53276
+[2025-11-21 05:02:24 +0800] [53277] [INFO] Booting worker with pid: 53277
+[2025-11-21 05:02:24 +0800] [53278] [INFO] Booting worker with pid: 53278
+[2025-11-21 05:05:37 +0800] [53268] [INFO] Handling signal: term
+[2025-11-21 05:05:37 +0800] [53276] [INFO] Worker exiting (pid: 53276)
+[2025-11-21 05:05:37 +0800] [53278] [INFO] Worker exiting (pid: 53278)
+[2025-11-21 05:05:37 +0800] [53277] [INFO] Worker exiting (pid: 53277)
+[2025-11-21 05:05:37 +0800] [53268] [ERROR] Worker (pid:53276) was sent SIGTERM!
+[2025-11-21 05:05:37 +0800] [53268] [ERROR] Worker (pid:53277) was sent SIGTERM!
+[2025-11-21 05:05:37 +0800] [53268] [ERROR] Worker (pid:53278) was sent SIGTERM!
+[2025-11-21 05:05:37 +0800] [53268] [INFO] Shutting down: Master
+[2025-11-21 05:05:38 +0800] [53775] [INFO] Starting gunicorn 21.2.0
+[2025-11-21 05:05:38 +0800] [53775] [INFO] Listening at: http://127.0.0.1:8000 (53775)
+[2025-11-21 05:05:38 +0800] [53775] [INFO] Using worker: sync
+[2025-11-21 05:05:38 +0800] [53777] [INFO] Booting worker with pid: 53777
+[2025-11-21 05:05:38 +0800] [53778] [INFO] Booting worker with pid: 53778
+[2025-11-21 05:05:38 +0800] [53779] [INFO] Booting worker with pid: 53779
+[2025-11-21 05:09:09 +0800] [53775] [INFO] Handling signal: term
+[2025-11-21 05:09:09 +0800] [53777] [INFO] Worker exiting (pid: 53777)
+[2025-11-21 05:09:09 +0800] [53778] [INFO] Worker exiting (pid: 53778)
+[2025-11-21 05:09:09 +0800] [53779] [INFO] Worker exiting (pid: 53779)
+[2025-11-21 05:09:09 +0800] [53775] [ERROR] Worker (pid:53777) was sent SIGTERM!
+[2025-11-21 05:09:09 +0800] [53775] [ERROR] Worker (pid:53778) was sent SIGTERM!
+[2025-11-21 05:09:09 +0800] [53775] [ERROR] Worker (pid:53779) was sent SIGTERM!
+[2025-11-21 05:09:09 +0800] [53775] [INFO] Shutting down: Master
+[2025-11-21 05:09:10 +0800] [54334] [INFO] Starting gunicorn 21.2.0
+[2025-11-21 05:09:10 +0800] [54334] [INFO] Listening at: http://127.0.0.1:8000 (54334)
+[2025-11-21 05:09:10 +0800] [54334] [INFO] Using worker: sync
+[2025-11-21 05:09:10 +0800] [54339] [INFO] Booting worker with pid: 54339
+[2025-11-21 05:09:10 +0800] [54340] [INFO] Booting worker with pid: 54340
+[2025-11-21 05:09:10 +0800] [54341] [INFO] Booting worker with pid: 54341
+[2025-11-21 05:12:55 +0800] [54334] [INFO] Handling signal: term
+[2025-11-21 05:12:55 +0800] [54339] [INFO] Worker exiting (pid: 54339)
+[2025-11-21 05:12:55 +0800] [54340] [INFO] Worker exiting (pid: 54340)
+[2025-11-21 05:12:55 +0800] [54341] [INFO] Worker exiting (pid: 54341)
+[2025-11-21 05:12:55 +0800] [54334] [ERROR] Worker (pid:54340) was sent SIGTERM!
+[2025-11-21 05:12:55 +0800] [54334] [ERROR] Worker (pid:54339) was sent SIGTERM!
+[2025-11-21 05:12:55 +0800] [54334] [ERROR] Worker (pid:54341) was sent SIGTERM!
+[2025-11-21 05:12:55 +0800] [54334] [INFO] Shutting down: Master
+[2025-11-21 05:12:56 +0800] [54928] [INFO] Starting gunicorn 21.2.0
+[2025-11-21 05:12:56 +0800] [54928] [INFO] Listening at: http://127.0.0.1:8000 (54928)
+[2025-11-21 05:12:56 +0800] [54928] [INFO] Using worker: sync
+[2025-11-21 05:12:56 +0800] [54933] [INFO] Booting worker with pid: 54933
+[2025-11-21 05:12:56 +0800] [54934] [INFO] Booting worker with pid: 54934
+[2025-11-21 05:12:56 +0800] [54935] [INFO] Booting worker with pid: 54935
+[2025-11-21 05:17:21 +0800] [54928] [INFO] Handling signal: term
+[2025-11-21 05:17:21 +0800] [54933] [INFO] Worker exiting (pid: 54933)
+[2025-11-21 05:17:21 +0800] [54934] [INFO] Worker exiting (pid: 54934)
+[2025-11-21 05:17:21 +0800] [54935] [INFO] Worker exiting (pid: 54935)
+[2025-11-21 05:17:21 +0800] [54928] [ERROR] Worker (pid:54933) was sent SIGTERM!
+[2025-11-21 05:17:21 +0800] [54928] [ERROR] Worker (pid:54934) was sent SIGTERM!
+[2025-11-21 05:17:21 +0800] [54928] [ERROR] Worker (pid:54935) was sent SIGTERM!
+[2025-11-21 05:17:21 +0800] [54928] [INFO] Shutting down: Master
+[2025-11-21 05:17:21 +0800] [55630] [INFO] Starting gunicorn 21.2.0
+[2025-11-21 05:17:21 +0800] [55630] [INFO] Listening at: http://127.0.0.1:8000 (55630)
+[2025-11-21 05:17:21 +0800] [55630] [INFO] Using worker: sync
+[2025-11-21 05:17:21 +0800] [55637] [INFO] Booting worker with pid: 55637
+[2025-11-21 05:17:21 +0800] [55638] [INFO] Booting worker with pid: 55638
+[2025-11-21 05:17:21 +0800] [55643] [INFO] Booting worker with pid: 55643
+[2025-11-21 05:19:18 +0800] [55630] [INFO] Handling signal: term
+[2025-11-21 05:19:18 +0800] [55637] [INFO] Worker exiting (pid: 55637)
+[2025-11-21 05:19:18 +0800] [55638] [INFO] Worker exiting (pid: 55638)
+[2025-11-21 05:19:18 +0800] [55643] [INFO] Worker exiting (pid: 55643)
+[2025-11-21 05:19:18 +0800] [55630] [ERROR] Worker (pid:55637) was sent SIGTERM!
+[2025-11-21 05:19:18 +0800] [55630] [ERROR] Worker (pid:55638) was sent SIGTERM!
+[2025-11-21 05:19:18 +0800] [55630] [ERROR] Worker (pid:55643) was sent SIGTERM!
+[2025-11-21 05:19:18 +0800] [55630] [INFO] Shutting down: Master
+[2025-11-21 05:19:18 +0800] [55957] [INFO] Starting gunicorn 21.2.0
+[2025-11-21 05:19:18 +0800] [55957] [INFO] Listening at: http://127.0.0.1:8000 (55957)
+[2025-11-21 05:19:18 +0800] [55957] [INFO] Using worker: sync
+[2025-11-21 05:19:18 +0800] [55959] [INFO] Booting worker with pid: 55959
+[2025-11-21 05:19:18 +0800] [55960] [INFO] Booting worker with pid: 55960
+[2025-11-21 05:19:18 +0800] [55962] [INFO] Booting worker with pid: 55962
+[2025-11-21 05:22:09 +0800] [55957] [INFO] Handling signal: term
+[2025-11-21 05:22:09 +0800] [55959] [INFO] Worker exiting (pid: 55959)
+[2025-11-21 05:22:09 +0800] [55960] [INFO] Worker exiting (pid: 55960)
+[2025-11-21 05:22:09 +0800] [55962] [INFO] Worker exiting (pid: 55962)
+[2025-11-21 05:22:09 +0800] [55957] [ERROR] Worker (pid:55959) was sent SIGTERM!
+[2025-11-21 05:22:09 +0800] [55957] [ERROR] Worker (pid:55960) was sent SIGTERM!
+[2025-11-21 05:22:09 +0800] [55957] [ERROR] Worker (pid:55962) was sent SIGTERM!
+[2025-11-21 05:22:09 +0800] [55957] [INFO] Shutting down: Master
+[2025-11-21 05:22:10 +0800] [56528] [INFO] Starting gunicorn 21.2.0
+[2025-11-21 05:22:10 +0800] [56528] [INFO] Listening at: http://127.0.0.1:8000 (56528)
+[2025-11-21 05:22:10 +0800] [56528] [INFO] Using worker: sync
+[2025-11-21 05:22:10 +0800] [56532] [INFO] Booting worker with pid: 56532
+[2025-11-21 05:22:10 +0800] [56536] [INFO] Booting worker with pid: 56536
+[2025-11-21 05:22:10 +0800] [56537] [INFO] Booting worker with pid: 56537
+[2025-11-21 05:24:46 +0800] [56528] [INFO] Handling signal: term
+[2025-11-21 05:24:46 +0800] [56532] [INFO] Worker exiting (pid: 56532)
+[2025-11-21 05:24:46 +0800] [56536] [INFO] Worker exiting (pid: 56536)
+[2025-11-21 05:24:46 +0800] [56537] [INFO] Worker exiting (pid: 56537)
+[2025-11-21 05:24:46 +0800] [56528] [ERROR] Worker (pid:56532) was sent SIGTERM!
+[2025-11-21 05:24:46 +0800] [56528] [ERROR] Worker (pid:56536) was sent SIGTERM!
+[2025-11-21 05:24:46 +0800] [56528] [ERROR] Worker (pid:56537) was sent SIGTERM!
+[2025-11-21 05:24:46 +0800] [56528] [INFO] Shutting down: Master
+[2025-11-21 05:24:47 +0800] [57013] [INFO] Starting gunicorn 21.2.0
+[2025-11-21 05:24:47 +0800] [57013] [INFO] Listening at: http://127.0.0.1:8000 (57013)
+[2025-11-21 05:24:47 +0800] [57013] [INFO] Using worker: sync
+[2025-11-21 05:24:47 +0800] [57032] [INFO] Booting worker with pid: 57032
+[2025-11-21 05:24:47 +0800] [57033] [INFO] Booting worker with pid: 57033
+[2025-11-21 05:24:47 +0800] [57034] [INFO] Booting worker with pid: 57034
+[2025-11-21 05:26:37 +0800] [57013] [INFO] Handling signal: term
+[2025-11-21 05:26:37 +0800] [57032] [INFO] Worker exiting (pid: 57032)
+[2025-11-21 05:26:37 +0800] [57034] [INFO] Worker exiting (pid: 57034)
+[2025-11-21 05:26:37 +0800] [57033] [INFO] Worker exiting (pid: 57033)
+[2025-11-21 05:26:37 +0800] [57013] [ERROR] Worker (pid:57034) was sent SIGTERM!
+[2025-11-21 05:26:37 +0800] [57013] [ERROR] Worker (pid:57032) was sent SIGTERM!
+[2025-11-21 05:26:38 +0800] [57013] [INFO] Shutting down: Master
+[2025-11-21 05:26:38 +0800] [57391] [INFO] Starting gunicorn 21.2.0
+[2025-11-21 05:26:38 +0800] [57391] [INFO] Listening at: http://127.0.0.1:8000 (57391)
+[2025-11-21 05:26:38 +0800] [57391] [INFO] Using worker: sync
+[2025-11-21 05:26:38 +0800] [57402] [INFO] Booting worker with pid: 57402
+[2025-11-21 05:26:38 +0800] [57408] [INFO] Booting worker with pid: 57408
+[2025-11-21 05:26:38 +0800] [57409] [INFO] Booting worker with pid: 57409
+[2025-11-21 05:27:23 +0800] [57391] [INFO] Handling signal: term
+[2025-11-21 05:27:23 +0800] [57402] [INFO] Worker exiting (pid: 57402)
+[2025-11-21 05:27:23 +0800] [57409] [INFO] Worker exiting (pid: 57409)
+[2025-11-21 05:27:23 +0800] [57408] [INFO] Worker exiting (pid: 57408)
+[2025-11-21 05:27:23 +0800] [57391] [ERROR] Worker (pid:57402) was sent SIGTERM!
+[2025-11-21 05:27:23 +0800] [57391] [ERROR] Worker (pid:57408) was sent SIGTERM!
+[2025-11-21 05:27:23 +0800] [57391] [ERROR] Worker (pid:57409) was sent SIGTERM!
+[2025-11-21 05:27:23 +0800] [57391] [INFO] Shutting down: Master
+[2025-11-21 05:27:24 +0800] [57578] [INFO] Starting gunicorn 21.2.0
+[2025-11-21 05:27:24 +0800] [57578] [INFO] Listening at: http://127.0.0.1:8000 (57578)
+[2025-11-21 05:27:24 +0800] [57578] [INFO] Using worker: sync
+[2025-11-21 05:27:24 +0800] [57580] [INFO] Booting worker with pid: 57580
+[2025-11-21 05:27:24 +0800] [57581] [INFO] Booting worker with pid: 57581
+[2025-11-21 05:27:24 +0800] [57582] [INFO] Booting worker with pid: 57582
+[2025-11-21 05:29:52 +0800] [57578] [INFO] Handling signal: term
+[2025-11-21 05:29:52 +0800] [57580] [INFO] Worker exiting (pid: 57580)
+[2025-11-21 05:29:52 +0800] [57581] [INFO] Worker exiting (pid: 57581)
+[2025-11-21 05:29:52 +0800] [57582] [INFO] Worker exiting (pid: 57582)
+[2025-11-21 05:29:52 +0800] [57578] [ERROR] Worker (pid:57580) was sent SIGTERM!
+[2025-11-21 05:29:52 +0800] [57578] [ERROR] Worker (pid:57581) was sent SIGTERM!
+[2025-11-21 05:29:52 +0800] [57578] [ERROR] Worker (pid:57582) was sent SIGTERM!
+[2025-11-21 05:29:52 +0800] [57578] [INFO] Shutting down: Master
+[2025-11-21 05:29:53 +0800] [58069] [INFO] Starting gunicorn 21.2.0
+[2025-11-21 05:29:53 +0800] [58069] [INFO] Listening at: http://127.0.0.1:8000 (58069)
+[2025-11-21 05:29:53 +0800] [58069] [INFO] Using worker: sync
+[2025-11-21 05:29:53 +0800] [58076] [INFO] Booting worker with pid: 58076
+[2025-11-21 05:29:53 +0800] [58077] [INFO] Booting worker with pid: 58077
+[2025-11-21 05:29:53 +0800] [58078] [INFO] Booting worker with pid: 58078
+[2025-11-21 12:36:33 +0800] [58069] [INFO] Handling signal: term
+[2025-11-21 12:36:33 +0800] [58076] [INFO] Worker exiting (pid: 58076)
+[2025-11-21 12:36:33 +0800] [58077] [INFO] Worker exiting (pid: 58077)
+[2025-11-21 12:36:33 +0800] [58078] [INFO] Worker exiting (pid: 58078)
+[2025-11-21 12:36:33 +0800] [58069] [ERROR] Worker (pid:58076) was sent SIGTERM!
+[2025-11-21 12:36:33 +0800] [58069] [ERROR] Worker (pid:58078) was sent SIGTERM!
+[2025-11-21 12:36:33 +0800] [58069] [ERROR] Worker (pid:58077) was sent SIGTERM!
+[2025-11-21 12:36:34 +0800] [58069] [INFO] Shutting down: Master
+[2025-11-21 12:36:34 +0800] [60973] [INFO] Starting gunicorn 21.2.0
+[2025-11-21 12:36:34 +0800] [60973] [INFO] Listening at: http://127.0.0.1:8000 (60973)
+[2025-11-21 12:36:34 +0800] [60973] [INFO] Using worker: sync
+[2025-11-21 12:36:34 +0800] [60978] [INFO] Booting worker with pid: 60978
+[2025-11-21 12:36:34 +0800] [60979] [INFO] Booting worker with pid: 60979
+[2025-11-21 12:36:34 +0800] [60980] [INFO] Booting worker with pid: 60980
+[2025-11-21 12:43:38 +0800] [60973] [INFO] Handling signal: term
+[2025-11-21 12:43:38 +0800] [60979] [INFO] Worker exiting (pid: 60979)
+[2025-11-21 12:43:38 +0800] [60980] [INFO] Worker exiting (pid: 60980)
+[2025-11-21 12:43:38 +0800] [60978] [INFO] Worker exiting (pid: 60978)
+[2025-11-21 12:43:38 +0800] [60973] [ERROR] Worker (pid:60979) was sent SIGTERM!
+[2025-11-21 12:43:38 +0800] [60973] [ERROR] Worker (pid:60980) was sent SIGTERM!
+[2025-11-21 12:43:38 +0800] [60973] [INFO] Shutting down: Master
+[2025-11-21 12:43:39 +0800] [61898] [INFO] Starting gunicorn 21.2.0
+[2025-11-21 12:43:39 +0800] [61898] [INFO] Listening at: http://127.0.0.1:8000 (61898)
+[2025-11-21 12:43:39 +0800] [61898] [INFO] Using worker: sync
+[2025-11-21 12:43:39 +0800] [61901] [INFO] Booting worker with pid: 61901
+[2025-11-21 12:43:39 +0800] [61905] [INFO] Booting worker with pid: 61905
+[2025-11-21 12:43:39 +0800] [61912] [INFO] Booting worker with pid: 61912
+[2025-11-21 12:45:51 +0800] [61898] [INFO] Handling signal: term
+[2025-11-21 12:45:51 +0800] [61905] [INFO] Worker exiting (pid: 61905)
+[2025-11-21 12:45:51 +0800] [61912] [INFO] Worker exiting (pid: 61912)
+[2025-11-21 12:45:51 +0800] [61901] [INFO] Worker exiting (pid: 61901)
+[2025-11-21 12:45:51 +0800] [61898] [ERROR] Worker (pid:61912) was sent SIGTERM!
+[2025-11-21 12:45:51 +0800] [61898] [ERROR] Worker (pid:61905) was sent SIGTERM!
+[2025-11-21 12:45:51 +0800] [61898] [INFO] Shutting down: Master
+[2025-11-21 12:45:52 +0800] [62211] [INFO] Starting gunicorn 21.2.0
+[2025-11-21 12:45:52 +0800] [62211] [INFO] Listening at: http://127.0.0.1:8000 (62211)
+[2025-11-21 12:45:52 +0800] [62211] [INFO] Using worker: sync
+[2025-11-21 12:45:52 +0800] [62225] [INFO] Booting worker with pid: 62225
+[2025-11-21 12:45:52 +0800] [62226] [INFO] Booting worker with pid: 62226
+[2025-11-21 12:45:52 +0800] [62227] [INFO] Booting worker with pid: 62227
+[2025-11-21 12:51:18 +0800] [62211] [INFO] Handling signal: term
+[2025-11-21 12:51:18 +0800] [62225] [INFO] Worker exiting (pid: 62225)
+[2025-11-21 12:51:18 +0800] [62227] [INFO] Worker exiting (pid: 62227)
+[2025-11-21 12:51:18 +0800] [62226] [INFO] Worker exiting (pid: 62226)
+[2025-11-21 12:51:18 +0800] [62211] [ERROR] Worker (pid:62225) was sent SIGTERM!
+[2025-11-21 12:51:19 +0800] [62211] [INFO] Shutting down: Master
+[2025-11-21 12:51:19 +0800] [62922] [INFO] Starting gunicorn 21.2.0
+[2025-11-21 12:51:19 +0800] [62922] [INFO] Listening at: http://127.0.0.1:8000 (62922)
+[2025-11-21 12:51:19 +0800] [62922] [INFO] Using worker: sync
+[2025-11-21 12:51:19 +0800] [62937] [INFO] Booting worker with pid: 62937
+[2025-11-21 12:51:20 +0800] [62938] [INFO] Booting worker with pid: 62938
+[2025-11-21 12:51:20 +0800] [62939] [INFO] Booting worker with pid: 62939
+[2025-11-21 12:54:19 +0800] [62922] [INFO] Handling signal: term
+[2025-11-21 12:54:19 +0800] [62937] [INFO] Worker exiting (pid: 62937)
+[2025-11-21 12:54:19 +0800] [62938] [INFO] Worker exiting (pid: 62938)
+[2025-11-21 12:54:19 +0800] [62939] [INFO] Worker exiting (pid: 62939)
+[2025-11-21 12:54:19 +0800] [62922] [ERROR] Worker (pid:62937) was sent SIGTERM!
+[2025-11-21 12:54:19 +0800] [62922] [ERROR] Worker (pid:62938) was sent SIGTERM!
+[2025-11-21 12:54:19 +0800] [62922] [ERROR] Worker (pid:62939) was sent SIGTERM!
+[2025-11-21 12:54:19 +0800] [62922] [INFO] Shutting down: Master
+[2025-11-21 12:54:20 +0800] [63360] [INFO] Starting gunicorn 21.2.0
+[2025-11-21 12:54:20 +0800] [63360] [INFO] Listening at: http://127.0.0.1:8000 (63360)
+[2025-11-21 12:54:20 +0800] [63360] [INFO] Using worker: sync
+[2025-11-21 12:54:20 +0800] [63365] [INFO] Booting worker with pid: 63365
+[2025-11-21 12:54:20 +0800] [63366] [INFO] Booting worker with pid: 63366
+[2025-11-21 12:54:20 +0800] [63367] [INFO] Booting worker with pid: 63367
+[2025-11-21 12:57:50 +0800] [63360] [INFO] Handling signal: term
+[2025-11-21 12:57:50 +0800] [63365] [INFO] Worker exiting (pid: 63365)
+[2025-11-21 12:57:50 +0800] [63366] [INFO] Worker exiting (pid: 63366)
+[2025-11-21 12:57:50 +0800] [63367] [INFO] Worker exiting (pid: 63367)
+[2025-11-21 12:57:50 +0800] [63360] [ERROR] Worker (pid:63366) was sent SIGTERM!
+[2025-11-21 12:57:50 +0800] [63360] [ERROR] Worker (pid:63367) was sent SIGTERM!
+[2025-11-21 12:57:50 +0800] [63360] [ERROR] Worker (pid:63365) was sent SIGTERM!
+[2025-11-21 12:57:50 +0800] [63360] [INFO] Shutting down: Master
+[2025-11-21 12:57:51 +0800] [63855] [INFO] Starting gunicorn 21.2.0
+[2025-11-21 12:57:51 +0800] [63855] [INFO] Listening at: http://127.0.0.1:8000 (63855)
+[2025-11-21 12:57:51 +0800] [63855] [INFO] Using worker: sync
+[2025-11-21 12:57:51 +0800] [63858] [INFO] Booting worker with pid: 63858
+[2025-11-21 12:57:51 +0800] [63859] [INFO] Booting worker with pid: 63859
+[2025-11-21 12:57:51 +0800] [63860] [INFO] Booting worker with pid: 63860
+[2025-11-21 13:00:58 +0800] [63855] [INFO] Handling signal: term
+[2025-11-21 13:00:58 +0800] [63858] [INFO] Worker exiting (pid: 63858)
+[2025-11-21 13:00:58 +0800] [63859] [INFO] Worker exiting (pid: 63859)
+[2025-11-21 13:00:58 +0800] [63860] [INFO] Worker exiting (pid: 63860)
+[2025-11-21 13:00:58 +0800] [63855] [ERROR] Worker (pid:63860) was sent SIGTERM!
+[2025-11-21 13:00:58 +0800] [63855] [ERROR] Worker (pid:63858) was sent SIGTERM!
+[2025-11-21 13:00:58 +0800] [63855] [ERROR] Worker (pid:63859) was sent SIGTERM!
+[2025-11-21 13:00:59 +0800] [63855] [INFO] Shutting down: Master
+[2025-11-21 13:00:59 +0800] [64282] [INFO] Starting gunicorn 21.2.0
+[2025-11-21 13:00:59 +0800] [64282] [INFO] Listening at: http://127.0.0.1:8000 (64282)
+[2025-11-21 13:00:59 +0800] [64282] [INFO] Using worker: sync
+[2025-11-21 13:00:59 +0800] [64290] [INFO] Booting worker with pid: 64290
+[2025-11-21 13:00:59 +0800] [64291] [INFO] Booting worker with pid: 64291
+[2025-11-21 13:00:59 +0800] [64292] [INFO] Booting worker with pid: 64292
+[2025-11-21 13:05:10 +0800] [64282] [INFO] Handling signal: term
+[2025-11-21 13:05:10 +0800] [64290] [INFO] Worker exiting (pid: 64290)
+[2025-11-21 13:05:10 +0800] [64291] [INFO] Worker exiting (pid: 64291)
+[2025-11-21 13:05:10 +0800] [64292] [INFO] Worker exiting (pid: 64292)
+[2025-11-21 13:05:10 +0800] [64282] [ERROR] Worker (pid:64291) was sent SIGTERM!
+[2025-11-21 13:05:10 +0800] [64282] [ERROR] Worker (pid:64290) was sent SIGTERM!
+[2025-11-21 13:05:10 +0800] [64282] [ERROR] Worker (pid:64292) was sent SIGTERM!
+[2025-11-21 13:05:10 +0800] [64282] [INFO] Shutting down: Master
+[2025-11-21 13:05:11 +0800] [65020] [INFO] Starting gunicorn 21.2.0
+[2025-11-21 13:05:11 +0800] [65020] [INFO] Listening at: http://127.0.0.1:8000 (65020)
+[2025-11-21 13:05:11 +0800] [65020] [INFO] Using worker: sync
+[2025-11-21 13:05:11 +0800] [65025] [INFO] Booting worker with pid: 65025
+[2025-11-21 13:05:11 +0800] [65026] [INFO] Booting worker with pid: 65026
+[2025-11-21 13:05:11 +0800] [65037] [INFO] Booting worker with pid: 65037
+[2025-11-21 13:07:27 +0800] [65020] [INFO] Handling signal: term
+[2025-11-21 13:07:27 +0800] [65025] [INFO] Worker exiting (pid: 65025)
+[2025-11-21 13:07:27 +0800] [65026] [INFO] Worker exiting (pid: 65026)
+[2025-11-21 13:07:27 +0800] [65037] [INFO] Worker exiting (pid: 65037)
+[2025-11-21 13:07:27 +0800] [65020] [ERROR] Worker (pid:65037) was sent SIGTERM!
+[2025-11-21 13:07:27 +0800] [65020] [ERROR] Worker (pid:65025) was sent SIGTERM!
+[2025-11-21 13:07:27 +0800] [65020] [ERROR] Worker (pid:65026) was sent SIGTERM!
+[2025-11-21 13:07:27 +0800] [65020] [INFO] Shutting down: Master
+[2025-11-21 13:07:28 +0800] [65377] [INFO] Starting gunicorn 21.2.0
+[2025-11-21 13:07:28 +0800] [65377] [INFO] Listening at: http://127.0.0.1:8000 (65377)
+[2025-11-21 13:07:28 +0800] [65377] [INFO] Using worker: sync
+[2025-11-21 13:07:28 +0800] [65379] [INFO] Booting worker with pid: 65379
+[2025-11-21 13:07:28 +0800] [65380] [INFO] Booting worker with pid: 65380
+[2025-11-21 13:07:28 +0800] [65381] [INFO] Booting worker with pid: 65381
+[2025-11-21 13:17:04 +0800] [65377] [INFO] Handling signal: term
+[2025-11-21 13:17:04 +0800] [65379] [INFO] Worker exiting (pid: 65379)
+[2025-11-21 13:17:04 +0800] [65381] [INFO] Worker exiting (pid: 65381)
+[2025-11-21 13:17:04 +0800] [65380] [INFO] Worker exiting (pid: 65380)
+[2025-11-21 13:17:04 +0800] [65377] [ERROR] Worker (pid:65381) was sent SIGTERM!
+[2025-11-21 13:17:04 +0800] [65377] [ERROR] Worker (pid:65379) was sent SIGTERM!
+[2025-11-21 13:17:04 +0800] [65377] [INFO] Shutting down: Master
+[2025-11-21 13:17:05 +0800] [66669] [INFO] Starting gunicorn 21.2.0
+[2025-11-21 13:17:05 +0800] [66669] [INFO] Listening at: http://127.0.0.1:8000 (66669)
+[2025-11-21 13:17:05 +0800] [66669] [INFO] Using worker: sync
+[2025-11-21 13:17:05 +0800] [66674] [INFO] Booting worker with pid: 66674
+[2025-11-21 13:17:05 +0800] [66675] [INFO] Booting worker with pid: 66675
+[2025-11-21 13:17:05 +0800] [66677] [INFO] Booting worker with pid: 66677
+[2025-11-21 13:21:28 +0800] [66669] [INFO] Handling signal: term
+[2025-11-21 13:21:28 +0800] [66674] [INFO] Worker exiting (pid: 66674)
+[2025-11-21 13:21:28 +0800] [66675] [INFO] Worker exiting (pid: 66675)
+[2025-11-21 13:21:28 +0800] [66677] [INFO] Worker exiting (pid: 66677)
+[2025-11-21 13:21:28 +0800] [66669] [ERROR] Worker (pid:66677) was sent SIGTERM!
+[2025-11-21 13:21:28 +0800] [66669] [ERROR] Worker (pid:66674) was sent SIGTERM!
+[2025-11-21 13:21:28 +0800] [66669] [ERROR] Worker (pid:66675) was sent SIGTERM!
+[2025-11-21 13:21:28 +0800] [66669] [INFO] Shutting down: Master
+[2025-11-21 13:21:28 +0800] [67527] [INFO] Starting gunicorn 21.2.0
+[2025-11-21 13:21:28 +0800] [67527] [INFO] Listening at: http://127.0.0.1:8000 (67527)
+[2025-11-21 13:21:28 +0800] [67527] [INFO] Using worker: sync
+[2025-11-21 13:21:28 +0800] [67549] [INFO] Booting worker with pid: 67549
+[2025-11-21 13:21:28 +0800] [67550] [INFO] Booting worker with pid: 67550
+[2025-11-21 13:21:28 +0800] [67551] [INFO] Booting worker with pid: 67551
+[2025-11-21 13:25:42 +0800] [67527] [INFO] Handling signal: term
+[2025-11-21 13:25:42 +0800] [67549] [INFO] Worker exiting (pid: 67549)
+[2025-11-21 13:25:42 +0800] [67550] [INFO] Worker exiting (pid: 67550)
+[2025-11-21 13:25:42 +0800] [67551] [INFO] Worker exiting (pid: 67551)
+[2025-11-21 13:25:43 +0800] [67527] [ERROR] Worker (pid:67551) was sent SIGTERM!
+[2025-11-21 13:25:43 +0800] [67527] [ERROR] Worker (pid:67549) was sent SIGTERM!
+[2025-11-21 13:25:43 +0800] [67527] [ERROR] Worker (pid:67550) was sent SIGTERM!
+[2025-11-21 13:25:43 +0800] [67527] [INFO] Shutting down: Master
+[2025-11-21 13:25:43 +0800] [68260] [INFO] Starting gunicorn 21.2.0
+[2025-11-21 13:25:43 +0800] [68260] [INFO] Listening at: http://127.0.0.1:8000 (68260)
+[2025-11-21 13:25:43 +0800] [68260] [INFO] Using worker: sync
+[2025-11-21 13:25:43 +0800] [68262] [INFO] Booting worker with pid: 68262
+[2025-11-21 13:25:43 +0800] [68263] [INFO] Booting worker with pid: 68263
+[2025-11-21 13:25:43 +0800] [68264] [INFO] Booting worker with pid: 68264
+[2025-11-21 13:33:45 +0800] [68260] [INFO] Handling signal: term
+[2025-11-21 13:33:45 +0800] [68262] [INFO] Worker exiting (pid: 68262)
+[2025-11-21 13:33:45 +0800] [68263] [INFO] Worker exiting (pid: 68263)
+[2025-11-21 13:33:45 +0800] [68264] [INFO] Worker exiting (pid: 68264)
+[2025-11-21 13:33:45 +0800] [68260] [ERROR] Worker (pid:68264) was sent SIGTERM!
+[2025-11-21 13:33:45 +0800] [68260] [ERROR] Worker (pid:68263) was sent SIGTERM!
+[2025-11-21 13:33:45 +0800] [68260] [ERROR] Worker (pid:68262) was sent SIGTERM!
+[2025-11-21 13:33:46 +0800] [68260] [INFO] Shutting down: Master
+[2025-11-21 13:33:47 +0800] [69400] [INFO] Starting gunicorn 21.2.0
+[2025-11-21 13:33:47 +0800] [69400] [INFO] Listening at: http://127.0.0.1:8000 (69400)
+[2025-11-21 13:33:47 +0800] [69400] [INFO] Using worker: sync
+[2025-11-21 13:33:47 +0800] [69417] [INFO] Booting worker with pid: 69417
+[2025-11-21 13:33:47 +0800] [69418] [INFO] Booting worker with pid: 69418
+[2025-11-21 13:33:47 +0800] [69419] [INFO] Booting worker with pid: 69419
+[2025-11-21 13:37:17 +0800] [69400] [INFO] Handling signal: term
+[2025-11-21 13:37:17 +0800] [69417] [INFO] Worker exiting (pid: 69417)
+[2025-11-21 13:37:17 +0800] [69418] [INFO] Worker exiting (pid: 69418)
+[2025-11-21 13:37:17 +0800] [69419] [INFO] Worker exiting (pid: 69419)
+[2025-11-21 13:37:17 +0800] [69400] [ERROR] Worker (pid:69417) was sent SIGTERM!
+[2025-11-21 13:37:17 +0800] [69400] [ERROR] Worker (pid:69419) was sent SIGTERM!
+[2025-11-21 13:37:17 +0800] [69400] [ERROR] Worker (pid:69418) was sent SIGTERM!
+[2025-11-21 13:37:17 +0800] [69400] [INFO] Shutting down: Master
+[2025-11-21 13:37:18 +0800] [69899] [INFO] Starting gunicorn 21.2.0
+[2025-11-21 13:37:18 +0800] [69899] [INFO] Listening at: http://127.0.0.1:8000 (69899)
+[2025-11-21 13:37:18 +0800] [69899] [INFO] Using worker: sync
+[2025-11-21 13:37:18 +0800] [69901] [INFO] Booting worker with pid: 69901
+[2025-11-21 13:37:18 +0800] [69902] [INFO] Booting worker with pid: 69902
+[2025-11-21 13:37:18 +0800] [69903] [INFO] Booting worker with pid: 69903
+[2025-11-21 13:38:50 +0800] [69899] [INFO] Handling signal: term
+[2025-11-21 13:38:50 +0800] [69901] [INFO] Worker exiting (pid: 69901)
+[2025-11-21 13:38:50 +0800] [69902] [INFO] Worker exiting (pid: 69902)
+[2025-11-21 13:38:50 +0800] [69903] [INFO] Worker exiting (pid: 69903)
+[2025-11-21 13:38:50 +0800] [69899] [ERROR] Worker (pid:69901) was sent SIGTERM!
+[2025-11-21 13:38:50 +0800] [69899] [ERROR] Worker (pid:69902) was sent SIGTERM!
+[2025-11-21 13:38:50 +0800] [69899] [ERROR] Worker (pid:69903) was sent SIGTERM!
+[2025-11-21 13:38:50 +0800] [69899] [INFO] Shutting down: Master
+[2025-11-21 13:38:51 +0800] [70145] [INFO] Starting gunicorn 21.2.0
+[2025-11-21 13:38:51 +0800] [70145] [INFO] Listening at: http://127.0.0.1:8000 (70145)
+[2025-11-21 13:38:51 +0800] [70145] [INFO] Using worker: sync
+[2025-11-21 13:38:51 +0800] [70150] [INFO] Booting worker with pid: 70150
+[2025-11-21 13:38:51 +0800] [70154] [INFO] Booting worker with pid: 70154
+[2025-11-21 13:38:51 +0800] [70156] [INFO] Booting worker with pid: 70156
+[2025-11-21 13:43:18 +0800] [70145] [INFO] Handling signal: term
+[2025-11-21 13:43:18 +0800] [70150] [INFO] Worker exiting (pid: 70150)
+[2025-11-21 13:43:18 +0800] [70154] [INFO] Worker exiting (pid: 70154)
+[2025-11-21 13:43:18 +0800] [70156] [INFO] Worker exiting (pid: 70156)
+[2025-11-21 13:43:18 +0800] [70145] [ERROR] Worker (pid:70150) was sent SIGTERM!
+[2025-11-21 13:43:18 +0800] [70145] [ERROR] Worker (pid:70156) was sent SIGTERM!
+[2025-11-21 13:43:18 +0800] [70145] [ERROR] Worker (pid:70154) was sent SIGTERM!
+[2025-11-21 13:43:18 +0800] [70145] [INFO] Shutting down: Master
+[2025-11-21 13:43:18 +0800] [70745] [INFO] Starting gunicorn 21.2.0
+[2025-11-21 13:43:18 +0800] [70745] [INFO] Listening at: http://127.0.0.1:8000 (70745)
+[2025-11-21 13:43:18 +0800] [70745] [INFO] Using worker: sync
+[2025-11-21 13:43:18 +0800] [70765] [INFO] Booting worker with pid: 70765
+[2025-11-21 13:43:18 +0800] [70766] [INFO] Booting worker with pid: 70766
+[2025-11-21 13:43:18 +0800] [70767] [INFO] Booting worker with pid: 70767
+[2025-11-21 13:53:39 +0800] [70745] [INFO] Handling signal: term
+[2025-11-21 13:53:39 +0800] [70765] [INFO] Worker exiting (pid: 70765)
+[2025-11-21 13:53:39 +0800] [70767] [INFO] Worker exiting (pid: 70767)
+[2025-11-21 13:53:39 +0800] [70766] [INFO] Worker exiting (pid: 70766)
+[2025-11-21 13:53:39 +0800] [70745] [ERROR] Worker (pid:70765) was sent SIGTERM!
+[2025-11-21 13:53:39 +0800] [70745] [ERROR] Worker (pid:70766) was sent SIGTERM!
+[2025-11-21 13:53:39 +0800] [70745] [ERROR] Worker (pid:70767) was sent SIGTERM!
+[2025-11-21 13:53:39 +0800] [70745] [INFO] Shutting down: Master
+[2025-11-21 13:53:40 +0800] [72102] [INFO] Starting gunicorn 21.2.0
+[2025-11-21 13:53:40 +0800] [72102] [INFO] Listening at: http://127.0.0.1:8000 (72102)
+[2025-11-21 13:53:40 +0800] [72102] [INFO] Using worker: sync
+[2025-11-21 13:53:40 +0800] [72105] [INFO] Booting worker with pid: 72105
+[2025-11-21 13:53:40 +0800] [72106] [INFO] Booting worker with pid: 72106
+[2025-11-21 13:53:40 +0800] [72107] [INFO] Booting worker with pid: 72107
+[2025-11-21 13:55:14 +0800] [72102] [INFO] Handling signal: term
+[2025-11-21 13:55:14 +0800] [72105] [INFO] Worker exiting (pid: 72105)
+[2025-11-21 13:55:14 +0800] [72106] [INFO] Worker exiting (pid: 72106)
+[2025-11-21 13:55:14 +0800] [72107] [INFO] Worker exiting (pid: 72107)
+[2025-11-21 13:55:14 +0800] [72102] [ERROR] Worker (pid:72105) was sent SIGTERM!
+[2025-11-21 13:55:14 +0800] [72102] [ERROR] Worker (pid:72106) was sent SIGTERM!
+[2025-11-21 13:55:14 +0800] [72102] [ERROR] Worker (pid:72107) was sent SIGTERM!
+[2025-11-21 13:55:14 +0800] [72102] [INFO] Shutting down: Master
+[2025-11-21 13:55:15 +0800] [72350] [INFO] Starting gunicorn 21.2.0
+[2025-11-21 13:55:15 +0800] [72350] [INFO] Listening at: http://127.0.0.1:8000 (72350)
+[2025-11-21 13:55:15 +0800] [72350] [INFO] Using worker: sync
+[2025-11-21 13:55:15 +0800] [72353] [INFO] Booting worker with pid: 72353
+[2025-11-21 13:55:15 +0800] [72354] [INFO] Booting worker with pid: 72354
+[2025-11-21 13:55:15 +0800] [72355] [INFO] Booting worker with pid: 72355
+[2025-11-21 14:10:17 +0800] [72350] [INFO] Handling signal: term
+[2025-11-21 14:10:17 +0800] [72354] [INFO] Worker exiting (pid: 72354)
+[2025-11-21 14:10:17 +0800] [72353] [INFO] Worker exiting (pid: 72353)
+[2025-11-21 14:10:17 +0800] [72355] [INFO] Worker exiting (pid: 72355)
+[2025-11-21 14:10:17 +0800] [72350] [ERROR] Worker (pid:72353) was sent SIGTERM!
+[2025-11-21 14:10:17 +0800] [72350] [ERROR] Worker (pid:72355) was sent SIGTERM!
+[2025-11-21 14:10:17 +0800] [72350] [ERROR] Worker (pid:72354) was sent SIGTERM!
+[2025-11-21 14:10:17 +0800] [72350] [INFO] Shutting down: Master
+[2025-11-21 14:10:18 +0800] [74385] [INFO] Starting gunicorn 21.2.0
+[2025-11-21 14:10:18 +0800] [74385] [INFO] Listening at: http://127.0.0.1:8000 (74385)
+[2025-11-21 14:10:18 +0800] [74385] [INFO] Using worker: sync
+[2025-11-21 14:10:18 +0800] [74390] [INFO] Booting worker with pid: 74390
+[2025-11-21 14:10:18 +0800] [74391] [INFO] Booting worker with pid: 74391
+[2025-11-21 14:10:18 +0800] [74392] [INFO] Booting worker with pid: 74392
+[2025-11-21 14:21:44 +0800] [74385] [INFO] Handling signal: term
+[2025-11-21 14:21:44 +0800] [74390] [INFO] Worker exiting (pid: 74390)
+[2025-11-21 14:21:44 +0800] [74391] [INFO] Worker exiting (pid: 74391)
+[2025-11-21 14:21:44 +0800] [74392] [INFO] Worker exiting (pid: 74392)
+[2025-11-21 14:21:44 +0800] [74385] [ERROR] Worker (pid:74390) was sent SIGTERM!
+[2025-11-21 14:21:44 +0800] [74385] [ERROR] Worker (pid:74391) was sent SIGTERM!
+[2025-11-21 14:21:44 +0800] [74385] [ERROR] Worker (pid:74392) was sent SIGTERM!
+[2025-11-21 14:21:44 +0800] [74385] [INFO] Shutting down: Master
+[2025-11-21 14:21:45 +0800] [75945] [INFO] Starting gunicorn 21.2.0
+[2025-11-21 14:21:45 +0800] [75945] [INFO] Listening at: http://127.0.0.1:8000 (75945)
+[2025-11-21 14:21:45 +0800] [75945] [INFO] Using worker: sync
+[2025-11-21 14:21:45 +0800] [75950] [INFO] Booting worker with pid: 75950
+[2025-11-21 14:21:45 +0800] [75951] [INFO] Booting worker with pid: 75951
+[2025-11-21 14:21:45 +0800] [75952] [INFO] Booting worker with pid: 75952
+[2025-11-21 14:31:23 +0800] [75945] [INFO] Handling signal: term
+[2025-11-21 14:31:23 +0800] [75951] [INFO] Worker exiting (pid: 75951)
+[2025-11-21 14:31:23 +0800] [75952] [INFO] Worker exiting (pid: 75952)
+[2025-11-21 14:31:23 +0800] [75950] [INFO] Worker exiting (pid: 75950)
+[2025-11-21 14:31:23 +0800] [75945] [ERROR] Worker (pid:75952) was sent SIGTERM!
+[2025-11-21 14:31:23 +0800] [75945] [ERROR] Worker (pid:75951) was sent SIGTERM!
+[2025-11-21 14:31:23 +0800] [75945] [INFO] Shutting down: Master
+[2025-11-21 14:31:24 +0800] [77224] [INFO] Starting gunicorn 21.2.0
+[2025-11-21 14:31:24 +0800] [77224] [INFO] Listening at: http://127.0.0.1:8000 (77224)
+[2025-11-21 14:31:24 +0800] [77224] [INFO] Using worker: sync
+[2025-11-21 14:31:24 +0800] [77236] [INFO] Booting worker with pid: 77236
+[2025-11-21 14:31:24 +0800] [77237] [INFO] Booting worker with pid: 77237
+[2025-11-21 14:31:24 +0800] [77238] [INFO] Booting worker with pid: 77238
+[2025-11-21 14:33:24 +0800] [77224] [INFO] Handling signal: term
+[2025-11-21 14:33:24 +0800] [77236] [INFO] Worker exiting (pid: 77236)
+[2025-11-21 14:33:24 +0800] [77237] [INFO] Worker exiting (pid: 77237)
+[2025-11-21 14:33:24 +0800] [77238] [INFO] Worker exiting (pid: 77238)
+[2025-11-21 14:33:24 +0800] [77224] [ERROR] Worker (pid:77236) was sent SIGTERM!
+[2025-11-21 14:33:24 +0800] [77224] [ERROR] Worker (pid:77238) was sent SIGTERM!
+[2025-11-21 14:33:24 +0800] [77224] [ERROR] Worker (pid:77237) was sent SIGTERM!
+[2025-11-21 14:33:24 +0800] [77224] [INFO] Shutting down: Master
+[2025-11-21 14:33:24 +0800] [77516] [INFO] Starting gunicorn 21.2.0
+[2025-11-21 14:33:24 +0800] [77516] [INFO] Listening at: http://127.0.0.1:8000 (77516)
+[2025-11-21 14:33:24 +0800] [77516] [INFO] Using worker: sync
+[2025-11-21 14:33:24 +0800] [77535] [INFO] Booting worker with pid: 77535
+[2025-11-21 14:33:24 +0800] [77536] [INFO] Booting worker with pid: 77536
+[2025-11-21 14:33:24 +0800] [77537] [INFO] Booting worker with pid: 77537
+[2025-11-21 14:36:24 +0800] [77516] [INFO] Handling signal: term
+[2025-11-21 14:36:24 +0800] [77535] [INFO] Worker exiting (pid: 77535)
+[2025-11-21 14:36:24 +0800] [77536] [INFO] Worker exiting (pid: 77536)
+[2025-11-21 14:36:24 +0800] [77537] [INFO] Worker exiting (pid: 77537)
+[2025-11-21 14:36:24 +0800] [77516] [ERROR] Worker (pid:77537) was sent SIGTERM!
+[2025-11-21 14:36:24 +0800] [77516] [ERROR] Worker (pid:77536) was sent SIGTERM!
+[2025-11-21 14:36:24 +0800] [77516] [INFO] Shutting down: Master
+[2025-11-21 14:36:25 +0800] [77966] [INFO] Starting gunicorn 21.2.0
+[2025-11-21 14:36:25 +0800] [77966] [INFO] Listening at: http://127.0.0.1:8000 (77966)
+[2025-11-21 14:36:25 +0800] [77966] [INFO] Using worker: sync
+[2025-11-21 14:36:25 +0800] [77971] [INFO] Booting worker with pid: 77971
+[2025-11-21 14:36:25 +0800] [77972] [INFO] Booting worker with pid: 77972
+[2025-11-21 14:36:25 +0800] [77973] [INFO] Booting worker with pid: 77973
+[2025-11-21 14:42:05 +0800] [77966] [INFO] Handling signal: term
+[2025-11-21 14:42:05 +0800] [77971] [INFO] Worker exiting (pid: 77971)
+[2025-11-21 14:42:05 +0800] [77972] [INFO] Worker exiting (pid: 77972)
+[2025-11-21 14:42:05 +0800] [77973] [INFO] Worker exiting (pid: 77973)
+[2025-11-21 14:42:05 +0800] [77966] [ERROR] Worker (pid:77972) was sent SIGTERM!
+[2025-11-21 14:42:05 +0800] [77966] [ERROR] Worker (pid:77973) was sent SIGTERM!
+[2025-11-21 14:42:05 +0800] [77966] [INFO] Shutting down: Master
+[2025-11-21 14:42:06 +0800] [78752] [INFO] Starting gunicorn 21.2.0
+[2025-11-21 14:42:06 +0800] [78752] [INFO] Listening at: http://127.0.0.1:8000 (78752)
+[2025-11-21 14:42:06 +0800] [78752] [INFO] Using worker: sync
+[2025-11-21 14:42:06 +0800] [78754] [INFO] Booting worker with pid: 78754
+[2025-11-21 14:42:06 +0800] [78755] [INFO] Booting worker with pid: 78755
+[2025-11-21 14:42:06 +0800] [78765] [INFO] Booting worker with pid: 78765
+[2025-11-21 14:45:03 +0800] [78752] [INFO] Handling signal: term
+[2025-11-21 14:45:03 +0800] [78754] [INFO] Worker exiting (pid: 78754)
+[2025-11-21 14:45:03 +0800] [78755] [INFO] Worker exiting (pid: 78755)
+[2025-11-21 14:45:03 +0800] [78765] [INFO] Worker exiting (pid: 78765)
+[2025-11-21 14:45:03 +0800] [78752] [ERROR] Worker (pid:78754) was sent SIGTERM!
+[2025-11-21 14:45:03 +0800] [78752] [ERROR] Worker (pid:78755) was sent SIGTERM!
+[2025-11-21 14:45:03 +0800] [78752] [ERROR] Worker (pid:78765) was sent SIGTERM!
+[2025-11-21 14:45:03 +0800] [78752] [INFO] Shutting down: Master
+[2025-11-21 14:45:04 +0800] [79172] [INFO] Starting gunicorn 21.2.0
+[2025-11-21 14:45:04 +0800] [79172] [INFO] Listening at: http://127.0.0.1:8000 (79172)
+[2025-11-21 14:45:04 +0800] [79172] [INFO] Using worker: sync
+[2025-11-21 14:45:04 +0800] [79178] [INFO] Booting worker with pid: 79178
+[2025-11-21 14:45:04 +0800] [79179] [INFO] Booting worker with pid: 79179
+[2025-11-21 14:45:04 +0800] [79180] [INFO] Booting worker with pid: 79180
+[2025-11-21 14:49:34 +0800] [79172] [INFO] Handling signal: term
+[2025-11-21 14:49:34 +0800] [79178] [INFO] Worker exiting (pid: 79178)
+[2025-11-21 14:49:34 +0800] [79179] [INFO] Worker exiting (pid: 79179)
+[2025-11-21 14:49:34 +0800] [79180] [INFO] Worker exiting (pid: 79180)
+[2025-11-21 14:49:34 +0800] [79172] [ERROR] Worker (pid:79178) was sent SIGTERM!
+[2025-11-21 14:49:34 +0800] [79172] [ERROR] Worker (pid:79179) was sent SIGTERM!
+[2025-11-21 14:49:34 +0800] [79172] [ERROR] Worker (pid:79180) was sent SIGTERM!
+[2025-11-21 14:49:34 +0800] [79172] [INFO] Shutting down: Master
+[2025-11-21 14:49:35 +0800] [79817] [INFO] Starting gunicorn 21.2.0
+[2025-11-21 14:49:35 +0800] [79817] [INFO] Listening at: http://127.0.0.1:8000 (79817)
+[2025-11-21 14:49:35 +0800] [79817] [INFO] Using worker: sync
+[2025-11-21 14:49:35 +0800] [79823] [INFO] Booting worker with pid: 79823
+[2025-11-21 14:49:35 +0800] [79824] [INFO] Booting worker with pid: 79824
+[2025-11-21 14:49:35 +0800] [79825] [INFO] Booting worker with pid: 79825
+[2025-11-21 14:56:40 +0800] [79817] [INFO] Handling signal: term
+[2025-11-21 14:56:40 +0800] [79823] [INFO] Worker exiting (pid: 79823)
+[2025-11-21 14:56:40 +0800] [79824] [INFO] Worker exiting (pid: 79824)
+[2025-11-21 14:56:40 +0800] [79825] [INFO] Worker exiting (pid: 79825)
+[2025-11-21 14:56:40 +0800] [79817] [ERROR] Worker (pid:79823) was sent SIGTERM!
+[2025-11-21 14:56:40 +0800] [79817] [ERROR] Worker (pid:79825) was sent SIGTERM!
+[2025-11-21 14:56:40 +0800] [79817] [ERROR] Worker (pid:79824) was sent SIGTERM!
+[2025-11-21 14:56:40 +0800] [79817] [INFO] Shutting down: Master
+[2025-11-21 14:56:41 +0800] [80776] [INFO] Starting gunicorn 21.2.0
+[2025-11-21 14:56:41 +0800] [80776] [INFO] Listening at: http://127.0.0.1:8000 (80776)
+[2025-11-21 14:56:41 +0800] [80776] [INFO] Using worker: sync
+[2025-11-21 14:56:41 +0800] [80781] [INFO] Booting worker with pid: 80781
+[2025-11-21 14:56:41 +0800] [80782] [INFO] Booting worker with pid: 80782
+[2025-11-21 14:56:41 +0800] [80783] [INFO] Booting worker with pid: 80783
+[2025-11-21 16:44:38 +0800] [80776] [INFO] Handling signal: term
+[2025-11-21 16:44:38 +0800] [80781] [INFO] Worker exiting (pid: 80781)
+[2025-11-21 16:44:38 +0800] [80782] [INFO] Worker exiting (pid: 80782)
+[2025-11-21 16:44:38 +0800] [80783] [INFO] Worker exiting (pid: 80783)
+[2025-11-21 16:44:38 +0800] [80776] [ERROR] Worker (pid:80782) was sent SIGTERM!
+[2025-11-21 16:44:38 +0800] [80776] [ERROR] Worker (pid:80783) was sent SIGTERM!
+[2025-11-21 16:44:38 +0800] [80776] [ERROR] Worker (pid:80781) was sent SIGTERM!
+[2025-11-21 16:44:38 +0800] [80776] [INFO] Shutting down: Master
+[2025-11-21 16:44:39 +0800] [95363] [INFO] Starting gunicorn 21.2.0
+[2025-11-21 16:44:39 +0800] [95363] [INFO] Listening at: http://127.0.0.1:8000 (95363)
+[2025-11-21 16:44:39 +0800] [95363] [INFO] Using worker: sync
+[2025-11-21 16:44:39 +0800] [95368] [INFO] Booting worker with pid: 95368
+[2025-11-21 16:44:39 +0800] [95369] [INFO] Booting worker with pid: 95369
+[2025-11-21 16:44:39 +0800] [95373] [INFO] Booting worker with pid: 95373
+[2025-11-21 16:55:05 +0800] [95363] [INFO] Handling signal: term
+[2025-11-21 16:55:05 +0800] [95368] [INFO] Worker exiting (pid: 95368)
+[2025-11-21 16:55:05 +0800] [95369] [INFO] Worker exiting (pid: 95369)
+[2025-11-21 16:55:05 +0800] [95373] [INFO] Worker exiting (pid: 95373)
+[2025-11-21 16:55:05 +0800] [95363] [ERROR] Worker (pid:95368) was sent SIGTERM!
+[2025-11-21 16:55:05 +0800] [95363] [ERROR] Worker (pid:95369) was sent SIGTERM!
+[2025-11-21 16:55:05 +0800] [95363] [ERROR] Worker (pid:95373) was sent SIGTERM!
+[2025-11-21 16:55:05 +0800] [95363] [INFO] Shutting down: Master
+[2025-11-21 16:55:06 +0800] [96750] [INFO] Starting gunicorn 21.2.0
+[2025-11-21 16:55:06 +0800] [96750] [INFO] Listening at: http://127.0.0.1:8000 (96750)
+[2025-11-21 16:55:06 +0800] [96750] [INFO] Using worker: sync
+[2025-11-21 16:55:06 +0800] [96755] [INFO] Booting worker with pid: 96755
+[2025-11-21 16:55:06 +0800] [96756] [INFO] Booting worker with pid: 96756
+[2025-11-21 16:55:06 +0800] [96757] [INFO] Booting worker with pid: 96757
+[2025-11-21 17:03:02 +0800] [96750] [INFO] Handling signal: term
+[2025-11-21 17:03:02 +0800] [96755] [INFO] Worker exiting (pid: 96755)
+[2025-11-21 17:03:02 +0800] [96756] [INFO] Worker exiting (pid: 96756)
+[2025-11-21 17:03:02 +0800] [96757] [INFO] Worker exiting (pid: 96757)
+[2025-11-21 17:03:02 +0800] [96750] [ERROR] Worker (pid:96755) was sent SIGTERM!
+[2025-11-21 17:03:02 +0800] [96750] [ERROR] Worker (pid:96756) was sent SIGTERM!
+[2025-11-21 17:03:02 +0800] [96750] [ERROR] Worker (pid:96757) was sent SIGTERM!
+[2025-11-21 17:03:02 +0800] [96750] [INFO] Shutting down: Master
+[2025-11-21 17:03:03 +0800] [97838] [INFO] Starting gunicorn 21.2.0
+[2025-11-21 17:03:03 +0800] [97838] [INFO] Listening at: http://127.0.0.1:8000 (97838)
+[2025-11-21 17:03:03 +0800] [97838] [INFO] Using worker: sync
+[2025-11-21 17:03:03 +0800] [97840] [INFO] Booting worker with pid: 97840
+[2025-11-21 17:03:03 +0800] [97841] [INFO] Booting worker with pid: 97841
+[2025-11-21 17:03:03 +0800] [97842] [INFO] Booting worker with pid: 97842
+[2025-11-21 17:09:44 +0800] [97838] [INFO] Handling signal: term
+[2025-11-21 17:09:44 +0800] [97840] [INFO] Worker exiting (pid: 97840)
+[2025-11-21 17:09:44 +0800] [97841] [INFO] Worker exiting (pid: 97841)
+[2025-11-21 17:09:44 +0800] [97842] [INFO] Worker exiting (pid: 97842)
+[2025-11-21 17:09:44 +0800] [97838] [ERROR] Worker (pid:97840) was sent SIGTERM!
+[2025-11-21 17:09:44 +0800] [97838] [ERROR] Worker (pid:97842) was sent SIGTERM!
+[2025-11-21 17:09:44 +0800] [97838] [ERROR] Worker (pid:97841) was sent SIGTERM!
+[2025-11-21 17:09:44 +0800] [97838] [INFO] Shutting down: Master
+[2025-11-21 17:09:45 +0800] [98784] [INFO] Starting gunicorn 21.2.0
+[2025-11-21 17:09:45 +0800] [98784] [INFO] Listening at: http://127.0.0.1:8000 (98784)
+[2025-11-21 17:09:45 +0800] [98784] [INFO] Using worker: sync
+[2025-11-21 17:09:45 +0800] [98788] [INFO] Booting worker with pid: 98788
+[2025-11-21 17:09:45 +0800] [98789] [INFO] Booting worker with pid: 98789
+[2025-11-21 17:09:45 +0800] [98790] [INFO] Booting worker with pid: 98790
+[2025-11-21 17:11:17 +0800] [98784] [INFO] Handling signal: term
+[2025-11-21 17:11:17 +0800] [98788] [INFO] Worker exiting (pid: 98788)
+[2025-11-21 17:11:17 +0800] [98789] [INFO] Worker exiting (pid: 98789)
+[2025-11-21 17:11:17 +0800] [98790] [INFO] Worker exiting (pid: 98790)
+[2025-11-21 17:11:17 +0800] [98784] [ERROR] Worker (pid:98788) was sent SIGTERM!
+[2025-11-21 17:11:17 +0800] [98784] [ERROR] Worker (pid:98789) was sent SIGTERM!
+[2025-11-21 17:11:17 +0800] [98784] [ERROR] Worker (pid:98790) was sent SIGTERM!
+[2025-11-21 17:11:17 +0800] [98784] [INFO] Shutting down: Master
+[2025-11-21 17:11:18 +0800] [99037] [INFO] Starting gunicorn 21.2.0
+[2025-11-21 17:11:18 +0800] [99037] [INFO] Listening at: http://127.0.0.1:8000 (99037)
+[2025-11-21 17:11:18 +0800] [99037] [INFO] Using worker: sync
+[2025-11-21 17:11:18 +0800] [99056] [INFO] Booting worker with pid: 99056
+[2025-11-21 17:11:18 +0800] [99057] [INFO] Booting worker with pid: 99057
+[2025-11-21 17:11:18 +0800] [99058] [INFO] Booting worker with pid: 99058
+[2025-11-21 17:22:40 +0800] [99037] [INFO] Handling signal: term
+[2025-11-21 17:22:40 +0800] [99056] [INFO] Worker exiting (pid: 99056)
+[2025-11-21 17:22:40 +0800] [99057] [INFO] Worker exiting (pid: 99057)
+[2025-11-21 17:22:40 +0800] [99058] [INFO] Worker exiting (pid: 99058)
+[2025-11-21 17:22:40 +0800] [99037] [ERROR] Worker (pid:99056) was sent SIGTERM!
+[2025-11-21 17:22:40 +0800] [99037] [ERROR] Worker (pid:99057) was sent SIGTERM!
+[2025-11-21 17:22:40 +0800] [99037] [ERROR] Worker (pid:99058) was sent SIGTERM!
+[2025-11-21 17:22:40 +0800] [99037] [INFO] Shutting down: Master
+[2025-11-21 17:22:41 +0800] [100589] [INFO] Starting gunicorn 21.2.0
+[2025-11-21 17:22:41 +0800] [100589] [INFO] Listening at: http://127.0.0.1:8000 (100589)
+[2025-11-21 17:22:41 +0800] [100589] [INFO] Using worker: sync
+[2025-11-21 17:22:41 +0800] [100598] [INFO] Booting worker with pid: 100598
+[2025-11-21 17:22:41 +0800] [100600] [INFO] Booting worker with pid: 100600
+[2025-11-21 17:22:41 +0800] [100602] [INFO] Booting worker with pid: 100602
+[2025-11-21 17:26:58 +0800] [100589] [INFO] Handling signal: term
+[2025-11-21 17:26:58 +0800] [100598] [INFO] Worker exiting (pid: 100598)
+[2025-11-21 17:26:58 +0800] [100600] [INFO] Worker exiting (pid: 100600)
+[2025-11-21 17:26:58 +0800] [100602] [INFO] Worker exiting (pid: 100602)
+[2025-11-21 17:26:58 +0800] [100589] [ERROR] Worker (pid:100602) was sent SIGTERM!
+[2025-11-21 17:26:58 +0800] [100589] [ERROR] Worker (pid:100598) was sent SIGTERM!
+[2025-11-21 17:26:58 +0800] [100589] [ERROR] Worker (pid:100600) was sent SIGTERM!
+[2025-11-21 17:26:58 +0800] [100589] [INFO] Shutting down: Master
+[2025-11-21 17:26:59 +0800] [101174] [INFO] Starting gunicorn 21.2.0
+[2025-11-21 17:26:59 +0800] [101174] [INFO] Listening at: http://127.0.0.1:8000 (101174)
+[2025-11-21 17:26:59 +0800] [101174] [INFO] Using worker: sync
+[2025-11-21 17:26:59 +0800] [101182] [INFO] Booting worker with pid: 101182
+[2025-11-21 17:26:59 +0800] [101183] [INFO] Booting worker with pid: 101183
+[2025-11-21 17:26:59 +0800] [101184] [INFO] Booting worker with pid: 101184
+[2025-11-21 17:30:00 +0800] [101174] [INFO] Handling signal: term
+[2025-11-21 17:30:00 +0800] [101182] [INFO] Worker exiting (pid: 101182)
+[2025-11-21 17:30:00 +0800] [101183] [INFO] Worker exiting (pid: 101183)
+[2025-11-21 17:30:00 +0800] [101184] [INFO] Worker exiting (pid: 101184)
+[2025-11-21 17:30:00 +0800] [101174] [ERROR] Worker (pid:101184) was sent SIGTERM!
+[2025-11-21 17:30:00 +0800] [101174] [ERROR] Worker (pid:101182) was sent SIGTERM!
+[2025-11-21 17:30:00 +0800] [101174] [ERROR] Worker (pid:101183) was sent SIGTERM!
+[2025-11-21 17:30:00 +0800] [101174] [INFO] Shutting down: Master
+[2025-11-21 17:30:01 +0800] [101611] [INFO] Starting gunicorn 21.2.0
+[2025-11-21 17:30:01 +0800] [101611] [INFO] Listening at: http://127.0.0.1:8000 (101611)
+[2025-11-21 17:30:01 +0800] [101611] [INFO] Using worker: sync
+[2025-11-21 17:30:01 +0800] [101616] [INFO] Booting worker with pid: 101616
+[2025-11-21 17:30:01 +0800] [101617] [INFO] Booting worker with pid: 101617
+[2025-11-21 17:30:01 +0800] [101618] [INFO] Booting worker with pid: 101618
+[2025-11-21 17:33:49 +0800] [101611] [INFO] Handling signal: term
+[2025-11-21 17:33:49 +0800] [101616] [INFO] Worker exiting (pid: 101616)
+[2025-11-21 17:33:49 +0800] [101617] [INFO] Worker exiting (pid: 101617)
+[2025-11-21 17:33:49 +0800] [101618] [INFO] Worker exiting (pid: 101618)
+[2025-11-21 17:33:49 +0800] [101611] [ERROR] Worker (pid:101616) was sent SIGTERM!
+[2025-11-21 17:33:49 +0800] [101611] [ERROR] Worker (pid:101617) was sent SIGTERM!
+[2025-11-21 17:33:49 +0800] [101611] [ERROR] Worker (pid:101618) was sent SIGTERM!
+[2025-11-21 17:33:49 +0800] [101611] [INFO] Shutting down: Master
+[2025-11-21 17:33:50 +0800] [102157] [INFO] Starting gunicorn 21.2.0
+[2025-11-21 17:33:50 +0800] [102157] [INFO] Listening at: http://127.0.0.1:8000 (102157)
+[2025-11-21 17:33:50 +0800] [102157] [INFO] Using worker: sync
+[2025-11-21 17:33:50 +0800] [102159] [INFO] Booting worker with pid: 102159
+[2025-11-21 17:33:50 +0800] [102160] [INFO] Booting worker with pid: 102160
+[2025-11-21 17:33:50 +0800] [102162] [INFO] Booting worker with pid: 102162
+[2025-11-21 17:38:52 +0800] [102157] [INFO] Handling signal: term
+[2025-11-21 17:38:52 +0800] [102159] [INFO] Worker exiting (pid: 102159)
+[2025-11-21 17:38:52 +0800] [102160] [INFO] Worker exiting (pid: 102160)
+[2025-11-21 17:38:52 +0800] [102162] [INFO] Worker exiting (pid: 102162)
+[2025-11-21 17:38:52 +0800] [102157] [ERROR] Worker (pid:102159) was sent SIGTERM!
+[2025-11-21 17:38:52 +0800] [102157] [ERROR] Worker (pid:102160) was sent SIGTERM!
+[2025-11-21 17:38:52 +0800] [102157] [ERROR] Worker (pid:102162) was sent SIGTERM!
+[2025-11-21 17:38:52 +0800] [102157] [INFO] Shutting down: Master
+[2025-11-21 17:38:52 +0800] [102837] [INFO] Starting gunicorn 21.2.0
+[2025-11-21 17:38:52 +0800] [102837] [INFO] Listening at: http://127.0.0.1:8000 (102837)
+[2025-11-21 17:38:52 +0800] [102837] [INFO] Using worker: sync
+[2025-11-21 17:38:52 +0800] [102839] [INFO] Booting worker with pid: 102839
+[2025-11-21 17:38:53 +0800] [102840] [INFO] Booting worker with pid: 102840
+[2025-11-21 17:38:53 +0800] [102841] [INFO] Booting worker with pid: 102841
+[2025-11-21 17:51:42 +0800] [102837] [INFO] Handling signal: term
+[2025-11-21 17:51:42 +0800] [102839] [INFO] Worker exiting (pid: 102839)
+[2025-11-21 17:51:42 +0800] [102840] [INFO] Worker exiting (pid: 102840)
+[2025-11-21 17:51:42 +0800] [102841] [INFO] Worker exiting (pid: 102841)
+[2025-11-21 17:51:42 +0800] [102837] [ERROR] Worker (pid:102839) was sent SIGTERM!
+[2025-11-21 17:51:42 +0800] [102837] [ERROR] Worker (pid:102841) was sent SIGTERM!
+[2025-11-21 17:51:42 +0800] [102837] [ERROR] Worker (pid:102840) was sent SIGTERM!
+[2025-11-21 17:51:42 +0800] [102837] [INFO] Shutting down: Master
+[2025-11-21 17:51:43 +0800] [104523] [INFO] Starting gunicorn 21.2.0
+[2025-11-21 17:51:43 +0800] [104523] [INFO] Listening at: http://127.0.0.1:8000 (104523)
+[2025-11-21 17:51:43 +0800] [104523] [INFO] Using worker: sync
+[2025-11-21 17:51:43 +0800] [104525] [INFO] Booting worker with pid: 104525
+[2025-11-21 17:51:43 +0800] [104526] [INFO] Booting worker with pid: 104526
+[2025-11-21 17:51:43 +0800] [104528] [INFO] Booting worker with pid: 104528
+[2025-11-21 17:54:52 +0800] [104523] [INFO] Handling signal: term
+[2025-11-21 17:54:52 +0800] [104525] [INFO] Worker exiting (pid: 104525)
+[2025-11-21 17:54:52 +0800] [104528] [INFO] Worker exiting (pid: 104528)
+[2025-11-21 17:54:52 +0800] [104526] [INFO] Worker exiting (pid: 104526)
+[2025-11-21 17:54:52 +0800] [104523] [ERROR] Worker (pid:104528) was sent SIGTERM!
+[2025-11-21 17:54:52 +0800] [104523] [ERROR] Worker (pid:104525) was sent SIGTERM!
+[2025-11-21 17:54:52 +0800] [104523] [ERROR] Worker (pid:104526) was sent SIGTERM!
+[2025-11-21 17:54:52 +0800] [104523] [INFO] Shutting down: Master
+[2025-11-21 17:54:53 +0800] [104966] [INFO] Starting gunicorn 21.2.0
+[2025-11-21 17:54:53 +0800] [104966] [INFO] Listening at: http://127.0.0.1:8000 (104966)
+[2025-11-21 17:54:53 +0800] [104966] [INFO] Using worker: sync
+[2025-11-21 17:54:53 +0800] [104976] [INFO] Booting worker with pid: 104976
+[2025-11-21 17:54:53 +0800] [104982] [INFO] Booting worker with pid: 104982
+[2025-11-21 17:54:53 +0800] [104983] [INFO] Booting worker with pid: 104983
+[2025-11-21 19:18:47 +0800] [104966] [INFO] Handling signal: term
+[2025-11-21 19:18:47 +0800] [104976] [INFO] Worker exiting (pid: 104976)
+[2025-11-21 19:18:47 +0800] [104982] [INFO] Worker exiting (pid: 104982)
+[2025-11-21 19:18:47 +0800] [104983] [INFO] Worker exiting (pid: 104983)
+[2025-11-21 19:18:47 +0800] [104966] [ERROR] Worker (pid:104983) was sent SIGTERM!
+[2025-11-21 19:18:47 +0800] [104966] [ERROR] Worker (pid:104976) was sent SIGTERM!
+[2025-11-21 19:18:47 +0800] [104966] [ERROR] Worker (pid:104982) was sent SIGTERM!
+[2025-11-21 19:18:47 +0800] [104966] [INFO] Shutting down: Master
+[2025-11-21 19:18:48 +0800] [115267] [INFO] Starting gunicorn 21.2.0
+[2025-11-21 19:18:48 +0800] [115267] [INFO] Listening at: http://127.0.0.1:8000 (115267)
+[2025-11-21 19:18:48 +0800] [115267] [INFO] Using worker: sync
+[2025-11-21 19:18:48 +0800] [115273] [INFO] Booting worker with pid: 115273
+[2025-11-21 19:18:48 +0800] [115274] [INFO] Booting worker with pid: 115274
+[2025-11-21 19:18:48 +0800] [115275] [INFO] Booting worker with pid: 115275
+[2025-11-21 19:19:14 +0800] [115267] [INFO] Handling signal: term
+[2025-11-21 19:19:14 +0800] [115273] [INFO] Worker exiting (pid: 115273)
+[2025-11-21 19:19:14 +0800] [115275] [INFO] Worker exiting (pid: 115275)
+[2025-11-21 19:19:14 +0800] [115274] [INFO] Worker exiting (pid: 115274)
+[2025-11-21 19:19:14 +0800] [115267] [ERROR] Worker (pid:115275) was sent SIGTERM!
+[2025-11-21 19:19:14 +0800] [115267] [ERROR] Worker (pid:115274) was sent SIGTERM!
+[2025-11-21 19:19:14 +0800] [115267] [ERROR] Worker (pid:115273) was sent SIGTERM!
+[2025-11-21 19:19:14 +0800] [115267] [INFO] Shutting down: Master
+[2025-11-21 19:19:15 +0800] [115360] [INFO] Starting gunicorn 21.2.0
+[2025-11-21 19:19:15 +0800] [115360] [INFO] Listening at: http://127.0.0.1:8000 (115360)
+[2025-11-21 19:19:15 +0800] [115360] [INFO] Using worker: sync
+[2025-11-21 19:19:15 +0800] [115364] [INFO] Booting worker with pid: 115364
+[2025-11-21 19:19:15 +0800] [115365] [INFO] Booting worker with pid: 115365
+[2025-11-21 19:19:15 +0800] [115369] [INFO] Booting worker with pid: 115369
+[2025-11-21 19:20:43 +0800] [115360] [INFO] Handling signal: term
+[2025-11-21 19:20:43 +0800] [115364] [INFO] Worker exiting (pid: 115364)
+[2025-11-21 19:20:43 +0800] [115365] [INFO] Worker exiting (pid: 115365)
+[2025-11-21 19:20:43 +0800] [115369] [INFO] Worker exiting (pid: 115369)
+[2025-11-21 19:20:43 +0800] [115360] [ERROR] Worker (pid:115364) was sent SIGTERM!
+[2025-11-21 19:20:43 +0800] [115360] [ERROR] Worker (pid:115369) was sent SIGTERM!
+[2025-11-21 19:20:43 +0800] [115360] [ERROR] Worker (pid:115365) was sent SIGTERM!
+[2025-11-21 19:20:43 +0800] [115360] [INFO] Shutting down: Master
+[2025-11-21 19:20:44 +0800] [115622] [INFO] Starting gunicorn 21.2.0
+[2025-11-21 19:20:44 +0800] [115622] [INFO] Listening at: http://127.0.0.1:8000 (115622)
+[2025-11-21 19:20:44 +0800] [115622] [INFO] Using worker: sync
+[2025-11-21 19:20:44 +0800] [115627] [INFO] Booting worker with pid: 115627
+[2025-11-21 19:20:44 +0800] [115628] [INFO] Booting worker with pid: 115628
+[2025-11-21 19:20:44 +0800] [115629] [INFO] Booting worker with pid: 115629
+[2025-11-21 19:21:13 +0800] [115622] [INFO] Handling signal: term
+[2025-11-21 19:21:13 +0800] [115627] [INFO] Worker exiting (pid: 115627)
+[2025-11-21 19:21:13 +0800] [115628] [INFO] Worker exiting (pid: 115628)
+[2025-11-21 19:21:13 +0800] [115629] [INFO] Worker exiting (pid: 115629)
+[2025-11-21 19:21:13 +0800] [115622] [ERROR] Worker (pid:115627) was sent SIGTERM!
+[2025-11-21 19:21:13 +0800] [115622] [ERROR] Worker (pid:115629) was sent SIGTERM!
+[2025-11-21 19:21:13 +0800] [115622] [ERROR] Worker (pid:115628) was sent SIGTERM!
+[2025-11-21 19:21:13 +0800] [115622] [INFO] Shutting down: Master
+[2025-11-21 19:21:14 +0800] [115713] [INFO] Starting gunicorn 21.2.0
+[2025-11-21 19:21:14 +0800] [115713] [INFO] Listening at: http://127.0.0.1:8000 (115713)
+[2025-11-21 19:21:14 +0800] [115713] [INFO] Using worker: sync
+[2025-11-21 19:21:14 +0800] [115730] [INFO] Booting worker with pid: 115730
+[2025-11-21 19:21:14 +0800] [115731] [INFO] Booting worker with pid: 115731
+[2025-11-21 19:21:14 +0800] [115732] [INFO] Booting worker with pid: 115732
+[2025-11-21 20:30:22 +0800] [115713] [INFO] Handling signal: term
+[2025-11-21 20:30:22 +0800] [115730] [INFO] Worker exiting (pid: 115730)
+[2025-11-21 20:30:22 +0800] [115731] [INFO] Worker exiting (pid: 115731)
+[2025-11-21 20:30:22 +0800] [115732] [INFO] Worker exiting (pid: 115732)
+[2025-11-21 20:30:22 +0800] [115713] [ERROR] Worker (pid:115730) was sent SIGTERM!
+[2025-11-21 20:30:22 +0800] [115713] [ERROR] Worker (pid:115731) was sent SIGTERM!
+[2025-11-21 20:30:22 +0800] [115713] [ERROR] Worker (pid:115732) was sent SIGTERM!
+[2025-11-21 20:30:22 +0800] [115713] [INFO] Shutting down: Master
+[2025-11-21 20:30:22 +0800] [125380] [INFO] Starting gunicorn 21.2.0
+[2025-11-21 20:30:22 +0800] [125380] [INFO] Listening at: http://127.0.0.1:8000 (125380)
+[2025-11-21 20:30:22 +0800] [125380] [INFO] Using worker: sync
+[2025-11-21 20:30:22 +0800] [125382] [INFO] Booting worker with pid: 125382
+[2025-11-21 20:30:22 +0800] [125383] [INFO] Booting worker with pid: 125383
+[2025-11-21 20:30:22 +0800] [125384] [INFO] Booting worker with pid: 125384
+[2025-11-21 20:30:54 +0800] [125380] [INFO] Handling signal: term
+[2025-11-21 20:30:54 +0800] [125382] [INFO] Worker exiting (pid: 125382)
+[2025-11-21 20:30:54 +0800] [125383] [INFO] Worker exiting (pid: 125383)
+[2025-11-21 20:30:54 +0800] [125384] [INFO] Worker exiting (pid: 125384)
+[2025-11-21 20:30:54 +0800] [125380] [ERROR] Worker (pid:125382) was sent SIGTERM!
+[2025-11-21 20:30:54 +0800] [125380] [ERROR] Worker (pid:125383) was sent SIGTERM!
+[2025-11-21 20:30:54 +0800] [125380] [ERROR] Worker (pid:125384) was sent SIGTERM!
+[2025-11-21 20:30:54 +0800] [125380] [INFO] Shutting down: Master
+[2025-11-21 20:30:55 +0800] [125509] [INFO] Starting gunicorn 21.2.0
+[2025-11-21 20:30:55 +0800] [125509] [INFO] Listening at: http://127.0.0.1:8000 (125509)
+[2025-11-21 20:30:55 +0800] [125509] [INFO] Using worker: sync
+[2025-11-21 20:30:55 +0800] [125514] [INFO] Booting worker with pid: 125514
+[2025-11-21 20:30:55 +0800] [125515] [INFO] Booting worker with pid: 125515
+[2025-11-21 20:30:55 +0800] [125516] [INFO] Booting worker with pid: 125516
+[2025-11-21 20:40:55 +0800] [125509] [INFO] Handling signal: term
+[2025-11-21 20:40:55 +0800] [125514] [INFO] Worker exiting (pid: 125514)
+[2025-11-21 20:40:55 +0800] [125515] [INFO] Worker exiting (pid: 125515)
+[2025-11-21 20:40:55 +0800] [125516] [INFO] Worker exiting (pid: 125516)
+[2025-11-21 20:40:55 +0800] [125509] [ERROR] Worker (pid:125515) was sent SIGTERM!
+[2025-11-21 20:40:55 +0800] [125509] [ERROR] Worker (pid:125514) was sent SIGTERM!
+[2025-11-21 20:40:55 +0800] [125509] [ERROR] Worker (pid:125516) was sent SIGTERM!
+[2025-11-21 20:40:55 +0800] [125509] [INFO] Shutting down: Master
+[2025-11-21 20:40:55 +0800] [126992] [INFO] Starting gunicorn 21.2.0
+[2025-11-21 20:40:55 +0800] [126992] [INFO] Listening at: http://127.0.0.1:8000 (126992)
+[2025-11-21 20:40:55 +0800] [126992] [INFO] Using worker: sync
+[2025-11-21 20:40:55 +0800] [126996] [INFO] Booting worker with pid: 126996
+[2025-11-21 20:40:56 +0800] [126997] [INFO] Booting worker with pid: 126997
+[2025-11-21 20:40:56 +0800] [126998] [INFO] Booting worker with pid: 126998
+[2025-11-21 20:44:18 +0800] [126992] [INFO] Handling signal: term
+[2025-11-21 20:44:18 +0800] [126996] [INFO] Worker exiting (pid: 126996)
+[2025-11-21 20:44:18 +0800] [126997] [INFO] Worker exiting (pid: 126997)
+[2025-11-21 20:44:18 +0800] [126998] [INFO] Worker exiting (pid: 126998)
+[2025-11-21 20:44:18 +0800] [126992] [ERROR] Worker (pid:126998) was sent SIGTERM!
+[2025-11-21 20:44:18 +0800] [126992] [ERROR] Worker (pid:126996) was sent SIGTERM!
+[2025-11-21 20:44:18 +0800] [126992] [ERROR] Worker (pid:126997) was sent SIGTERM!
+[2025-11-21 20:44:19 +0800] [126992] [INFO] Shutting down: Master
+[2025-11-21 20:44:19 +0800] [127576] [INFO] Starting gunicorn 21.2.0
+[2025-11-21 20:44:19 +0800] [127576] [INFO] Listening at: http://127.0.0.1:8000 (127576)
+[2025-11-21 20:44:19 +0800] [127576] [INFO] Using worker: sync
+[2025-11-21 20:44:19 +0800] [127579] [INFO] Booting worker with pid: 127579
+[2025-11-21 20:44:19 +0800] [127581] [INFO] Booting worker with pid: 127581
+[2025-11-21 20:44:19 +0800] [127582] [INFO] Booting worker with pid: 127582

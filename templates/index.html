@@ -1,0 +1,129 @@
+{% extends "base.html" %}
+
+{% block title %}Home - Mr.Colour Technology{% endblock %}
+
+{% block content %}
+<!-- 波浪动画背景 -->
+<canvas id="wave-canvas" class="wave-background"></canvas>
+
+<div class="page-header">
+    <h2><i class="fas fa-store"></i> Showcase Gallery</h2>
+    <div class="text-muted">
+        <i class="fas fa-box"></i> {{ products|length }} products available
+    </div>
+</div>
+
+{% if products %}
+    <div class="product-grid">
+        {% for product in products %}
+        <div class="product-card">
+            <div class="position-relative">
+                <img src="{{ url_for('static', filename='uploads/' + (product.image|get_first_image)) if product.image|get_first_image else url_for('static', filename='images/no-image.svg') }}" 
+                     class="card-img-top product-image" alt="{{ product.name }}">
+                {% if product.stock <= 5 and product.stock > 0 %}
+                    <span class="position-absolute top-0 end-0 badge bg-warning m-2">
+                        <i class="fas fa-exclamation-triangle"></i> Low Stock
+                    </span>
+                {% elif product.stock == 0 %}
+                    <span class="position-absolute top-0 end-0 badge bg-danger m-2">
+                        <i class="fas fa-times-circle"></i> Out of Stock
+                    </span>
+                {% endif %}
+            </div>
+            
+            <div class="card-body">
+                <h5 class="card-title">{{ product.name }}</h5>
+                
+                <div class="mt-auto">
+                    <div class="d-flex justify-content-between align-items-center mb-3">
+                        <span class="product-price">{{ product.price|format_currency }} Ks</span>
+                        <span class="product-stock">
+                            <i class="fas fa-box"></i> {{ product.stock }}
+                        </span>
+                    </div>
+                    
+                    <div class="d-flex gap-2 mb-2">
+                        <input type="number" class="form-control quantity-input" 
+                               id="quantity-{{ product.id }}" value="1" min="1" max="{{ product.stock }}">
+                        <button class="btn btn-primary btn-add-cart flex-grow-1" 
+                                data-product-id="{{ product.id }}"
+                                data-quantity-input="quantity-{{ product.id }}"
+                                {% if product.stock == 0 %}disabled{% endif %}>
+                            <i class="fas fa-cart-plus"></i> 
+                            {% if product.stock == 0 %}Out of Stock{% else %}Add{% endif %}
+                        </button>
+                    </div>
+                    
+                    {% if product.stock > 0 %}
+                    <div class="mb-2">
+                        <button class="btn btn-success btn-sm w-100 quick-buy-btn" 
+                                data-product-id="{{ product.id }}"
+                                data-quantity-input="quantity-{{ product.id }}">
+                            <i class="fas fa-bolt"></i> Buy Now
+                        </button>
+                    </div>
+                    {% endif %}
+                    
+                    <div>
+                        <a href="{{ url_for('product_detail', product_id=product.id) }}" class="btn btn-outline-info btn-sm w-100">
+                            <i class="fas fa-eye"></i> View Details
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+{% else %}
+    <div class="empty-state">
+        <i class="fas fa-box-open"></i>
+        <h3>No Products Available</h3>
+        <p>Products are being added, please check back later</p>
+    </div>
+{% endif %}
+{% endblock %}
+
+{% block scripts %}
+<script src="{{ url_for('static', filename='js/wave-animation.js') }}"></script>
+<script>
+// Quantity input validation
+document.addEventListener('DOMContentLoaded', function() {
+    const quantityInputs = document.querySelectorAll('.quantity-input');
+    quantityInputs.forEach(input => {
+        input.addEventListener('change', function() {
+            const max = parseInt(this.getAttribute('max'));
+            const value = parseInt(this.value);
+            
+            if (value > max) {
+                this.value = max;
+                showMessage('Quantity cannot exceed stock', 'error');
+            } else if (value < 1) {
+                this.value = 1;
+            }
+        });
+    });
+    
+    // Bind add to cart buttons
+    const addToCartButtons = document.querySelectorAll('.btn-add-cart');
+    addToCartButtons.forEach(button => {
+        button.addEventListener('click', function() {
+            const productId = this.getAttribute('data-product-id');
+            const quantityInputId = this.getAttribute('data-quantity-input');
+            const quantity = document.getElementById(quantityInputId).value;
+            addToCart(parseInt(productId), parseInt(quantity));
+        });
+    });
+    
+    // Bind quick buy buttons
+    const quickBuyButtons = document.querySelectorAll('.quick-buy-btn');
+    quickBuyButtons.forEach(button => {
+        button.addEventListener('click', function() {
+            const productId = this.getAttribute('data-product-id');
+            const quantityInputId = this.getAttribute('data-quantity-input');
+            const quantity = document.getElementById(quantityInputId).value;
+            quickBuy(parseInt(productId), parseInt(quantity));
+        });
+    });
+});
+</script>
+{% endblock %}

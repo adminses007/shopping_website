@@ -1,0 +1,100 @@
+{% extends "base.html" %}
+
+{% block title %}Register - Mr.Colour Technology{% endblock %}
+
+{% block content %}
+<!-- 波浪动画背景 -->
+<canvas id="wave-canvas" class="wave-background"></canvas>
+
+<div class="row justify-content-center">
+    <div class="col-md-8 col-lg-6">
+        <div class="card product-form">
+            <div class="card-body">
+                <div class="text-center mb-4">
+                    <i class="fas fa-user-plus fa-3x text-primary mb-3"></i>
+                    <h3 class="fw-bold">User Registration</h3>
+                    <p class="text-muted">Create your account to start shopping</p>
+                </div>
+                
+                <form method="POST" id="register-form">
+                    <div class="mb-4">
+                        <label for="username" class="form-label">
+                            <i class="fas fa-user"></i> Username
+                        </label>
+                        <input type="text" class="form-control" id="username" name="username" required placeholder="Choose a username">
+                        <div class="form-text"><i class="fas fa-info-circle"></i> Username will be used for login, please choose an easy-to-remember name</div>
+                    </div>
+                    
+                    <div class="mb-4">
+                        <label for="email" class="form-label">
+                            <i class="fas fa-envelope"></i> Email
+                        </label>
+                        <input type="email" class="form-control" id="email" name="email" required placeholder="Enter your email address">
+                        <div class="form-text"><i class="fas fa-info-circle"></i> For receiving order notifications</div>
+                    </div>
+                    
+                    <div class="mb-4">
+                        <label for="phone" class="form-label">
+                            <i class="fas fa-phone"></i> Phone
+                        </label>
+                        <input type="tel" class="form-control" id="phone" name="phone" required placeholder="Enter your phone number">
+                        <div class="form-text"><i class="fas fa-info-circle"></i> For order contact</div>
+                    </div>
+                    
+                    <div class="mb-4">
+                        <label for="password" class="form-label">
+                            <i class="fas fa-lock"></i> Password
+                        </label>
+                        <input type="password" class="form-control" id="password" name="password" required placeholder="Enter your password">
+                        <div class="form-text"><i class="fas fa-info-circle"></i> Password must be at least 6 characters</div>
+                    </div>
+                    
+                    <div class="mb-4">
+                        <label for="confirm_password" class="form-label">
+                            <i class="fas fa-lock"></i> Confirm Password
+                        </label>
+                        <input type="password" class="form-control" id="confirm_password" name="confirm_password" required placeholder="Confirm your password">
+                    </div>
+                    
+                    <div class="d-grid mb-4">
+                        <button type="submit" class="btn btn-primary btn-lg">
+                            <i class="fas fa-user-plus"></i> Register
+                        </button>
+                    </div>
+                </form>
+                
+                <hr class="my-4">
+                
+                <div class="text-center">
+                    <p class="mb-3 text-muted">Already have an account?</p>
+                    <a href="{{ url_for('login') }}" class="btn btn-outline-primary w-100">
+                        <i class="fas fa-sign-in-alt"></i> Login Now
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script src="{{ url_for('static', filename='js/wave-animation.js') }}"></script>
+<script>
+document.getElementById('register-form').addEventListener('submit', function(e) {
+    const password = document.getElementById('password').value;
+    const confirmPassword = document.getElementById('confirm_password').value;
+    
+    if (password.length < 6) {
+        e.preventDefault();
+        showMessage('Password must be at least 6 characters', 'error');
+        return;
+    }
+    
+    if (password !== confirmPassword) {
+        e.preventDefault();
+        showMessage('Passwords do not match', 'error');
+        return;
+    }
+});
+</script>
+{% endblock %}

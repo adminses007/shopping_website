@@ -1,0 +1,34 @@
+[Unit]
+Description=Gunicorn instance to serve shopping_website
+After=network.target
+
+[Service]
+# 服务运行的用户和组（根据实际情况修改）
+User=adminses
+Group=adminses
+
+# 工作目录
+WorkingDirectory=/home/adminses/My_Projects/shopping_website
+
+# 环境变量
+Environment="PATH=/home/adminses/My_Projects/shopping_website/venv/bin"
+Environment="SECRET_KEY=Abc,888888.#"
+Environment="DATABASE_URL=sqlite:////home/adminses/My_Projects/shopping_website/shopping_website.db"
+
+# Gunicorn 启动命令
+ExecStart=/home/adminses/My_Projects/shopping_website/venv/bin/gunicorn \
+          --config /home/adminses/My_Projects/shopping_website/gunicorn_config.py \
+          app:app
+
+# 重启策略
+Restart=always
+RestartSec=3
+
+# 日志
+StandardOutput=journal
+StandardError=journal
+SyslogIdentifier=shopping_website
+
+[Install]
+WantedBy=multi-user.target
+

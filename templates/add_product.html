@@ -1,0 +1,267 @@
+{% extends "base.html" %}
+
+{% block title %}Add Product - Admin Panel{% endblock %}
+
+{% block content %}
+<div class="row justify-content-center">
+    <div class="col-md-8 col-lg-7">
+        <div class="card product-form">
+            <div class="card-body">
+                <div class="text-center mb-4">
+                    <i class="fas fa-plus-circle fa-3x text-primary mb-3"></i>
+                    <h3 class="fw-bold">Add Product</h3>
+                    <p class="text-muted">Fill in the product information below</p>
+                </div>
+                
+                <form method="POST" enctype="multipart/form-data" id="product-form">
+                    <div class="mb-3">
+                        <label for="name" class="form-label">Product Name *</label>
+                        <input type="text" class="form-control" id="name" name="name" required>
+                    </div>
+                    
+                    <div class="mb-3">
+                        <label for="price" class="form-label">Price (Ks) *</label>
+                        <input type="number" class="form-control" id="price" name="price" 
+                               step="0.01" min="0" required>
+                    </div>
+                    
+                    <div class="mb-3">
+                        <label for="stock" class="form-label">Stock Quantity *</label>
+                        <input type="number" class="form-control" id="stock" name="stock" 
+                               min="0" required>
+                    </div>
+                    
+                    <div class="mb-3">
+                        <label class="form-label">Product Variants (Optional)</label>
+                        <div id="variants-container">
+                            <!-- Variants will be added here dynamically -->
+                        </div>
+                        <button type="button" class="btn btn-sm btn-outline-primary mt-2" onclick="addVariantRow()">
+                            <i class="fas fa-plus"></i> Add Variant
+                        </button>
+                        <div class="form-text">
+                            <i class="fas fa-info-circle"></i> Add variant options with individual stock quantities (e.g., XL with 10 stock, 2XL with 5 stock)
+                        </div>
+                        <!-- Hidden input to store variants data as JSON -->
+                        <input type="hidden" id="variants" name="variants" value="">
+                    </div>
+                    
+                    <div class="mb-3">
+                        <label for="description" class="form-label">Product Description</label>
+                        <textarea class="form-control" id="description" name="description" 
+                                  rows="4" placeholder="Please describe the product features, specifications and other information in detail"></textarea>
+                    </div>
+                    
+                    <div class="mb-3">
+                        <label for="images" class="form-label">Product Images (Maximum 6)</label>
+                        <input type="file" class="form-control" id="images" name="images" 
+                               accept="image/*" multiple onchange="previewImages(this)">
+                        <div class="form-text">Supports JPG, PNG, GIF formats, recommended size 400x400 pixels. You can select up to 6 images.</div>
+                        
+                        <!-- Images Preview -->
+                        <div class="mt-3" id="images-preview-container" style="display: none;">
+                            <div class="row g-2" id="images-preview-row">
+                                <!-- Image previews will be added here -->
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="d-grid gap-2">
+                        <button type="submit" class="btn btn-primary">
+                            <i class="fas fa-save"></i> Save Product
+                        </button>
+                        <a href="{{ url_for('admin_products') }}" class="btn btn-secondary">
+                            <i class="fas fa-arrow-left"></i> Back to Product List
+                        </a>
+                    </div>
+                </form>
+            </div>
+        </div>
+        
+        <!-- Add Product Tips -->
+        <div class="card mt-4">
+            <div class="card-body">
+                <h6 class="card-title fw-bold mb-3">
+                    <i class="fas fa-lightbulb text-warning"></i> Add Product Tips
+                </h6>
+                <ul class="card-text small text-muted mb-0">
+                    <li class="mb-2"><i class="fas fa-check-circle text-success"></i> Product name should be concise and clear for easy user search</li>
+                    <li class="mb-2"><i class="fas fa-check-circle text-success"></i> Please enter accurate price numbers, supports two decimal places</li>
+                    <li class="mb-2"><i class="fas fa-check-circle text-success"></i> Stock quantity should be accurate to avoid overselling</li>
+                    <li class="mb-2"><i class="fas fa-check-circle text-success"></i> Product description should be detailed, including specifications, features and other information</li>
+                    <li><i class="fas fa-check-circle text-success"></i> Recommend uploading clear product images to improve user experience</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script>
+// Variant management
+let variantRowCount = 0;
+
+function addVariantRow() {
+    const container = document.getElementById('variants-container');
+    const row = document.createElement('div');
+    row.className = 'row mb-2 variant-row';
+    row.id = `variant-row-${variantRowCount}`;
+    row.innerHTML = `
+        <div class="col-md-6">
+            <input type="text" class="form-control variant-name" placeholder="Variant name (e.g., XL)" required>
+        </div>
+        <div class="col-md-4">
+            <input type="number" class="form-control variant-stock" placeholder="Stock" min="0" value="0" required>
+        </div>
+        <div class="col-md-2">
+            <button type="button" class="btn btn-sm btn-outline-danger w-100" onclick="removeVariantRow(${variantRowCount})">
+                <i class="fas fa-trash"></i>
+            </button>
+        </div>
+    `;
+    container.appendChild(row);
+    variantRowCount++;
+    updateVariantsInput();
+}
+
+function removeVariantRow(id) {
+    const row = document.getElementById(`variant-row-${id}`);
+    if (row) {
+        row.remove();
+        updateVariantsInput();
+    }
+}
+
+function updateVariantsInput() {
+    const rows = document.querySelectorAll('.variant-row');
+    const variants = [];
+    
+    rows.forEach(row => {
+        const name = row.querySelector('.variant-name').value.trim();
+        const stock = parseInt(row.querySelector('.variant-stock').value) || 0;
+        
+        if (name) {
+            variants.push({
+                name: name,
+                stock: stock
+            });
+        }
+    });
+    
+    document.getElementById('variants').value = JSON.stringify(variants);
+}
+
+// Add event listeners to variant inputs
+document.addEventListener('DOMContentLoaded', function() {
+    // Listen for changes in variant inputs
+    document.addEventListener('input', function(e) {
+        if (e.target.classList.contains('variant-name') || e.target.classList.contains('variant-stock')) {
+            updateVariantsInput();
+        }
+    });
+});
+
+document.getElementById('product-form').addEventListener('submit', function(e) {
+    const name = document.getElementById('name').value.trim();
+    const price = parseFloat(document.getElementById('price').value);
+    const stock = parseInt(document.getElementById('stock').value);
+    
+    // Update variants before submit
+    updateVariantsInput();
+    
+    if (!name) {
+        e.preventDefault();
+        showMessage('Please enter product name', 'error');
+        return;
+    }
+    
+    if (price <= 0) {
+        e.preventDefault();
+        showMessage('Price must be greater than 0', 'error');
+        return;
+    }
+    
+    if (stock < 0) {
+        e.preventDefault();
+        showMessage('Stock quantity cannot be negative', 'error');
+        return;
+    }
+    
+    // Validate variants
+    const variants = JSON.parse(document.getElementById('variants').value || '[]');
+    for (let variant of variants) {
+        if (!variant.name || variant.name.trim() === '') {
+            e.preventDefault();
+            showMessage('Variant name cannot be empty', 'error');
+            return;
+        }
+        if (variant.stock < 0) {
+            e.preventDefault();
+            showMessage('Variant stock cannot be negative', 'error');
+            return;
+        }
+    }
+});
+
+// Images preview function
+function previewImages(input) {
+    const container = document.getElementById('images-preview-container');
+    const previewRow = document.getElementById('images-preview-row');
+    
+    // Clear previous previews
+    previewRow.innerHTML = '';
+    
+    if (input.files && input.files.length > 0) {
+        // Limit to 6 images
+        const maxImages = 6;
+        const files = Array.from(input.files).slice(0, maxImages);
+        
+        if (input.files.length > maxImages) {
+            showMessage(`Only the first ${maxImages} images will be uploaded`, 'warning');
+            // Update the input to only include first 6 files
+            const dt = new DataTransfer();
+            files.forEach(file => dt.items.add(file));
+            input.files = dt.files;
+        }
+        
+        files.forEach((file, index) => {
+            const reader = new FileReader();
+            reader.onload = function(e) {
+                const col = document.createElement('div');
+                col.className = 'col-md-4 col-sm-6';
+                col.innerHTML = `
+                    <div class="position-relative">
+                        <img src="${e.target.result}" class="img-thumbnail w-100" style="height: 150px; object-fit: cover;">
+                        <button type="button" class="btn btn-sm btn-danger position-absolute top-0 end-0 m-1" onclick="removeImagePreview(${index})" title="Remove">
+                            <i class="fas fa-times"></i>
+                        </button>
+                    </div>
+                `;
+                previewRow.appendChild(col);
+            };
+            reader.readAsDataURL(file);
+        });
+        
+        container.style.display = 'block';
+    } else {
+        container.style.display = 'none';
+    }
+}
+
+function removeImagePreview(index) {
+    const input = document.getElementById('images');
+    const dt = new DataTransfer();
+    const files = Array.from(input.files);
+    
+    files.forEach((file, i) => {
+        if (i !== index) {
+            dt.items.add(file);
+        }
+    });
+    
+    input.files = dt.files;
+    previewImages(input);
+}
+</script>
+{% endblock %}

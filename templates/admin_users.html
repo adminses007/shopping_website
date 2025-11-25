@@ -1,0 +1,189 @@
+{% extends "base.html" %}
+
+{% block title %}User Management - Admin Panel{% endblock %}
+
+{% block content %}
+<div class="page-header">
+    <h2><i class="fas fa-users"></i> User Management</h2>
+    <div class="text-muted">
+        <i class="fas fa-users"></i> Total {{ users|length }} users
+    </div>
+</div>
+
+{% if users %}
+    <div class="table-responsive">
+        <table class="table table-hover">
+            <thead>
+                <tr>
+                    <th>User ID</th>
+                    <th>Username</th>
+                    <th>Email</th>
+                    <th>Phone</th>
+                    <th>Admin</th>
+                    <th>Registration Date</th>
+                    <th>Orders</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for user in users %}
+                <tr>
+                    <td>{{ user.id }}</td>
+                    <td>
+                        <strong>{{ user.username }}</strong>
+                        {% if user.is_admin %}
+                            <span class="badge bg-danger ms-1">Admin</span>
+                        {% endif %}
+                    </td>
+                    <td>{{ user.email }}</td>
+                    <td>{{ user.phone }}</td>
+                    <td>
+                        {% if user.is_admin %}
+                            <span class="badge bg-danger">Yes</span>
+                        {% else %}
+                            <span class="badge bg-secondary">No</span>
+                        {% endif %}
+                    </td>
+                    <td>
+                        <small class="text-muted">{{ user.created_at.strftime('%Y-%m-%d %H:%M') }}</small>
+                    </td>
+                    <td>
+                        <span class="badge bg-info">{{ user.orders|length }}</span>
+                    </td>
+                    <td>
+                        <div class="btn-group" role="group">
+                            <button class="btn btn-sm btn-outline-info view-orders-btn" data-user-id="{{ user.id }}">
+                                <i class="fas fa-list"></i> View Orders
+                            </button>
+                            {% if not user.is_admin %}
+                                <button class="btn btn-sm btn-outline-warning toggle-admin-btn" data-user-id="{{ user.id }}" data-is-admin="true">
+                                    <i class="fas fa-user-shield"></i> Set as Admin
+                                </button>
+                            {% else %}
+                                <button class="btn btn-sm btn-outline-secondary toggle-admin-btn" data-user-id="{{ user.id }}" data-is-admin="false">
+                                    <i class="fas fa-user"></i> Remove Admin
+                                </button>
+                            {% endif %}
+                        </div>
+                    </td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+    
+    <!-- User Statistics -->
+    <div class="row g-4 mt-4">
+        <div class="col-md-3">
+            <div class="stats-card">
+                <h5 class="card-title text-primary">{{ users|length }}</h5>
+                <p class="card-text">Total Users</p>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="stats-card">
+                <h5 class="card-title text-danger">{{ users|selectattr('is_admin', 'eq', true)|list|length }}</h5>
+                <p class="card-text">Admins</p>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="stats-card">
+                <h5 class="card-title text-success">{{ users|selectattr('is_admin', 'eq', false)|list|length }}</h5>
+                <p class="card-text">Regular Users</p>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="stats-card">
+                <h5 class="card-title text-info">{{ users|selectattr('orders', 'defined')|list|length }}</h5>
+                <p class="card-text">Users with Orders</p>
+            </div>
+        </div>
+    </div>
+{% else %}
+    <div class="empty-state">
+        <i class="fas fa-users"></i>
+        <h3>No Users</h3>
+        <p>No users have registered yet</p>
+    </div>
+{% endif %}
+
+{% endblock %}
+
+{% block scripts %}
+<script>
+(function() {
+    'use strict';
+    
+    // 用户管理功能
+    function viewUserOrders(userId) {
+        window.location.href = '/admin?user_id=' + userId;
+    }
+    
+    function toggleAdmin(userId, isAdmin) {
+        const action = isAdmin ? 'Set as administrator' : 'Remove admin privileges';
+        if (!confirm('Are you sure you want to ' + action + '?')) {
+            return;
+        }
+        
+        fetch('/admin/toggle_admin', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+            },
+            body: JSON.stringify({
+                user_id: userId,
+                is_admin: isAdmin
+            })
+        })
+        .then(function(response) {
+            return response.json();
+        })
+        .then(function(data) {
+            if (data.success) {
+                showMessage(data.message, 'success');
+                location.reload();
+            } else {
+                showMessage(data.message, 'error');
+            }
+        })
+        .catch(function(error) {
+            console.error('Error:', error);
+            showMessage('Operation failed, please try again later', 'error');
+        });
+    }
+    
+    // 页面加载完成后初始化
+    function initializePage() {
+        // 绑定查看订单按钮
+        document.querySelectorAll('.view-orders-btn').forEach(function(button) {
+            button.addEventListener('click', function(e) {
+                e.preventDefault();
+                const userId = parseInt(this.getAttribute('data-user-id') || '0');
+                if (userId) {
+                    viewUserOrders(userId);
+                }
+            });
+        });
+        
+        // 绑定切换管理员按钮
+        document.querySelectorAll('.toggle-admin-btn').forEach(function(button) {
+            button.addEventListener('click', function(e) {
+                e.preventDefault();
+                const userId = parseInt(this.getAttribute('data-user-id') || '0');
+                const isAdmin = this.getAttribute('data-is-admin') === 'true';
+                if (userId) {
+                    toggleAdmin(userId, isAdmin);
+                }
+            });
+        });
+    }
+    
+    // 初始化
+    if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', initializePage);
+    } else {
+        initializePage();
+    }
+})();
+</script>
+{% endblock %}
